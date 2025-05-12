@@ -4,6 +4,7 @@
   --border: #E6E7EA;
   --primary: #A689FA;
   --primary2: #A774FF;
+  --gray: #868A97;
 }
 
 
@@ -46,8 +47,8 @@ button {
   }
 
   &:active {
-    background: linear-gradient(to bottom, var(--primary2), var(--primary));
-    opacity: 1;
+    box-shadow: none;
+    transform: translateX(3px) translateY(3px);
   }
 }
 
