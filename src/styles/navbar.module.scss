@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid var(--border);
+    border-radius: 1.25rem;
+    background-color: #fff;
+    margin-top: 1.25rem;
+    padding: 1rem 1.25rem;
+    box-shadow: 0 2px 16px rgba(22, 19, 74, 0.075);
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    img {
+        height: 24px;
+        width: auto;
+    }
+
+    h1 {
+        font-weight: 600;
+        font-size: 20px;
+        margin-bottom: -2px;
+    }
+}
