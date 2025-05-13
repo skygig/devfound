@@ -1,8 +1,10 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 
 import SkillsModal from "@/components/SkillsModal";
+import RepoCard from "@/components/RepoCard";
+import repoList from "@/libs/data.json"
 
 import styles from "./repos.module.scss"
 import ycLogo from "@/assets/svgs/yc_logo.svg"
@@ -11,6 +13,19 @@ const Repos = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [userSkills, setUserSkills] = useState(['JavaScript', 'Python', 'TypeScript']);
     const [optionEnabled, setOptionEnabled] = useState([false, false, false]);
+
+    const [currRepos, setCurrRepos] = useState(repoList.slice(0, 12));
+    const [page, setPage] = useState(0);
+
+    useEffect(() => {
+        setCurrRepos(repoList.slice(12 * page, 12 * page + 12))
+    }, [page])
+
+    const handlePage = (action: number) => {
+        if (action === -1 && page === 0 || action == 1 && page === 19) return;
+        setPage(page + action);
+    }
+
 
     const handleSaveSkills = (skills: string[]) => {
         setUserSkills(skills);
@@ -52,6 +67,8 @@ const Repos = () => {
                 <div className={styles.options}>
                     <h3>Options</h3>
 
+                    {/* 
+                    #TODO
                     <div className={styles.toggleOption}>
                         <span className={styles.label}>Active repos only</span>
                         <label className={styles.toggleSwitch}>
@@ -62,7 +79,7 @@ const Repos = () => {
                             />
                             <span className={styles.slider}></span>
                         </label>
-                    </div>
+                    </div> */}
 
                     <div className={styles.toggleOption}>
                         <span className={styles.label}>Good first issues</span>
@@ -95,8 +112,24 @@ const Repos = () => {
                 <button className={styles.clear}>Clear Filters</button>
             </div>
 
-            <div className={styles.repos}>
-                <p>Showing 6 of 10 repositories</p>
+            <div className={styles.reposContainer}>
+                <div className={styles.reposHead}>
+                    <p>Showing {page * 12} - {page * 12 + 12} of {repoList.length} repositories</p>
+                    <div>
+                        <p className={styles.pageControl} onClick={() => handlePage(-1)}>{"<"}</p>
+                        <p className={styles.pageCount}>{page}</p>
+                        <p className={styles.pageControl} onClick={() => handlePage(1)}>{">"}</p>
+                    </div>
+
+                </div>
+
+                <div className={styles.repos}>
+                    {
+                        currRepos.map((repo, i) =>
+                            <RepoCard key={i} data={repo} />
+                        )
+                    }
+                </div>
             </div>
         </div>
     </div>
