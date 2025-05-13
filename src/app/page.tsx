@@ -27,7 +27,7 @@ export default function Home() {
         <button className={styles.heroButton}>Connect w/ GitHub</button>
 
         <div className={styles.pop2}>
-          <p>More than <span>80</span> repos </p>
+          <p>More than <span>230</span> repos </p>
           <div>
             <p>backed by</p>
             <Image src={YClogo} alt="Y Combinator" />

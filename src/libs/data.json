@@ -1,0 +1,4534 @@
+[
+    {
+        "title": "airweave",
+        "desc": "Airweave lets agents search any app",
+        "avatar": "https://avatars.githubusercontent.com/u/192721200?v=4",
+        "languages": {
+            "Python": 1424407,
+            "TypeScript": 600970,
+            "MDX": 163240,
+            "CSS": 9035,
+            "Shell": 8494,
+            "JavaScript": 2259,
+            "Dockerfile": 1529,
+            "HTML": 984,
+            "Mako": 494
+        },
+        "forks": 148,
+        "stars": 1317,
+        "issues": 30,
+        "goodFirstIssues": 12,
+        "ycBatch": 2025,
+        "url": "https://github.com/airweave-ai/airweave"
+    },
+    {
+        "title": "mlop",
+        "desc": "Next Generation Experimental Tracking for Machine Learning Operations",
+        "avatar": "https://avatars.githubusercontent.com/u/171513111?v=4",
+        "languages": {
+            "Python": 141810,
+            "Shell": 2069
+        },
+        "forks": 0,
+        "stars": 48,
+        "issues": 1,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/mlop-ai/mlop"
+    },
+    {
+        "title": "Zero",
+        "desc": "Experience email the way you want with 0 – the first open source email app that puts your privacy and safety first. Join the discord: https://discord.gg/0email",
+        "avatar": "https://avatars.githubusercontent.com/u/198371852?v=4",
+        "languages": {
+            "TypeScript": 1611467,
+            "CSS": 13208,
+            "JavaScript": 3651,
+            "Dockerfile": 3287,
+            "Shell": 133
+        },
+        "forks": 605,
+        "stars": 7348,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/Mail-0/Zero"
+    },
+    {
+        "title": "klavis",
+        "desc": "Klavis AI (YC X25):  Open Source MCP integration for AI applications",
+        "avatar": "https://avatars.githubusercontent.com/u/205720652?v=4",
+        "languages": {
+            "Python": 586239,
+            "TypeScript": 533766,
+            "Go": 296892,
+            "Mustache": 165529,
+            "JavaScript": 139815,
+            "Dockerfile": 10043,
+            "Shell": 3669
+        },
+        "forks": 194,
+        "stars": 1294,
+        "issues": 11,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/Klavis-AI/klavis"
+    },
+    {
+        "title": "morphik-core",
+        "desc": "Open source multi-modal RAG for building AI apps over private knowledge. ",
+        "avatar": "https://avatars.githubusercontent.com/u/189408230?v=4",
+        "languages": {
+            "Python": 1432163,
+            "TypeScript": 351628,
+            "Shell": 2867,
+            "CSS": 2095,
+            "Dockerfile": 543,
+            "JavaScript": 227
+        },
+        "forks": 151,
+        "stars": 2159,
+        "issues": 26,
+        "goodFirstIssues": 1,
+        "ycBatch": 2025,
+        "url": "https://github.com/morphik-org/morphik-core"
+    },
+    {
+        "title": "tinfoil-cli",
+        "desc": "Tinfoil CLI for chat, embeddings, and secure HTTP requests",
+        "avatar": "https://avatars.githubusercontent.com/u/168487856?v=4",
+        "languages": {
+            "Go": 17779,
+            "Shell": 3444,
+            "Dockerfile": 81
+        },
+        "forks": 1,
+        "stars": 3,
+        "issues": 1,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/tinfoilsh/tinfoil-cli"
+    },
+    {
+        "title": "web-eval-agent",
+        "desc": "An MCP server that autonomously evaluates web applications. ",
+        "avatar": "https://avatars.githubusercontent.com/u/201877089?v=4",
+        "languages": {
+            "Python": 118736,
+            "HTML": 34535,
+            "JavaScript": 22025,
+            "Dockerfile": 1140,
+            "Shell": 27
+        },
+        "forks": 50,
+        "stars": 801,
+        "issues": 3,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/Operative-Sh/web-eval-agent"
+    },
+    {
+        "title": "better-auth",
+        "desc": "The most comprehensive authentication framework for TypeScript",
+        "avatar": "https://avatars.githubusercontent.com/u/163827765?v=4",
+        "languages": {
+            "TypeScript": 1675358,
+            "JavaScript": 923
+        },
+        "forks": 877,
+        "stars": 13102,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/better-auth/better-auth"
+    },
+    {
+        "title": "attune",
+        "desc": "Faster builds, zero effort.",
+        "avatar": "https://avatars.githubusercontent.com/u/193291883?v=4",
+        "languages": {
+            "Rust": 32795,
+            "Go": 19695,
+            "PLpgSQL": 6915,
+            "Dockerfile": 483,
+            "Shell": 227
+        },
+        "forks": 3,
+        "stars": 170,
+        "issues": 9,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/attunehq/attune"
+    },
+    {
+        "title": "pgdog",
+        "desc": "Horizontal scaling for PostgreSQL with automatic sharding.",
+        "avatar": "https://avatars.githubusercontent.com/u/200978917?v=4",
+        "languages": {
+            "Rust": 790089,
+            "C": 29321,
+            "Ruby": 22933,
+            "Python": 17228,
+            "Shell": 12021,
+            "PLpgSQL": 7552,
+            "Java": 2849,
+            "Go": 2554,
+            "JavaScript": 1330,
+            "Dockerfile": 577
+        },
+        "forks": 37,
+        "stars": 1502,
+        "issues": 27,
+        "goodFirstIssues": 1,
+        "ycBatch": 2025,
+        "url": "https://github.com/pgdogdev/pgdog"
+    },
+    {
+        "title": "sim",
+        "desc": "Sim Studio is an open-source AI agent workflow builder. Sim Studio's interface is a lightweight, intuitive way to quickly build and deploy LLMs that connect with your favorite tools.",
+        "avatar": "https://avatars.githubusercontent.com/u/199344406?v=4",
+        "languages": {
+            "TypeScript": 4843402,
+            "MDX": 508541,
+            "Shell": 11987,
+            "CSS": 7468,
+            "Dockerfile": 1323,
+            "JavaScript": 202
+        },
+        "forks": 535,
+        "stars": 3286,
+        "issues": 29,
+        "goodFirstIssues": 4,
+        "ycBatch": 2025,
+        "url": "https://github.com/simstudioai/sim"
+    },
+    {
+        "title": "cua",
+        "desc": "c/ua is the Docker Container for Computer-Use AI Agents.",
+        "avatar": "https://avatars.githubusercontent.com/u/191107687?v=4",
+        "languages": {
+            "Python": 846760,
+            "Swift": 454221,
+            "Shell": 60731,
+            "Jupyter Notebook": 46849,
+            "Dockerfile": 3551
+        },
+        "forks": 248,
+        "stars": 6262,
+        "issues": 30,
+        "goodFirstIssues": 1,
+        "ycBatch": 2025,
+        "url": "https://github.com/trycua/cua"
+    },
+    {
+        "title": "authed",
+        "desc": "Fine-grained access control",
+        "avatar": "https://avatars.githubusercontent.com/u/199558826?v=4",
+        "languages": {
+            "Python": 243412,
+            "Shell": 1101,
+            "Open Policy Agent": 944
+        },
+        "forks": 5,
+        "stars": 125,
+        "issues": 16,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/authed-dev/authed"
+    },
+    {
+        "title": "plexe",
+        "desc": "✨ Build a machine learning model from a prompt",
+        "avatar": "https://avatars.githubusercontent.com/u/183028794?v=4",
+        "languages": {
+            "Python": 473068,
+            "Jinja": 16778,
+            "Jupyter Notebook": 13157
+        },
+        "forks": 94,
+        "stars": 1636,
+        "issues": 2,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/plexe-ai/plexe"
+    },
+    {
+        "title": "assistant-ui",
+        "desc": "Typescript/React Library for AI Chat💬🚀",
+        "avatar": "https://avatars.githubusercontent.com/u/189563271?v=4",
+        "languages": {
+            "TypeScript": 929914,
+            "MDX": 276554,
+            "CSS": 21684,
+            "Python": 13791,
+            "JavaScript": 3732
+        },
+        "forks": 520,
+        "stars": 4456,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/assistant-ui/assistant-ui"
+    },
+    {
+        "title": "sdk",
+        "desc": "The Trainloop SDK for easy data collection",
+        "avatar": "https://avatars.githubusercontent.com/u/191793743?v=4",
+        "languages": {
+            "Shell": 3841,
+            "Python": 3065,
+            "Go": 2447,
+            "TypeScript": 2157
+        },
+        "forks": 1,
+        "stars": 8,
+        "issues": 0,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/TrainLoop/sdk"
+    },
+    {
+        "title": "browser-use",
+        "desc": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+        "avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
+        "languages": {
+            "Python": 680714,
+            "JavaScript": 48919,
+            "Dockerfile": 1231
+        },
+        "forks": 6584,
+        "stars": 59950,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/gregpr07/browser-use"
+    },
+    {
+        "title": "pig-python",
+        "desc": "The official Python SDK for Pig",
+        "avatar": "https://avatars.githubusercontent.com/u/194290175?v=4",
+        "languages": {
+            "Python": 41076
+        },
+        "forks": 18,
+        "stars": 149,
+        "issues": 1,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/pig-dot-dev/pig-python"
+    },
+    {
+        "title": "tensorpool",
+        "desc": "The easiest way to use GPUs.",
+        "avatar": "https://avatars.githubusercontent.com/u/185969829?v=4",
+        "languages": {
+            "Python": 37537
+        },
+        "forks": 2,
+        "stars": 105,
+        "issues": 0,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/tensorpool/tensorpool"
+    },
+    {
+        "title": "sdk-roark-analytics-node",
+        "desc": "NodeJS SDK for customers to track their voice calls with Roark",
+        "avatar": "https://avatars.githubusercontent.com/u/148644917?v=4",
+        "languages": {
+            "TypeScript": 108857,
+            "JavaScript": 9041,
+            "Shell": 7608,
+            "Ruby": 12
+        },
+        "forks": 1,
+        "stars": 5,
+        "issues": 3,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/roarkhq/sdk-roark-analytics-node"
+    },
+    {
+        "title": "mastra",
+        "desc": "The TypeScript AI agent framework. ⚡ Assistants, RAG, observability. Supports any LLM: GPT-4, Claude, Gemini, Llama.",
+        "avatar": "https://avatars.githubusercontent.com/u/149120496?v=4",
+        "languages": {
+            "TypeScript": 17073163,
+            "JavaScript": 107281,
+            "CSS": 5010,
+            "HTML": 1280
+        },
+        "forks": 709,
+        "stars": 12900,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/mastra-ai/mastra"
+    },
+    {
+        "title": "deepeval",
+        "desc": "The LLM Evaluation Framework",
+        "avatar": "https://avatars.githubusercontent.com/u/130858411?v=4",
+        "languages": {
+            "Python": 1975187
+        },
+        "forks": 549,
+        "stars": 6286,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/confident-ai/deepeval"
+    },
+    {
+        "title": "PLAPT",
+        "desc": "Codebase and CLI for PLAPT: A state-of-the-art protein-ligand binding affinity model for drug discovery ",
+        "avatar": "https://avatars.githubusercontent.com/u/179843648?v=4",
+        "languages": {
+            "Mathematica": 6877568,
+            "Jupyter Notebook": 312396,
+            "Python": 10542,
+            "Dockerfile": 764
+        },
+        "forks": 10,
+        "stars": 96,
+        "issues": 1,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/Bindwell/PLAPT"
+    },
+    {
+        "title": "cookbook",
+        "desc": "Recipes for AI agents that use Asteroid to be safe and reliable. Want yours featured? Submit a PR!",
+        "avatar": "https://avatars.githubusercontent.com/u/184743674?v=4",
+        "languages": {},
+        "forks": 1,
+        "stars": 46,
+        "issues": 1,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/asteroidai/cookbook"
+    },
+    {
+        "title": "a1framework",
+        "desc": "A1Base NextJS template",
+        "avatar": "https://avatars.githubusercontent.com/u/173903350?v=4",
+        "languages": {
+            "TypeScript": 626529,
+            "JavaScript": 3900,
+            "CSS": 1928,
+            "Dockerfile": 1793
+        },
+        "forks": 6,
+        "stars": 60,
+        "issues": 1,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/a1baseai/a1framework"
+    },
+    {
+        "title": "truffle-ai-sdk",
+        "desc": null,
+        "avatar": "https://avatars.githubusercontent.com/u/186134211?v=4",
+        "languages": {
+            "TypeScript": 17558
+        },
+        "forks": 2,
+        "stars": 58,
+        "issues": 0,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/truffle-ai/truffle-ai-sdk"
+    },
+    {
+        "title": "superglue",
+        "desc": "One stable, self-healing SDK to manage all your data pipelines. Comes with automated schema-drift detection, retries and remappings so your data keeps moving no matter what - no connector maintenance, no rewrites.",
+        "avatar": "https://avatars.githubusercontent.com/u/194536415?v=4",
+        "languages": {
+            "TypeScript": 866161,
+            "CSS": 2812,
+            "Shell": 2618,
+            "Dockerfile": 1878,
+            "JavaScript": 133
+        },
+        "forks": 80,
+        "stars": 1759,
+        "issues": 11,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/superglue-ai/superglue"
+    },
+    {
+        "title": "subtrace",
+        "desc": "Wireshark for Docker containers",
+        "avatar": "https://avatars.githubusercontent.com/u/138790528?v=4",
+        "languages": {
+            "Go": 241877,
+            "C": 8975,
+            "Python": 5730,
+            "JavaScript": 5661,
+            "Shell": 2120,
+            "Makefile": 1038,
+            "Dockerfile": 981
+        },
+        "forks": 55,
+        "stars": 2467,
+        "issues": 12,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/subtrace/subtrace"
+    },
+    {
+        "title": "partcleda.github.io",
+        "desc": null,
+        "avatar": "https://avatars.githubusercontent.com/u/190648897?v=4",
+        "languages": {
+            "JavaScript": 7700,
+            "CSS": 4481,
+            "HTML": 2312
+        },
+        "forks": 1,
+        "stars": 1,
+        "issues": 0,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/partcleda/partcleda.github.io"
+    },
+    {
+        "title": "cartography",
+        "desc": "Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database.",
+        "avatar": "https://avatars.githubusercontent.com/u/180463937?v=4",
+        "languages": {
+            "Python": 2559846,
+            "Cypher": 26551,
+            "Dockerfile": 2019,
+            "Makefile": 280,
+            "Shell": 180
+        },
+        "forks": 373,
+        "stars": 3358,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/cartography-cncf/cartography"
+    },
+    {
+        "title": "onlook",
+        "desc": "The open source Cursor for Designers. Design directly in your live React app and publish your changes to code.",
+        "avatar": "https://avatars.githubusercontent.com/u/157326433?v=4",
+        "languages": {
+            "TypeScript": 4116780,
+            "JavaScript": 293592,
+            "CSS": 29849,
+            "Rust": 9576,
+            "Shell": 2877,
+            "HTML": 854,
+            "Dockerfile": 598
+        },
+        "forks": 584,
+        "stars": 9436,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2025,
+        "url": "https://github.com/onlook-dev/onlook"
+    },
+    {
+        "title": "12-factor-agents",
+        "desc": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
+        "avatar": "https://avatars.githubusercontent.com/u/177409041?v=4",
+        "languages": {
+            "TypeScript": 213787,
+            "JavaScript": 214,
+            "Makefile": 206
+        },
+        "forks": 192,
+        "stars": 3699,
+        "issues": 5,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/humanlayer/12-factor-agents"
+    },
+    {
+        "title": "core",
+        "desc": "The Video Creation Engine: Edit videos with code, featuring the fastest WebCodecs renderer for in-browser video processing.",
+        "avatar": "https://avatars.githubusercontent.com/u/135729001?v=4",
+        "languages": {
+            "TypeScript": 580601,
+            "CSS": 3371,
+            "Shell": 1814,
+            "HTML": 1625
+        },
+        "forks": 53,
+        "stars": 571,
+        "issues": 29,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/diffusionstudio/core"
+    },
+    {
+        "title": "autumn",
+        "desc": "Autumn is an open-source pricing & billing platform",
+        "avatar": "https://avatars.githubusercontent.com/u/194405912?v=4",
+        "languages": {
+            "TypeScript": 1934098,
+            "CSS": 11637,
+            "JavaScript": 3008,
+            "Shell": 2911,
+            "HTML": 467
+        },
+        "forks": 13,
+        "stars": 238,
+        "issues": 0,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/johnyeocx/autumn"
+    },
+    {
+        "title": "lingo.dev",
+        "desc": "⚡️ Open-source AI-powered CLI for web & mobile localization. Bring your own LLM or use Lingo.dev-managed localization engine.",
+        "avatar": "https://avatars.githubusercontent.com/u/155387533?v=4",
+        "languages": {
+            "TypeScript": 516232,
+            "PHP": 23729,
+            "HTML": 5093,
+            "JavaScript": 1528,
+            "Dockerfile": 600
+        },
+        "forks": 85,
+        "stars": 1721,
+        "issues": 30,
+        "goodFirstIssues": 1,
+        "ycBatch": 2024,
+        "url": "https://github.com/lingodotdev/lingo.dev"
+    },
+    {
+        "title": "fast-graphrag",
+        "desc": "RAG that intelligently adapts to your use case, data, and queries",
+        "avatar": "https://avatars.githubusercontent.com/u/183883356?v=4",
+        "languages": {
+            "Python": 307091,
+            "Batchfile": 1634,
+            "Shell": 1473
+        },
+        "forks": 180,
+        "stars": 3238,
+        "issues": 27,
+        "goodFirstIssues": 4,
+        "ycBatch": 2024,
+        "url": "https://github.com/circlemind-ai/fast-graphrag"
+    },
+    {
+        "title": "vespper",
+        "desc": "Open-source AI copilot that lets you chat with your observability data and code 🧙‍♂️ ",
+        "avatar": "https://avatars.githubusercontent.com/u/154247157?v=4",
+        "languages": {
+            "TypeScript": 465870,
+            "Python": 187315,
+            "Jupyter Notebook": 6421,
+            "Dockerfile": 4677,
+            "Shell": 2321,
+            "CSS": 1267,
+            "JavaScript": 1124,
+            "HTML": 1029,
+            "HCL": 223,
+            "Jsonnet": 135
+        },
+        "forks": 43,
+        "stars": 349,
+        "issues": 11,
+        "goodFirstIssues": 2,
+        "ycBatch": 2024,
+        "url": "https://github.com/vespperhq/vespper"
+    },
+    {
+        "title": "pearai-master",
+        "desc": "Master Repo For PearAI",
+        "avatar": "https://avatars.githubusercontent.com/u/167481439?v=4",
+        "languages": {
+            "Shell": 1933
+        },
+        "forks": 61,
+        "stars": 596,
+        "issues": 23,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/trypear/pearai-master"
+    },
+    {
+        "title": "cloudstate",
+        "desc": "Cloudstate is a JavaScript database runtime.",
+        "avatar": "https://avatars.githubusercontent.com/u/167140517?v=4",
+        "languages": {
+            "Rust": 150237,
+            "JavaScript": 141603
+        },
+        "forks": 13,
+        "stars": 178,
+        "issues": 12,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/freestyle-sh/cloudstate"
+    },
+    {
+        "title": "patchwork",
+        "desc": "Agentic AI framework for enterprise workflow automation.",
+        "avatar": "https://avatars.githubusercontent.com/u/126387417?v=4",
+        "languages": {
+            "Python": 567265,
+            "C++": 1648,
+            "Kotlin": 1163,
+            "Java": 369,
+            "JavaScript": 356
+        },
+        "forks": 92,
+        "stars": 1343,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/patched-codes/patchwork"
+    },
+    {
+        "title": "GA",
+        "desc": "An encyclopedia of jailbreaking techniques to make AI models safer.",
+        "avatar": "https://avatars.githubusercontent.com/u/189312885?v=4",
+        "languages": {
+            "Jupyter Notebook": 1040905,
+            "Python": 779317,
+            "C++": 211
+        },
+        "forks": 45,
+        "stars": 536,
+        "issues": 1,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/General-Analysis/GA"
+    },
+    {
+        "title": "void",
+        "desc": null,
+        "avatar": "https://avatars.githubusercontent.com/u/181171420?v=4",
+        "languages": {
+            "TypeScript": 69543427,
+            "CSS": 1026130,
+            "JavaScript": 856520,
+            "Rust": 500641,
+            "HTML": 393822,
+            "Inno Setup": 309957,
+            "Scilab": 202892,
+            "Shell": 113209,
+            "Batchfile": 18993,
+            "PowerShell": 15796,
+            "Tree-sitter Query": 12860,
+            "SCSS": 6732,
+            "Groovy": 3928,
+            "Cuda": 3634,
+            "C++": 2745,
+            "Makefile": 2307,
+            "Python": 2171,
+            "Perl": 1922,
+            "Ruby": 1703,
+            "TeX": 1602,
+            "Nix": 1560,
+            "Objective-C": 1387,
+            "Objective-C++": 1387,
+            "Clojure": 1206,
+            "Handlebars": 1064,
+            "Less": 1029,
+            "PHP": 998,
+            "Dockerfile": 960,
+            "Julia": 940,
+            "Jupyter Notebook": 929,
+            "Visual Basic .NET": 893,
+            "C#": 864,
+            "C": 818,
+            "Raku": 761,
+            "Pug": 654,
+            "Go": 652,
+            "F#": 634,
+            "Java": 599,
+            "CoffeeScript": 590,
+            "R": 362,
+            "Roff": 351,
+            "ShaderLab": 330,
+            "Dart": 324,
+            "Swift": 284,
+            "Lua": 252,
+            "HLSL": 184,
+            "Hack": 16
+        },
+        "forks": 1091,
+        "stars": 18410,
+        "issues": 30,
+        "goodFirstIssues": 1,
+        "ycBatch": 2024,
+        "url": "https://github.com/voideditor/void"
+    },
+    {
+        "title": "rowboat",
+        "desc": "AI-powered multi-agent builder",
+        "avatar": "https://avatars.githubusercontent.com/u/172591271?v=4",
+        "languages": {
+            "TypeScript": 917972,
+            "Python": 217205,
+            "Dockerfile": 8540,
+            "CSS": 6945,
+            "Shell": 726,
+            "JavaScript": 508
+        },
+        "forks": 212,
+        "stars": 2764,
+        "issues": 22,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/rowboatlabs/rowboat"
+    },
+    {
+        "title": "atopile-analyzer",
+        "desc": "experimental atopile language server",
+        "avatar": "https://avatars.githubusercontent.com/u/171377989?v=4",
+        "languages": {
+            "TypeScript": 184849,
+            "Rust": 171445,
+            "CSS": 11987,
+            "HTML": 1721,
+            "Shell": 914,
+            "JavaScript": 868
+        },
+        "forks": 1,
+        "stars": 6,
+        "issues": 0,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/diodeinc/atopile-analyzer"
+    },
+    {
+        "title": "zeropath-mcp-server",
+        "desc": "Open-source MCP server for querying ZeroPath security issues, patches, and scans using Claude, Cursor, Windsurf, or any AI assistant.",
+        "avatar": "https://avatars.githubusercontent.com/u/170791525?v=4",
+        "languages": {
+            "Python": 11272,
+            "Shell": 35
+        },
+        "forks": 1,
+        "stars": 3,
+        "issues": 1,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/ZeroPathAI/zeropath-mcp-server"
+    },
+    {
+        "title": "heroui",
+        "desc": "🚀 Beautiful, fast and modern React UI library. (Previously NextUI)",
+        "avatar": "https://avatars.githubusercontent.com/u/86160567?v=4",
+        "languages": {
+            "TypeScript": 3417457,
+            "JavaScript": 846466,
+            "MDX": 840940,
+            "CSS": 15087,
+            "Handlebars": 8563,
+            "Shell": 808
+        },
+        "forks": 1768,
+        "stars": 24170,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/heroui-inc/heroui"
+    },
+    {
+        "title": "lmnr",
+        "desc": "Laminar - open-source all-in-one platform for engineering AI products. Create data flywheel for your AI app. Traces, Evals, Datasets, Labels. YC S24.",
+        "avatar": "https://avatars.githubusercontent.com/u/161496104?v=4",
+        "languages": {
+            "TypeScript": 1260370,
+            "Rust": 380296,
+            "Python": 35088,
+            "MDX": 22301,
+            "JavaScript": 4525,
+            "Dockerfile": 4075,
+            "CSS": 3464
+        },
+        "forks": 117,
+        "stars": 1970,
+        "issues": 19,
+        "goodFirstIssues": 5,
+        "ycBatch": 2024,
+        "url": "https://github.com/lmnr-ai/lmnr"
+    },
+    {
+        "title": "zenoh",
+        "desc": "zenoh unifies data in motion, data in-use, data at rest and computations. It carefully blends traditional pub/sub with geo-distributed storages, queries and computations, while retaining a level of time and space efficiency that is well beyond any of the mainstream stacks.",
+        "avatar": "https://avatars.githubusercontent.com/u/60146382?v=4",
+        "languages": {
+            "Rust": 5298668,
+            "Shell": 2993
+        },
+        "forks": 190,
+        "stars": 1813,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/eclipse-zenoh/zenoh"
+    },
+    {
+        "title": "core",
+        "desc": "Prompt engineering, automated.",
+        "avatar": "https://avatars.githubusercontent.com/u/166971621?v=4",
+        "languages": {
+            "Jupyter Notebook": 282190,
+            "Python": 236814
+        },
+        "forks": 23,
+        "stars": 309,
+        "issues": 0,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/zenbase-ai/core"
+    },
+    {
+        "title": "tach",
+        "desc": "A Python tool to visualize + enforce dependencies, using modular architecture 🌎 Open source 🐍 Installable via pip 🔧 Able to be adopted incrementally - ⚡ Implemented with no runtime impact ♾️ Interoperable with your existing systems 🦀 Written in rust",
+        "avatar": "https://avatars.githubusercontent.com/u/158083724?v=4",
+        "languages": {
+            "Rust": 424628,
+            "Python": 212463,
+            "Makefile": 2026
+        },
+        "forks": 59,
+        "stars": 2390,
+        "issues": 30,
+        "goodFirstIssues": 2,
+        "ycBatch": 2024,
+        "url": "https://github.com/gauge-sh/tach"
+    },
+    {
+        "title": "minusx",
+        "desc": "MinusX is an AI Data Scientist for Analytics Apps you already use and love. Currently it supports Jupyter, Metabase, Google Sheets & Posthog.",
+        "avatar": "https://avatars.githubusercontent.com/u/166453374?v=4",
+        "languages": {
+            "TypeScript": 711203,
+            "Jupyter Notebook": 429612,
+            "JavaScript": 43675,
+            "HTML": 8800,
+            "CSS": 2952,
+            "Shell": 2826,
+            "Dockerfile": 1157
+        },
+        "forks": 12,
+        "stars": 212,
+        "issues": 5,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/minusxai/minusx"
+    },
+    {
+        "title": "spongecake",
+        "desc": "Spongecake is the easiest way to launch computer use agents.",
+        "avatar": "https://avatars.githubusercontent.com/u/25259440?v=4",
+        "languages": {
+            "JavaScript": 1016272,
+            "Python": 149893,
+            "TypeScript": 54142,
+            "CSS": 43274,
+            "HTML": 24966,
+            "Shell": 23693,
+            "Dockerfile": 4226,
+            "Makefile": 2289,
+            "Roff": 1451,
+            "Perl": 396
+        },
+        "forks": 17,
+        "stars": 136,
+        "issues": 2,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/aditya-nadkarni/spongecake"
+    },
+    {
+        "title": "CodeViz-Public",
+        "desc": "A public repository for filling issues and feature requests for CodeViz",
+        "avatar": "https://avatars.githubusercontent.com/u/168999230?v=4",
+        "languages": {},
+        "forks": 1,
+        "stars": 58,
+        "issues": 0,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/EdisonLabs-Inc/CodeViz-Public"
+    },
+    {
+        "title": "stack-auth",
+        "desc": "Open-source Auth0/Clerk alternative",
+        "avatar": "https://avatars.githubusercontent.com/u/161534807?v=4",
+        "languages": {
+            "TypeScript": 3062577,
+            "PLpgSQL": 23792,
+            "JavaScript": 17211,
+            "HTML": 9494,
+            "CSS": 4506,
+            "Dockerfile": 4348,
+            "Shell": 4140
+        },
+        "forks": 387,
+        "stars": 5750,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/stack-auth/stack-auth"
+    },
+    {
+        "title": "unsloth",
+        "desc": "Finetune Qwen3, Llama 4, TTS, DeepSeek-R1 & Gemma 3 LLMs 2x faster with 70% less memory! 🦥",
+        "avatar": "https://avatars.githubusercontent.com/u/150920049?v=4",
+        "languages": {
+            "Python": 1078826,
+            "Shell": 1156
+        },
+        "forks": 3021,
+        "stars": 38573,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/unslothai/unsloth"
+    },
+    {
+        "title": "synnax",
+        "desc": "The data and operations foundation for hardware.",
+        "avatar": "https://avatars.githubusercontent.com/u/90403552?v=4",
+        "languages": {
+            "TypeScript": 4286058,
+            "Go": 3093656,
+            "C++": 2207716,
+            "C": 2009565,
+            "Python": 910379,
+            "CSS": 214268,
+            "Starlark": 30084,
+            "JavaScript": 25766,
+            "Shell": 24411,
+            "HTML": 22364,
+            "Rust": 6087,
+            "NSIS": 2251,
+            "Earthly": 1951,
+            "PowerShell": 1854,
+            "GLSL": 1639,
+            "Dockerfile": 677
+        },
+        "forks": 15,
+        "stars": 88,
+        "issues": 13,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/synnaxlabs/synnax"
+    },
+    {
+        "title": "glasskube",
+        "desc": "🧊 The next generation Package Manager for Kubernetes 📦 Featuring a GUI and a CLI. Glasskube packages are dependency aware, GitOps ready and can get automatic updates via a central public package repository.",
+        "avatar": "https://avatars.githubusercontent.com/u/102465810?v=4",
+        "languages": {
+            "Go": 736839,
+            "HTML": 78527,
+            "Makefile": 10451,
+            "JavaScript": 3004,
+            "Dockerfile": 2109,
+            "CSS": 285,
+            "Shell": 281
+        },
+        "forks": 183,
+        "stars": 3192,
+        "issues": 16,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/glasskube/glasskube"
+    },
+    {
+        "title": "mem0",
+        "desc": "Memory for AI Agents; SOTA in AI Agent Memory; Announcing OpenMemory MCP - local and secure memory management.",
+        "avatar": "https://avatars.githubusercontent.com/u/137054526?v=4",
+        "languages": {
+            "Python": 1626655,
+            "TypeScript": 663847,
+            "MDX": 262459,
+            "Jupyter Notebook": 159823,
+            "JavaScript": 29771,
+            "Makefile": 5433,
+            "Dockerfile": 4718,
+            "CSS": 4335,
+            "SCSS": 3746,
+            "Mako": 1324,
+            "Shell": 456
+        },
+        "forks": 2799,
+        "stars": 29096,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/mem0ai/mem0"
+    },
+    {
+        "title": "quivr",
+        "desc": "Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want. ",
+        "avatar": "https://avatars.githubusercontent.com/u/159330290?v=4",
+        "languages": {
+            "Python": 242821,
+            "Shell": 1667
+        },
+        "forks": 3638,
+        "stars": 37826,
+        "issues": 22,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/quivrhq/quivr"
+    },
+    {
+        "title": "titan",
+        "desc": "Titan Core - Snowflake infrastructure-as-code. Provision environments, automate deploys, CI/CD. Manage RBAC, users, roles, and data access. Declarative Python Resource API. Change Management tool for the Snowflake data warehouse.",
+        "avatar": "https://avatars.githubusercontent.com/u/157928289?v=4",
+        "languages": {
+            "Python": 951579,
+            "Makefile": 803
+        },
+        "forks": 36,
+        "stars": 471,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/Titan-Systems/titan"
+    },
+    {
+        "title": "hatchet",
+        "desc": "🪓 Run Background Tasks at Scale",
+        "avatar": "https://avatars.githubusercontent.com/u/118301880?v=4",
+        "languages": {
+            "TypeScript": 4975160,
+            "Python": 4534118,
+            "Go": 2803870,
+            "MDX": 949706,
+            "PLpgSQL": 228469,
+            "JavaScript": 43723,
+            "CSS": 27753,
+            "Shell": 18690,
+            "Dockerfile": 6273,
+            "HTML": 646
+        },
+        "forks": 216,
+        "stars": 5558,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/hatchet-dev/hatchet"
+    },
+    {
+        "title": "zep",
+        "desc": "Zep | The Memory Foundation For Your AI Stack",
+        "avatar": "https://avatars.githubusercontent.com/u/132832125?v=4",
+        "languages": {
+            "Go": 205422,
+            "Shell": 815
+        },
+        "forks": 482,
+        "stars": 3277,
+        "issues": 0,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/getzep/zep"
+    },
+    {
+        "title": "chunkr",
+        "desc": "Vision infrastructure to turn complex documents into RAG/LLM-ready data",
+        "avatar": "https://avatars.githubusercontent.com/u/133187075?v=4",
+        "languages": {
+            "Rust": 481955,
+            "TypeScript": 444316,
+            "Python": 303600,
+            "CSS": 101310,
+            "PLpgSQL": 82051,
+            "Shell": 10460,
+            "Smarty": 7950,
+            "Dockerfile": 7409,
+            "HTML": 2905,
+            "JavaScript": 1965
+        },
+        "forks": 126,
+        "stars": 2152,
+        "issues": 9,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/lumina-ai-inc/chunkr"
+    },
+    {
+        "title": "elodin",
+        "desc": "Elodin simulation and flight software monorepo.",
+        "avatar": "https://avatars.githubusercontent.com/u/139720373?v=4",
+        "languages": {
+            "Rust": 3280708,
+            "Python": 221490,
+            "C++": 172873,
+            "Nix": 53823,
+            "C": 42698,
+            "Shell": 13251,
+            "WGSL": 12014,
+            "Jinja": 9599,
+            "Just": 4803,
+            "Lua": 2087,
+            "Julia": 875,
+            "Linker Script": 860,
+            "RenderScript": 4
+        },
+        "forks": 15,
+        "stars": 462,
+        "issues": 3,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/elodin-sys/elodin"
+    },
+    {
+        "title": "trieve",
+        "desc": "All-in-one infrastructure for search, recommendations, RAG, and analytics offered via API",
+        "avatar": "https://avatars.githubusercontent.com/u/122049913?v=4",
+        "languages": {
+            "Rust": 2460369,
+            "TypeScript": 2394858,
+            "JavaScript": 358096,
+            "Mustache": 165319,
+            "CSS": 101079,
+            "HTML": 74320,
+            "PLpgSQL": 63704,
+            "Liquid": 23146,
+            "HCL": 19099,
+            "FreeMarker": 17267,
+            "Go": 11188,
+            "Dockerfile": 7021,
+            "MDX": 4135,
+            "Smarty": 2601,
+            "Shell": 1846,
+            "Nushell": 704,
+            "Python": 418,
+            "Makefile": 412
+        },
+        "forks": 185,
+        "stars": 2133,
+        "issues": 20,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/devflowinc/trieve"
+    },
+    {
+        "title": "pyspur",
+        "desc": "A visual playground for agentic workflows: Iterate over your agents 10x faster",
+        "avatar": "https://avatars.githubusercontent.com/u/182547524?v=4",
+        "languages": {
+            "TypeScript": 1285840,
+            "Python": 1019155,
+            "JavaScript": 26589,
+            "CSS": 10911,
+            "Shell": 9125,
+            "HTML": 1760,
+            "SCSS": 1541,
+            "Mako": 635,
+            "Dockerfile": 611
+        },
+        "forks": 339,
+        "stars": 4881,
+        "issues": 22,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/PySpur-com/PySpur"
+    },
+    {
+        "title": "phospho-legacy",
+        "desc": "Text analytics for LLM apps. Cluster messages to detect use cases, outliers, power users. Detect intents and run evals with LLM (OpenAI, MistralAI, Ollama, etc.)",
+        "avatar": "https://avatars.githubusercontent.com/u/132396805?v=4",
+        "languages": {
+            "Python": 1220152,
+            "TypeScript": 960715,
+            "Jupyter Notebook": 102651,
+            "JavaScript": 6061,
+            "Dockerfile": 2611,
+            "CSS": 2381,
+            "Makefile": 2218,
+            "Batchfile": 804
+        },
+        "forks": 34,
+        "stars": 435,
+        "issues": 1,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/phospho-app/phospho-legacy"
+    },
+    {
+        "title": "ragas",
+        "desc": "Supercharge Your LLM Application Evaluations 🚀",
+        "avatar": "https://avatars.githubusercontent.com/u/122604797?v=4",
+        "languages": {
+            "Python": 703063,
+            "Jupyter Notebook": 6963,
+            "Makefile": 2447,
+            "Dockerfile": 199
+        },
+        "forks": 904,
+        "stars": 9110,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/explodinggradients/ragas"
+    },
+    {
+        "title": "pandas-ai",
+        "desc": "Chat with your database or your datalake (SQL, CSV, parquet). PandasAI makes data analysis conversational using LLMs and RAG.",
+        "avatar": "https://avatars.githubusercontent.com/u/154438448?v=4",
+        "languages": {
+            "Python": 694134,
+            "Makefile": 3843,
+            "Dockerfile": 299
+        },
+        "forks": 1899,
+        "stars": 20075,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/gventuri/pandas-ai"
+    },
+    {
+        "title": "zerox",
+        "desc": "OCR & Document Extraction using vision models",
+        "avatar": "https://avatars.githubusercontent.com/u/152649903?v=4",
+        "languages": {
+            "TypeScript": 85817,
+            "Python": 34617,
+            "JavaScript": 3893,
+            "Makefile": 2708
+        },
+        "forks": 736,
+        "stars": 11140,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/getomni-ai/zerox"
+    },
+    {
+        "title": "atopile",
+        "desc": "Design circuit boards with code! ✨ Get software-like design reuse 🚀, validation, version control and collaboration in hardware; starting with electronics ⚡️",
+        "avatar": "https://avatars.githubusercontent.com/u/150975426?v=4",
+        "languages": {
+            "Python": 2352450,
+            "C++": 103697,
+            "TypeScript": 61454,
+            "ANTLR": 14395,
+            "CMake": 4195,
+            "JavaScript": 4083,
+            "Shell": 546
+        },
+        "forks": 128,
+        "stars": 2089,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/atopile/atopile"
+    },
+    {
+        "title": "ai-chatbot",
+        "desc": "A full-featured, hackable Next.js AI chatbot built by Vercel",
+        "avatar": "https://avatars.githubusercontent.com/u/14985020?v=4",
+        "languages": {
+            "TypeScript": 470769,
+            "JavaScript": 13302,
+            "CSS": 4164
+        },
+        "forks": 4340,
+        "stars": 16099,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/vercel/ai-chatbot"
+    },
+    {
+        "title": "buster",
+        "desc": "Buster is an open-source platform for deploying AI data analysts ",
+        "avatar": "https://avatars.githubusercontent.com/u/127540771?v=4",
+        "languages": {
+            "TypeScript": 14560117,
+            "Rust": 3620822,
+            "PLpgSQL": 43218,
+            "HCL": 14857,
+            "JavaScript": 14265,
+            "HTML": 10199,
+            "CSS": 7834,
+            "Jupyter Notebook": 7511,
+            "Python": 5872,
+            "Makefile": 3427,
+            "Dockerfile": 2444,
+            "SCSS": 1842,
+            "Shell": 1108,
+            "Elixir": 1068
+        },
+        "forks": 64,
+        "stars": 380,
+        "issues": 1,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/buster-so/buster-platform"
+    },
+    {
+        "title": "nuanced",
+        "desc": "Enriched Python function call graphs for agents and coding assistants",
+        "avatar": "https://avatars.githubusercontent.com/u/146001843?v=4",
+        "languages": {
+            "Python": 25192
+        },
+        "forks": 5,
+        "stars": 91,
+        "issues": 13,
+        "goodFirstIssues": 2,
+        "ycBatch": 2024,
+        "url": "https://github.com/nuanced-dev/nuanced"
+    },
+    {
+        "title": "tracecat",
+        "desc": "Open source Tines / Splunk SOAR alternative. All-in-one automation platform (workflows, tables, cases) for security and IT teams.",
+        "avatar": "https://avatars.githubusercontent.com/u/137193901?v=4",
+        "languages": {
+            "Python": 1952088,
+            "TypeScript": 1587126,
+            "HCL": 88624,
+            "Shell": 15867,
+            "JavaScript": 6801,
+            "CSS": 6064,
+            "Dockerfile": 2183,
+            "Just": 1745,
+            "Mako": 635
+        },
+        "forks": 203,
+        "stars": 2632,
+        "issues": 29,
+        "goodFirstIssues": 4,
+        "ycBatch": 2024,
+        "url": "https://github.com/TracecatHQ/tracecat"
+    },
+    {
+        "title": "ubicloud",
+        "desc": "Open source alternative to AWS. Elastic compute, block storage (non replicated), firewall and load balancer, managed Postgres, and IAM services in public beta.",
+        "avatar": "https://avatars.githubusercontent.com/u/121406468?v=4",
+        "languages": {
+            "Ruby": 3196138,
+            "HTML": 286232,
+            "JavaScript": 23272,
+            "Go": 5688,
+            "Dockerfile": 1662,
+            "Shell": 752,
+            "CSS": 506,
+            "Procfile": 100
+        },
+        "forks": 184,
+        "stars": 5103,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/ubicloud/ubicloud"
+    },
+    {
+        "title": "ssoready",
+        "desc": "Open-source dev tools for enterprise SSO. Ship SAML + SCIM support this afternoon.",
+        "avatar": "https://avatars.githubusercontent.com/u/150834783?v=4",
+        "languages": {
+            "TypeScript": 1165281,
+            "Go": 448097,
+            "CSS": 17778,
+            "JavaScript": 9735,
+            "HTML": 8050,
+            "Dockerfile": 2542,
+            "Shell": 2335,
+            "Makefile": 213
+        },
+        "forks": 51,
+        "stars": 1456,
+        "issues": 5,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/ssoready/ssoready"
+    },
+    {
+        "title": "R2R",
+        "desc": "SoTA production-ready AI retrieval system. Agentic Retrieval-Augmented Generation (RAG) with a RESTful API.",
+        "avatar": "https://avatars.githubusercontent.com/u/148402514?v=4",
+        "languages": {
+            "Python": 2898199,
+            "TypeScript": 276297,
+            "Shell": 4252,
+            "CSS": 3479,
+            "JavaScript": 2827,
+            "Dockerfile": 1461,
+            "Mako": 1430,
+            "Rich Text Format": 548
+        },
+        "forks": 529,
+        "stars": 6828,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/SciPhi-AI/R2R"
+    },
+    {
+        "title": "guMCP",
+        "desc": "Gumloop Unified Model Context Protocol (guMCP)",
+        "avatar": "https://avatars.githubusercontent.com/u/133821906?v=4",
+        "languages": {
+            "Python": 3363666,
+            "PowerShell": 1679,
+            "Shell": 980
+        },
+        "forks": 43,
+        "stars": 395,
+        "issues": 17,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/gumloop/guMCP"
+    },
+    {
+        "title": "onyx",
+        "desc": "Gen-AI Chat for Teams - Think ChatGPT if it had access to your team's unique knowledge.",
+        "avatar": "https://avatars.githubusercontent.com/u/131946000?v=4",
+        "languages": {
+            "Python": 5997101,
+            "TypeScript": 3051211,
+            "JavaScript": 218559,
+            "HTML": 84249,
+            "CSS": 79302,
+            "Shell": 17521,
+            "Jinja": 14954,
+            "Dockerfile": 13672,
+            "Smarty": 2316,
+            "Mako": 1020
+        },
+        "forks": 1662,
+        "stars": 12829,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/onyx-dot-app/onyx"
+    },
+    {
+        "title": "celest",
+        "desc": "The Flutter cloud platform",
+        "avatar": "https://avatars.githubusercontent.com/u/143674082?v=4",
+        "languages": {
+            "Dart": 9970391,
+            "Shell": 15426,
+            "Dockerfile": 11735,
+            "HTML": 8844,
+            "Makefile": 2483,
+            "JavaScript": 2210,
+            "Kotlin": 1761
+        },
+        "forks": 12,
+        "stars": 272,
+        "issues": 24,
+        "goodFirstIssues": 0,
+        "ycBatch": 2024,
+        "url": "https://github.com/celest-dev/celest"
+    },
+    {
+        "title": "preswald",
+        "desc": "Preswald is a WASM packager for Python-based interactive data apps: bundle full complex data workflows, particularly visualizations, into single files, runnable completely in-browser, using Pyodide, DuckDB, Pandas, and Plotly, Matplotlib, etc. Build dashboards, reports, and notebooks that run offline, load fast, and share like a document.",
+        "avatar": "https://avatars.githubusercontent.com/u/125618760?v=4",
+        "languages": {
+            "Python": 280239,
+            "JavaScript": 109918,
+            "TypeScript": 30962,
+            "Shell": 27009,
+            "CSS": 20464,
+            "HTML": 15486,
+            "Dockerfile": 1373
+        },
+        "forks": 647,
+        "stars": 3603,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/StructuredLabs/preswald"
+    },
+    {
+        "title": "srcbook",
+        "desc": "TypeScript-centric app development platform: notebook and AI app builder",
+        "avatar": "https://avatars.githubusercontent.com/u/171983774?v=4",
+        "languages": {
+            "TypeScript": 717621,
+            "CSS": 14199,
+            "JavaScript": 10149,
+            "HTML": 1251,
+            "Dockerfile": 500
+        },
+        "forks": 290,
+        "stars": 3318,
+        "issues": 30,
+        "goodFirstIssues": 1,
+        "ycBatch": 2023,
+        "url": "https://github.com/srcbookdev/srcbook"
+    },
+    {
+        "title": "Flowise",
+        "desc": "Drag & drop UI to build your customized LLM flow",
+        "avatar": "https://avatars.githubusercontent.com/u/128289781?v=4",
+        "languages": {
+            "TypeScript": 3635502,
+            "JavaScript": 2306962,
+            "CSS": 12989,
+            "SCSS": 6717,
+            "HTML": 5645,
+            "Dockerfile": 1505,
+            "Shell": 195,
+            "Batchfile": 60
+        },
+        "forks": 19859,
+        "stars": 38089,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/FlowiseAI/Flowise"
+    },
+    {
+        "title": "paradedb",
+        "desc": "ParadeDB is a modern Elasticsearch alternative built on Postgres. Built for real-time, update-heavy workloads.",
+        "avatar": "https://avatars.githubusercontent.com/u/124464601?v=4",
+        "languages": {
+            "Rust": 1816142,
+            "PLpgSQL": 65545,
+            "Shell": 14732,
+            "Dockerfile": 10633,
+            "Makefile": 1933
+        },
+        "forks": 244,
+        "stars": 7059,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/paradedb/paradedb"
+    },
+    {
+        "title": "tiptap",
+        "desc": "The headless rich text editor framework for web artisans.",
+        "avatar": "https://avatars.githubusercontent.com/u/16939337?v=4",
+        "languages": {
+            "TypeScript": 825841,
+            "JavaScript": 10154,
+            "Shell": 74
+        },
+        "forks": 2468,
+        "stars": 30315,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/ueberdosis/tiptap"
+    },
+    {
+        "title": "silisizer",
+        "desc": "Operator resize",
+        "avatar": "https://avatars.githubusercontent.com/u/138536269?v=4",
+        "languages": {
+            "C++": 19184,
+            "CMake": 7212,
+            "SWIG": 1273,
+            "Makefile": 1150,
+            "Tcl": 1116
+        },
+        "forks": 2,
+        "stars": 2,
+        "issues": 0,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/Silimate/silisizer"
+    },
+    {
+        "title": "khoj",
+        "desc": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
+        "avatar": "https://avatars.githubusercontent.com/u/134046886?v=4",
+        "languages": {
+            "Python": 1294404,
+            "TypeScript": 959282,
+            "Emacs Lisp": 76450,
+            "HTML": 72941,
+            "JavaScript": 70989,
+            "CSS": 61936,
+            "Shell": 9782,
+            "Dockerfile": 4934,
+            "Java": 2888
+        },
+        "forks": 1674,
+        "stars": 30024,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/khoj-ai/khoj"
+    },
+    {
+        "title": "continue",
+        "desc": "⏩ Create, share, and use custom AI code assistants with our open-source IDE extensions and hub of models, rules, prompts, docs, and other building blocks",
+        "avatar": "https://avatars.githubusercontent.com/u/127876214?v=4",
+        "languages": {
+            "TypeScript": 3189014,
+            "JavaScript": 760353,
+            "Kotlin": 299890,
+            "Python": 113478,
+            "Rust": 76465,
+            "CSS": 58211,
+            "Tree-sitter Query": 53991,
+            "Shell": 7031,
+            "Java": 4318,
+            "PowerShell": 4108,
+            "HTML": 3553,
+            "PHP": 1460,
+            "C#": 673,
+            "Jupyter Notebook": 541,
+            "Scheme": 441,
+            "Ruby": 363,
+            "Dockerfile": 347,
+            "Go": 166
+        },
+        "forks": 2763,
+        "stars": 26188,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/continuedev/continue"
+    },
+    {
+        "title": "revideo",
+        "desc": "Create Videos with Code",
+        "avatar": "https://avatars.githubusercontent.com/u/133898679?v=4",
+        "languages": {
+            "TypeScript": 1145353,
+            "SCSS": 33327,
+            "JavaScript": 11778,
+            "HTML": 6012,
+            "GLSL": 461,
+            "CSS": 177
+        },
+        "forks": 136,
+        "stars": 3239,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/redotvideo/revideo"
+    },
+    {
+        "title": "refine",
+        "desc": "A React Framework for building  internal tools, admin panels, dashboards & B2B apps with unmatched flexibility.",
+        "avatar": "https://avatars.githubusercontent.com/u/104967037?v=4",
+        "languages": {
+            "TypeScript": 6613110,
+            "JavaScript": 141295,
+            "CSS": 10804,
+            "HTML": 5494,
+            "Handlebars": 3077,
+            "Shell": 152
+        },
+        "forks": 2471,
+        "stars": 30906,
+        "issues": 30,
+        "goodFirstIssues": 1,
+        "ycBatch": 2023,
+        "url": "https://github.com/refinedev/refine"
+    },
+    {
+        "title": "vectordb",
+        "desc": "Epsilla is a high performance Vector Database Management System",
+        "avatar": "https://avatars.githubusercontent.com/u/132872759?v=4",
+        "languages": {
+            "C++": 810089,
+            "Python": 8743,
+            "Shell": 6524,
+            "CMake": 5815,
+            "Dockerfile": 1046
+        },
+        "forks": 41,
+        "stars": 852,
+        "issues": 12,
+        "goodFirstIssues": 1,
+        "ycBatch": 2023,
+        "url": "https://github.com/epsilla-cloud/vectordb"
+    },
+    {
+        "title": "skyvern",
+        "desc": "Automate browser-based workflows with LLMs and Computer Vision",
+        "avatar": "https://avatars.githubusercontent.com/u/141457985?v=4",
+        "languages": {
+            "Python": 2074371,
+            "TypeScript": 986562,
+            "MDX": 101235,
+            "JavaScript": 86452,
+            "Jinja": 75349,
+            "Shell": 17188,
+            "CSS": 3154,
+            "Dockerfile": 1559,
+            "Mako": 635,
+            "HTML": 355
+        },
+        "forks": 1052,
+        "stars": 13327,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/Skyvern-AI/skyvern/tree/main/integrations/mcp"
+    },
+    {
+        "title": "briefer",
+        "desc": "Dashboards and notebooks in a single place. Create powerful and flexible dashboards using code, or build beautiful Notion-like notebooks and share them with your team.",
+        "avatar": "https://avatars.githubusercontent.com/u/118315700?v=4",
+        "languages": {
+            "TypeScript": 2697471,
+            "Python": 39711,
+            "Dockerfile": 14868,
+            "CSS": 13820,
+            "JavaScript": 10473,
+            "PLpgSQL": 6628,
+            "Shell": 5680,
+            "HTML": 2217,
+            "Smarty": 2099
+        },
+        "forks": 251,
+        "stars": 4042,
+        "issues": 30,
+        "goodFirstIssues": 2,
+        "ycBatch": 2023,
+        "url": "https://github.com/briefercloud/briefer"
+    },
+    {
+        "title": "tegon",
+        "desc": "Tegon is an open-source, dev-first alternative to Jira, Linear",
+        "avatar": "https://avatars.githubusercontent.com/u/157399902?v=4",
+        "languages": {
+            "TypeScript": 2439072,
+            "JavaScript": 31235,
+            "CSS": 9925,
+            "Dockerfile": 4915,
+            "Handlebars": 4197,
+            "PLpgSQL": 1290,
+            "Shell": 854
+        },
+        "forks": 103,
+        "stars": 1818,
+        "issues": 30,
+        "goodFirstIssues": 4,
+        "ycBatch": 2023,
+        "url": "https://github.com/tegonhq/tegon"
+    },
+    {
+        "title": "atla-mcp-server",
+        "desc": "An MCP server implementation providing a standardized interface for LLMs to interact with the Atla API.",
+        "avatar": "https://avatars.githubusercontent.com/u/145455090?v=4",
+        "languages": {
+            "Python": 11730
+        },
+        "forks": 1,
+        "stars": 13,
+        "issues": 1,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/atla-ai/atla-mcp-server"
+    },
+    {
+        "title": "cli",
+        "desc": null,
+        "avatar": "https://avatars.githubusercontent.com/u/191836976?v=4",
+        "languages": {
+            "TypeScript": 56811,
+            "JavaScript": 311,
+            "Batchfile": 117
+        },
+        "forks": 7,
+        "stars": 60,
+        "issues": 2,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/opentoolsteam/cli"
+    },
+    {
+        "title": "cedana",
+        "desc": "Orchestrated process and container checkpointing",
+        "avatar": "https://avatars.githubusercontent.com/u/120697410?v=4",
+        "languages": {
+            "Go": 637385,
+            "Shell": 86232,
+            "Makefile": 9726,
+            "Python": 4343,
+            "Dockerfile": 3346
+        },
+        "forks": 11,
+        "stars": 81,
+        "issues": 10,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/cedana/cedana"
+    },
+    {
+        "title": "dioxus",
+        "desc": "Fullstack app framework for web, desktop, mobile, and more.",
+        "avatar": "https://avatars.githubusercontent.com/u/79236386?v=4",
+        "languages": {
+            "Rust": 3611987,
+            "HTML": 115153,
+            "R": 68336,
+            "TypeScript": 55967,
+            "JavaScript": 38776,
+            "CSS": 23811,
+            "Makefile": 14022,
+            "Handlebars": 5875,
+            "Shell": 5481,
+            "RenderScript": 2484,
+            "Nix": 2109,
+            "Dockerfile": 832
+        },
+        "forks": 1098,
+        "stars": 27458,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/DioxusLabs/dioxus"
+    },
+    {
+        "title": "xeol",
+        "desc": "A scanner for end-of-life (EOL) software and dependencies in container images, filesystems, and SBOMs",
+        "avatar": "https://avatars.githubusercontent.com/u/133060241?v=4",
+        "languages": {
+            "Go": 435128,
+            "Shell": 31743,
+            "Makefile": 15828,
+            "Python": 4668,
+            "Dockerfile": 2711,
+            "JavaScript": 529,
+            "Java": 397,
+            "Roff": 82
+        },
+        "forks": 25,
+        "stars": 392,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/xeol-io/xeol"
+    },
+    {
+        "title": "twenty",
+        "desc": "Building a modern alternative to Salesforce, powered by the community.",
+        "avatar": "https://avatars.githubusercontent.com/u/119600397?v=4",
+        "languages": {
+            "TypeScript": 20018014,
+            "MDX": 234382,
+            "JavaScript": 37230,
+            "HCL": 19327,
+            "Shell": 14477,
+            "CSS": 6877,
+            "Dockerfile": 6568,
+            "HTML": 5343,
+            "Makefile": 1835
+        },
+        "forks": 3138,
+        "stars": 27849,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/twentyhq/twenty"
+    },
+    {
+        "title": "AgentGPT",
+        "desc": "🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.",
+        "avatar": "https://avatars.githubusercontent.com/u/120154269?v=4",
+        "languages": {
+            "TypeScript": 267757,
+            "Python": 151498,
+            "JavaScript": 24765,
+            "MDX": 22221,
+            "CSS": 4130,
+            "Shell": 1910,
+            "Dockerfile": 1619,
+            "Batchfile": 131
+        },
+        "forks": 9413,
+        "stars": 34045,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/reworkd/AgentGPT"
+    },
+    {
+        "title": "transfer",
+        "desc": "Database replication platform that leverages change data capture. Stream production data from databases to your data warehouse (Snowflake, BigQuery, Redshift, Databricks) in real-time. ",
+        "avatar": "https://avatars.githubusercontent.com/u/117559288?v=4",
+        "languages": {
+            "Go": 1062273,
+            "Makefile": 2968,
+            "Python": 2505,
+            "Dockerfile": 89
+        },
+        "forks": 34,
+        "stars": 654,
+        "issues": 5,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/artie-labs/transfer"
+    },
+    {
+        "title": "moon",
+        "desc": "A build system and monorepo management tool for the web ecosystem, written in Rust.",
+        "avatar": "https://avatars.githubusercontent.com/u/102833400?v=4",
+        "languages": {
+            "Rust": 3078079,
+            "MDX": 1089663,
+            "TypeScript": 268565,
+            "JavaScript": 19514,
+            "Shell": 14175,
+            "Dockerfile": 6441,
+            "Pkl": 5745,
+            "CSS": 5397,
+            "PowerShell": 4291,
+            "Just": 2472,
+            "HTML": 648
+        },
+        "forks": 170,
+        "stars": 3179,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/moonrepo/moon"
+    },
+    {
+        "title": "litellm",
+        "desc": "Python SDK, Proxy Server (LLM Gateway) to call 100+ LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]",
+        "avatar": "https://avatars.githubusercontent.com/u/121462774?v=4",
+        "languages": {
+            "Python": 13756411,
+            "TypeScript": 1324883,
+            "HTML": 82767,
+            "JavaScript": 25959,
+            "Shell": 4998,
+            "Ruby": 3229,
+            "Dockerfile": 3198,
+            "Smarty": 2462,
+            "Bicep": 909,
+            "Makefile": 896,
+            "CSS": 790
+        },
+        "forks": 2881,
+        "stars": 22471,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/BerriAI/litellm"
+    },
+    {
+        "title": "graphql-armor",
+        "desc": "🛡️ The missing GraphQL security security layer for Apollo GraphQL and Yoga / Envelop servers 🛡️",
+        "avatar": "https://avatars.githubusercontent.com/u/77633603?v=4",
+        "languages": {
+            "TypeScript": 80217,
+            "JavaScript": 8731,
+            "CSS": 1750,
+            "Shell": 364
+        },
+        "forks": 38,
+        "stars": 522,
+        "issues": 18,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/Escape-Technologies/graphql-armor"
+    },
+    {
+        "title": "fern",
+        "desc": "Input OpenAPI. Output SDKs and Docs.",
+        "avatar": "https://avatars.githubusercontent.com/u/102944815?v=4",
+        "languages": {
+            "TypeScript": 10326321,
+            "MDX": 1912869,
+            "Python": 1508099,
+            "Java": 1040415,
+            "Go": 960720,
+            "C#": 276284,
+            "PHP": 131966,
+            "JavaScript": 98881,
+            "Shell": 18214,
+            "Dockerfile": 15711,
+            "CSS": 3416,
+            "PowerShell": 1004,
+            "Makefile": 506,
+            "Swift": 365,
+            "HTML": 327
+        },
+        "forks": 210,
+        "stars": 3053,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/fern-api/fern"
+    },
+    {
+        "title": "openint",
+        "desc": "OpenInt is the fastest way to add native product integrations to your app.",
+        "avatar": "https://avatars.githubusercontent.com/u/175553865?v=4",
+        "languages": {
+            "TypeScript": 1725723,
+            "PLpgSQL": 72046,
+            "Shell": 18169,
+            "CSS": 10407,
+            "JavaScript": 1436
+        },
+        "forks": 10,
+        "stars": 176,
+        "issues": 7,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/evefancom/evefan"
+    },
+    {
+        "title": "actor-core",
+        "desc": "🎭 Stateful Serverless That Runs Anywhere. The easiest way to build stateful, AI agent, collaborative, or local-first applications. Deploy to Rivet, Cloudflare, Bun, Node.js, and more.",
+        "avatar": "https://avatars.githubusercontent.com/u/57733614?v=4",
+        "languages": {
+            "TypeScript": 450942,
+            "Rust": 84851,
+            "Python": 7091,
+            "JavaScript": 6935,
+            "Shell": 185
+        },
+        "forks": 25,
+        "stars": 902,
+        "issues": 30,
+        "goodFirstIssues": 2,
+        "ycBatch": 2023,
+        "url": "https://github.com/rivet-gg/actor-core"
+    },
+    {
+        "title": "gobl",
+        "desc": "Go Business Language",
+        "avatar": "https://avatars.githubusercontent.com/u/70638251?v=4",
+        "languages": {
+            "Go": 1759414,
+            "JavaScript": 9456,
+            "TypeScript": 6745,
+            "HTML": 2287,
+            "Shell": 119
+        },
+        "forks": 19,
+        "stars": 177,
+        "issues": 10,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/invopop/gobl"
+    },
+    {
+        "title": "keep",
+        "desc": "The open-source AIOps and alert management platform",
+        "avatar": "https://avatars.githubusercontent.com/u/109032290?v=4",
+        "languages": {
+            "Python": 4149027,
+            "TypeScript": 2451097,
+            "JavaScript": 20885,
+            "CSS": 18497,
+            "Shell": 13356,
+            "SCSS": 4645,
+            "Mako": 551
+        },
+        "forks": 964,
+        "stars": 10139,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/keephq/keep"
+    },
+    {
+        "title": "pyht",
+        "desc": "PlayHT Python SDK - AI Text-to-Speech Streaming & Voice Cloning API",
+        "avatar": "https://avatars.githubusercontent.com/u/79188179?v=4",
+        "languages": {
+            "Python": 99186,
+            "Makefile": 1214
+        },
+        "forks": 27,
+        "stars": 206,
+        "issues": 14,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/playht/pyht"
+    },
+    {
+        "title": "odigos",
+        "desc": "Distributed tracing without code changes. 🚀 Instantly monitor any application using OpenTelemetry and eBPF",
+        "avatar": "https://avatars.githubusercontent.com/u/84347062?v=4",
+        "languages": {
+            "Go": 1926063,
+            "TypeScript": 132313,
+            "Makefile": 65656,
+            "Shell": 26860,
+            "Dockerfile": 25751,
+            "Python": 11752,
+            "HCL": 4750,
+            "Smarty": 4327,
+            "JavaScript": 2942,
+            "C#": 1566,
+            "Java": 943,
+            "C++": 232
+        },
+        "forks": 218,
+        "stars": 3425,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/odigos-io/odigos"
+    },
+    {
+        "title": "baml",
+        "desc": "The AI framework that adds the engineering to prompt engineering (Python/TS/Ruby/Java/C#/Rust/Go compatible)",
+        "avatar": "https://avatars.githubusercontent.com/u/124114301?v=4",
+        "languages": {
+            "Rust": 3971139,
+            "TypeScript": 1183972,
+            "MDX": 524049,
+            "Python": 442450,
+            "HTML": 299287,
+            "Jinja": 112718,
+            "Go": 70826,
+            "JavaScript": 67444,
+            "Ruby": 64685,
+            "Shell": 29938,
+            "CSS": 23643,
+            "Nix": 11549,
+            "Dockerfile": 8193,
+            "C": 4561,
+            "RenderScript": 1
+        },
+        "forks": 148,
+        "stars": 3539,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/boundaryml/baml"
+    },
+    {
+        "title": "helicone",
+        "desc": "🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓",
+        "avatar": "https://avatars.githubusercontent.com/u/114524975?v=4",
+        "languages": {
+            "TypeScript": 15509553,
+            "MDX": 1304557,
+            "Python": 114545,
+            "PLpgSQL": 34510,
+            "Shell": 25028,
+            "HCL": 23799,
+            "CSS": 10324,
+            "JavaScript": 9480
+        },
+        "forks": 371,
+        "stars": 3760,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/Helicone/helicone"
+    },
+    {
+        "title": "openmeter",
+        "desc": "Metering and Billing for AI, API and DevOps. Collect and aggregate millions of usage events in real-time and enable usage-based billing.",
+        "avatar": "https://avatars.githubusercontent.com/u/133055284?v=4",
+        "languages": {
+            "Go": 5356493,
+            "TypeScript": 1741561,
+            "TypeSpec": 317420,
+            "Smarty": 15158,
+            "JavaScript": 8657,
+            "Nix": 6939,
+            "Makefile": 4801,
+            "Dockerfile": 4139,
+            "Python": 2446,
+            "HCL": 1572,
+            "Just": 1070,
+            "Shell": 486
+        },
+        "forks": 86,
+        "stars": 1368,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/openmeterio/openmeter"
+    },
+    {
+        "title": "langfuse",
+        "desc": "🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 ",
+        "avatar": "https://avatars.githubusercontent.com/u/134601687?v=4",
+        "languages": {
+            "TypeScript": 6014910,
+            "JavaScript": 40102,
+            "Shell": 10642,
+            "Dockerfile": 8184,
+            "CSS": 4641,
+            "PLpgSQL": 3965
+        },
+        "forks": 1019,
+        "stars": 11356,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/langfuse/langfuse"
+    },
+    {
+        "title": "trench",
+        "desc": "Trench — Open-Source Analytics Infrastructure. A single production-ready Docker image built on ClickHouse, Kafka, and Node.js for tracking events, page views. Easily build product analytics dashboards, LLM RAGs, observability platforms, or any other analytics product.",
+        "avatar": "https://avatars.githubusercontent.com/u/117952255?v=4",
+        "languages": {
+            "TypeScript": 118714,
+            "MDX": 22273,
+            "JavaScript": 3648,
+            "Dockerfile": 2438,
+            "CSS": 783,
+            "Shell": 190
+        },
+        "forks": 55,
+        "stars": 1555,
+        "issues": 3,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/FrigadeHQ/trench"
+    },
+    {
+        "title": "flower",
+        "desc": "Flower: A Friendly Federated AI Framework",
+        "avatar": "https://avatars.githubusercontent.com/u/57905187?v=4",
+        "languages": {
+            "Python": 4248503,
+            "Jupyter Notebook": 1141285,
+            "Swift": 173605,
+            "TypeScript": 140805,
+            "Shell": 81208,
+            "Smarty": 69101,
+            "Kotlin": 59695,
+            "C++": 51417,
+            "MDX": 39883,
+            "HTML": 38606,
+            "CSS": 24672,
+            "Dockerfile": 16595,
+            "JavaScript": 7698,
+            "CMake": 3714,
+            "Makefile": 3276,
+            "Batchfile": 3196
+        },
+        "forks": 993,
+        "stars": 5880,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "http://github.com/adap/flower"
+    },
+    {
+        "title": "nango",
+        "desc": "A single API for all your integrations.",
+        "avatar": "https://avatars.githubusercontent.com/u/106751793?v=4",
+        "languages": {
+            "TypeScript": 3940087,
+            "MDX": 2720167,
+            "JavaScript": 174302,
+            "HTML": 12580,
+            "Dockerfile": 3950,
+            "Shell": 3520,
+            "EJS": 2802,
+            "CSS": 732
+        },
+        "forks": 488,
+        "stars": 5320,
+        "issues": 22,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/NangoHQ/nango"
+    },
+    {
+        "title": "bake-action",
+        "desc": "GitHub Action to use Buildx Bake as a high-level build command using Depot remote builders",
+        "avatar": "https://avatars.githubusercontent.com/u/68166601?v=4",
+        "languages": {
+            "TypeScript": 11420,
+            "JavaScript": 189
+        },
+        "forks": 3,
+        "stars": 5,
+        "issues": 2,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/depot/bake-action"
+    },
+    {
+        "title": "PlayBooks",
+        "desc": "Runbook automation platform with deep observability integrations for SRE & On-Call Teams",
+        "avatar": "https://avatars.githubusercontent.com/u/110093317?v=4",
+        "languages": {
+            "Python": 2432453,
+            "TypeScript": 893249,
+            "CSS": 91810,
+            "HTML": 15721,
+            "JavaScript": 9534,
+            "Shell": 3445,
+            "Dockerfile": 2569
+        },
+        "forks": 29,
+        "stars": 436,
+        "issues": 27,
+        "goodFirstIssues": 5,
+        "ycBatch": 2023,
+        "url": "https://github.com/DrDroidLab/PlayBooks"
+    },
+    {
+        "title": "trigger.dev",
+        "desc": "Trigger.dev – open source background jobs and AI infrastructure",
+        "avatar": "https://avatars.githubusercontent.com/u/95297378?v=4",
+        "languages": {
+            "TypeScript": 7264967,
+            "JavaScript": 24258,
+            "PLpgSQL": 11589,
+            "CSS": 10957,
+            "Dockerfile": 10377,
+            "Shell": 10083,
+            "Python": 8108
+        },
+        "forks": 706,
+        "stars": 11144,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/triggerdotdev/trigger.dev"
+    },
+    {
+        "title": "openllmetry",
+        "desc": "Open-source observability for your LLM application, based on OpenTelemetry",
+        "avatar": "https://avatars.githubusercontent.com/u/125419530?v=4",
+        "languages": {
+            "Python": 1189303,
+            "Shell": 183
+        },
+        "forks": 727,
+        "stars": 5809,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/traceloop/openllmetry"
+    },
+    {
+        "title": "reflex",
+        "desc": "🕸️ Web apps in pure Python 🐍",
+        "avatar": "https://avatars.githubusercontent.com/u/104714959?v=4",
+        "languages": {
+            "Python": 2745928,
+            "JavaScript": 41830,
+            "Jinja": 18264,
+            "PowerShell": 12120,
+            "Shell": 9474,
+            "Dockerfile": 8580,
+            "Batchfile": 334,
+            "CSS": 112
+        },
+        "forks": 1331,
+        "stars": 22656,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/reflex-dev/reflex"
+    },
+    {
+        "title": "agent-apm-python",
+        "desc": null,
+        "avatar": "https://avatars.githubusercontent.com/u/86930792?v=4",
+        "languages": {
+            "Python": 57849
+        },
+        "forks": 1,
+        "stars": 5,
+        "issues": 13,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/middleware-labs/agent-apm-python"
+    },
+    {
+        "title": "tremor",
+        "desc": "Copy & Paste React components to build modern web applications. ",
+        "avatar": "https://avatars.githubusercontent.com/u/97241560?v=4",
+        "languages": {
+            "TypeScript": 625791,
+            "JavaScript": 3074,
+            "CSS": 2798
+        },
+        "forks": 84,
+        "stars": 2320,
+        "issues": 14,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "https://github.com/tremorlabs/tremor"
+    },
+    {
+        "title": "highlight",
+        "desc": "highlight.io: The open source, full-stack monitoring platform. Error monitoring, session replay, logging, distributed tracing, and more.",
+        "avatar": "https://avatars.githubusercontent.com/u/75946842?v=4",
+        "languages": {
+            "TypeScript": 11249153,
+            "Go": 2483745,
+            "JavaScript": 1286296,
+            "Python": 172368,
+            "Java": 159854,
+            "CSS": 138317,
+            "SCSS": 109363,
+            "Ruby": 70076,
+            "HTML": 55791,
+            "C#": 34247,
+            "Rust": 22144,
+            "Dockerfile": 14609,
+            "PHP": 9876,
+            "Shell": 9402,
+            "Elixir": 8279,
+            "Makefile": 3864,
+            "EJS": 3065,
+            "ANTLR": 1812,
+            "MDX": 1585,
+            "Less": 1415,
+            "Scheme": 353,
+            "ASP.NET": 92
+        },
+        "forks": 411,
+        "stars": 8243,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2023,
+        "url": "http://github.com/highlight/highlight"
+    },
+    {
+        "title": "hamilton",
+        "desc": "Hamilton helps data scientists and engineers define testable, modular, self-documenting dataflows, that encode lineage/tracing and metadata. Runs and scales everywhere python does.",
+        "avatar": "https://avatars.githubusercontent.com/u/116846391?v=4",
+        "languages": {
+            "Jupyter Notebook": 5357626,
+            "Python": 3060918,
+            "TypeScript": 570378,
+            "JavaScript": 15409,
+            "Shell": 7721,
+            "Jinja": 3573,
+            "HTML": 3092,
+            "CSS": 2331,
+            "Dockerfile": 450
+        },
+        "forks": 145,
+        "stars": 2129,
+        "issues": 30,
+        "goodFirstIssues": 1,
+        "ycBatch": 2023,
+        "url": "https://github.com/DAGWorks-Inc/hamilton"
+    },
+    {
+        "title": "firecrawl",
+        "desc": "🔥 Turn entire websites into LLM-ready markdown or structured data. Scrape, crawl and extract with a single API.",
+        "avatar": "https://avatars.githubusercontent.com/u/135057108?v=4",
+        "languages": {
+            "TypeScript": 1878581,
+            "Python": 234830,
+            "Rust": 145926,
+            "Shell": 10518,
+            "JavaScript": 9449,
+            "Dockerfile": 2076,
+            "CSS": 1835,
+            "Go": 496,
+            "HTML": 354,
+            "Procfile": 132
+        },
+        "forks": 3462,
+        "stars": 38047,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/mendableai/firecrawl"
+    },
+    {
+        "title": "lamindb",
+        "desc": "A data framework for biology.",
+        "avatar": "https://avatars.githubusercontent.com/u/96882399?v=4",
+        "languages": {
+            "Python": 1737849,
+            "HTML": 5722,
+            "Jupyter Notebook": 5517
+        },
+        "forks": 15,
+        "stars": 162,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/laminlabs/lamindb"
+    },
+    {
+        "title": "metriport",
+        "desc": "Metriport is an open-source universal API for healthcare data.",
+        "avatar": "https://avatars.githubusercontent.com/u/103539317?v=4",
+        "languages": {
+            "JavaScript": 6819691,
+            "TypeScript": 4492230,
+            "Handlebars": 1457428,
+            "Python": 24847,
+            "Shell": 24535,
+            "HTML": 18586,
+            "Java": 15973,
+            "Dockerfile": 2133,
+            "CSS": 930,
+            "ANTLR": 910
+        },
+        "forks": 64,
+        "stars": 584,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/metriport/metriport"
+    },
+    {
+        "title": "anything-llm",
+        "desc": "The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility,  and more.",
+        "avatar": "https://avatars.githubusercontent.com/u/134426827?v=4",
+        "languages": {
+            "JavaScript": 3925421,
+            "CSS": 77151,
+            "Dockerfile": 9300,
+            "HTML": 3904,
+            "Shell": 1382,
+            "HCL": 1211
+        },
+        "forks": 4301,
+        "stars": 43987,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/Mintplex-Labs/anything-llm"
+    },
+    {
+        "title": "neosync",
+        "desc": "Open Source Data Security Platform for Developers to Monitor and Detect PII, Anonymize Production Data and Sync it across environments. ",
+        "avatar": "https://avatars.githubusercontent.com/u/97920301?v=4",
+        "languages": {
+            "Go": 3990584,
+            "TypeScript": 2763695,
+            "Python": 502272,
+            "Shell": 22808,
+            "Smarty": 17138,
+            "Starlark": 9137,
+            "Makefile": 7219,
+            "CSS": 5032,
+            "JavaScript": 1498,
+            "PLpgSQL": 166
+        },
+        "forks": 155,
+        "stars": 3855,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/nucleuscloud/neosync"
+    },
+    {
+        "title": "activepieces",
+        "desc": "AI Agents & MCPs & AI Workflow Automation • (280+ MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
+        "avatar": "https://avatars.githubusercontent.com/u/99494700?v=4",
+        "languages": {
+            "TypeScript": 11617452,
+            "HTML": 200765,
+            "CSS": 72130,
+            "JavaScript": 14061,
+            "MDX": 6121,
+            "Dockerfile": 4391,
+            "Shell": 3301
+        },
+        "forks": 1928,
+        "stars": 14668,
+        "issues": 30,
+        "goodFirstIssues": 7,
+        "ycBatch": 2022,
+        "url": "https://github.com/activepieces/activepieces"
+    },
+    {
+        "title": "build-your-own-x",
+        "desc": "Master programming by recreating your favorite technologies from scratch.",
+        "avatar": "https://avatars.githubusercontent.com/u/58904235?v=4",
+        "languages": {
+            "Markdown": 46350
+        },
+        "forks": 35317,
+        "stars": 379338,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/codecrafters-io/build-your-own-x"
+    },
+    {
+        "title": "customeros",
+        "desc": "CustomerOS is all-in-one GTM platform for B2B SaaS.  Everything you need to achieve Hyperscale.",
+        "avatar": "https://avatars.githubusercontent.com/u/176803522?v=4",
+        "languages": {
+            "Go": 7053366,
+            "TypeScript": 340796,
+            "Elixir": 115812,
+            "Cypher": 39303,
+            "HTML": 29904,
+            "Shell": 22905,
+            "Python": 16347,
+            "CSS": 15271,
+            "Dockerfile": 11209,
+            "Just": 8437,
+            "JavaScript": 7713,
+            "Makefile": 2946,
+            "Gherkin": 1533,
+            "Batchfile": 48
+        },
+        "forks": 19,
+        "stars": 106,
+        "issues": 4,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/customeros/customeros"
+    },
+    {
+        "title": "dittofeed",
+        "desc": "Open-source customer engagement. Automate transactional and marketing messages across email, SMS, mobile push, WhatsApp, Slack, and more 📨",
+        "avatar": "https://avatars.githubusercontent.com/u/110435310?v=4",
+        "languages": {
+            "TypeScript": 3043722,
+            "MDX": 269350,
+            "CSS": 26790,
+            "JavaScript": 21586,
+            "Dockerfile": 12904,
+            "Smarty": 3926,
+            "Shell": 3066,
+            "PLpgSQL": 757,
+            "HTML": 486
+        },
+        "forks": 237,
+        "stars": 2304,
+        "issues": 28,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/dittofeed/dittofeed"
+    },
+    {
+        "title": "medplum",
+        "desc": "Medplum is a healthcare platform that helps you quickly develop high-quality compliant applications.",
+        "avatar": "https://avatars.githubusercontent.com/u/75462971?v=4",
+        "languages": {
+            "TypeScript": 9936688,
+            "MDX": 1215356,
+            "HCL": 54759,
+            "Shell": 52202,
+            "JavaScript": 34090,
+            "CSS": 32290,
+            "NSIS": 11082,
+            "Python": 2945,
+            "Dockerfile": 2861,
+            "Smarty": 1953,
+            "HTML": 1856
+        },
+        "forks": 472,
+        "stars": 1593,
+        "issues": 30,
+        "goodFirstIssues": 1,
+        "ycBatch": 2022,
+        "url": "https://github.com/medplum/medplum"
+    },
+    {
+        "title": "netmaker",
+        "desc": "Netmaker makes networks with WireGuard. Netmaker automates fast, secure, and distributed virtual networks.",
+        "avatar": "https://avatars.githubusercontent.com/u/81370672?v=4",
+        "languages": {
+            "Go": 1130148,
+            "Shell": 83940,
+            "Dockerfile": 501
+        },
+        "forks": 584,
+        "stars": 10230,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/gravitl/netmaker"
+    },
+    {
+        "title": "jupysql",
+        "desc": "Better SQL in Jupyter. 📊",
+        "avatar": "https://avatars.githubusercontent.com/u/60114551?v=4",
+        "languages": {
+            "Python": 751715,
+            "JavaScript": 13553,
+            "CSS": 389,
+            "Shell": 370,
+            "Dockerfile": 263
+        },
+        "forks": 78,
+        "stars": 777,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/ploomber/jupysql"
+    },
+    {
+        "title": "LSpec",
+        "desc": "A Testing Framework for Lean",
+        "avatar": "https://avatars.githubusercontent.com/u/104174991?v=4",
+        "languages": {
+            "Lean": 53246,
+            "Nix": 1118
+        },
+        "forks": 9,
+        "stars": 53,
+        "issues": 2,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/argumentcomputer/LSpec"
+    },
+    {
+        "title": "mobile-app",
+        "desc": null,
+        "avatar": "https://avatars.githubusercontent.com/u/93702563?v=4",
+        "languages": {
+            "TypeScript": 4635033,
+            "Java": 19867,
+            "JavaScript": 14524,
+            "Objective-C": 7891,
+            "Shell": 3622,
+            "Ruby": 2275,
+            "Swift": 568,
+            "CSS": 59
+        },
+        "forks": 2,
+        "stars": 6,
+        "issues": 9,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/CypherD-IO/mobile-app"
+    },
+    {
+        "title": "botcity-framework-core-python",
+        "desc": "BotCity Framework - Python",
+        "avatar": "https://avatars.githubusercontent.com/u/72993825?v=4",
+        "languages": {
+            "Python": 166101
+        },
+        "forks": 24,
+        "stars": 128,
+        "issues": 5,
+        "goodFirstIssues": 2,
+        "ycBatch": 2022,
+        "url": "https://github.com/botcity-dev/botcity-framework-core-python"
+    },
+    {
+        "title": "reakt-native-toolkit",
+        "desc": "Combine React Native with Kotlin Multiplatform (KMP)",
+        "avatar": "https://avatars.githubusercontent.com/u/62517686?v=4",
+        "languages": {
+            "Kotlin": 317189,
+            "TypeScript": 118911,
+            "Objective-C": 15268,
+            "Ruby": 3812,
+            "C++": 2053,
+            "Objective-C++": 1661,
+            "JavaScript": 1649,
+            "Makefile": 1510,
+            "Java": 679,
+            "Shell": 643
+        },
+        "forks": 5,
+        "stars": 154,
+        "issues": 9,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/voize-gmbh/reakt-native-toolkit"
+    },
+    {
+        "title": "FHIR_inferno",
+        "desc": "Connector that loads FHIR r4 USCDIv3 JSON data from local file storage into the Tuva common data model in Snowflake.",
+        "avatar": "https://avatars.githubusercontent.com/u/85512523?v=4",
+        "languages": {
+            "Python": 50742
+        },
+        "forks": 8,
+        "stars": 25,
+        "issues": 0,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/tuva-health/FHIR_inferno"
+    },
+    {
+        "title": "starter",
+        "desc": "📖 The starter kit for your Mintlify docs",
+        "avatar": "https://avatars.githubusercontent.com/u/93011474?v=4",
+        "languages": {
+            "MDX": 30293
+        },
+        "forks": 292,
+        "stars": 1113,
+        "issues": 21,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/mintlify/starter"
+    },
+    {
+        "title": "dbt-iomete",
+        "desc": "A DBT adapter for iomete",
+        "avatar": "https://avatars.githubusercontent.com/u/59210045?v=4",
+        "languages": {
+            "Python": 121317,
+            "Shell": 282
+        },
+        "forks": 2,
+        "stars": 12,
+        "issues": 11,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/iomete/dbt-iomete"
+    },
+    {
+        "title": "uploadthing",
+        "desc": "File uploads for modern web devs",
+        "avatar": "https://avatars.githubusercontent.com/u/89191727?v=4",
+        "languages": {
+            "TypeScript": 678528,
+            "Svelte": 19914,
+            "JavaScript": 15544,
+            "CSS": 4683,
+            "Vue": 1289,
+            "Nix": 511,
+            "HTML": 344,
+            "Shell": 11
+        },
+        "forks": 363,
+        "stars": 4706,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/pingdotgg/uploadthing"
+    },
+    {
+        "title": "flagright-node",
+        "desc": null,
+        "avatar": "https://avatars.githubusercontent.com/u/80708856?v=4",
+        "languages": {
+            "TypeScript": 713887,
+            "JavaScript": 3325
+        },
+        "forks": 1,
+        "stars": 29,
+        "issues": 0,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/flagright/flagright-node"
+    },
+    {
+        "title": "dart-mcp-server",
+        "desc": "Dart AI Model Context Protocol (MCP) server",
+        "avatar": "https://avatars.githubusercontent.com/u/92822028?v=4",
+        "languages": {
+            "JavaScript": 23323,
+            "Dockerfile": 552
+        },
+        "forks": 9,
+        "stars": 55,
+        "issues": 3,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/its-dart/dart-mcp-server"
+    },
+    {
+        "title": "beta9",
+        "desc": "Run serverless GPU workloads with fast cold starts on bare-metal servers, anywhere in the world",
+        "avatar": "https://avatars.githubusercontent.com/u/126977053?v=4",
+        "languages": {
+            "Go": 1436801,
+            "Python": 452067,
+            "HCL": 35344,
+            "Shell": 13393,
+            "Smarty": 4326,
+            "Makefile": 2927,
+            "JavaScript": 790,
+            "Dockerfile": 225
+        },
+        "forks": 47,
+        "stars": 778,
+        "issues": 15,
+        "goodFirstIssues": 1,
+        "ycBatch": 2022,
+        "url": "https://github.com/beam-cloud/beta9"
+    },
+    {
+        "title": "lancedb",
+        "desc": "Developer-friendly, embedded retrieval engine for multimodal AI. Search More; Manage Less.",
+        "avatar": "https://avatars.githubusercontent.com/u/108903835?v=4",
+        "languages": {
+            "Rust": 952764,
+            "Python": 945832,
+            "TypeScript": 516154,
+            "Shell": 18587,
+            "JavaScript": 13088,
+            "Java": 8834,
+            "PowerShell": 2026,
+            "Dockerfile": 1705,
+            "Makefile": 868
+        },
+        "forks": 470,
+        "stars": 6396,
+        "issues": 30,
+        "goodFirstIssues": 1,
+        "ycBatch": 2022,
+        "url": "https://github.com/lancedb/lancedb"
+    },
+    {
+        "title": "firezone",
+        "desc": "Enterprise-ready zero-trust access platform built on WireGuard®.",
+        "avatar": "https://avatars.githubusercontent.com/u/87211124?v=4",
+        "languages": {
+            "Elixir": 4141345,
+            "Rust": 1868287,
+            "TypeScript": 388977,
+            "Swift": 269858,
+            "HCL": 151095,
+            "Kotlin": 115341,
+            "Shell": 72059,
+            "HTML": 59228,
+            "JavaScript": 23627,
+            "Dockerfile": 11924,
+            "C": 11115,
+            "CSS": 5054,
+            "PowerShell": 3782,
+            "Python": 3568,
+            "Nix": 1609,
+            "Batchfile": 941,
+            "Makefile": 556,
+            "Mermaid": 319
+        },
+        "forks": 308,
+        "stars": 7208,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/firezone/firezone"
+    },
+    {
+        "title": "elementary",
+        "desc": "The dbt-native data observability solution for data & analytics engineers. Monitor your data pipelines in minutes. Available as self-hosted or cloud service with premium features.",
+        "avatar": "https://avatars.githubusercontent.com/u/90726808?v=4",
+        "languages": {
+            "HTML": 3544125,
+            "Python": 738583,
+            "Dockerfile": 504,
+            "Shell": 74
+        },
+        "forks": 184,
+        "stars": 2063,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/elementary-data/elementary"
+    },
+    {
+        "title": "growthbook",
+        "desc": "Open Source Feature Flagging and A/B Testing Platform",
+        "avatar": "https://avatars.githubusercontent.com/u/65404594?v=4",
+        "languages": {
+            "TypeScript": 9069271,
+            "Python": 242572,
+            "SCSS": 136845,
+            "JavaScript": 29324,
+            "Jinja": 15735,
+            "Handlebars": 14785,
+            "Dockerfile": 4029,
+            "CSS": 1296,
+            "Shell": 1192
+        },
+        "forks": 558,
+        "stars": 6554,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/growthbook/growthbook"
+    },
+    {
+        "title": "hyperdx",
+        "desc": "Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by Clickhouse and OpenTelemetry.",
+        "avatar": "https://avatars.githubusercontent.com/u/130113031?v=4",
+        "languages": {
+            "TypeScript": 1646893,
+            "SCSS": 33701,
+            "Dockerfile": 14122,
+            "JavaScript": 12118,
+            "Go": 6730,
+            "Makefile": 4850,
+            "Python": 4553,
+            "Shell": 4322,
+            "CSS": 2105,
+            "HTML": 333
+        },
+        "forks": 250,
+        "stars": 7833,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/hyperdxio/hyperdx"
+    },
+    {
+        "title": "requestly",
+        "desc": "Local-first Developer Tool to Build, Test, Intercept & Mock API Requests. Requestly is a combination of REST API Client and HTTP Interceptor. It is simple, beautiful and powerful alternative to Postman, Insomnia, Bruno and Charles Proxy.",
+        "avatar": "https://avatars.githubusercontent.com/u/12287519?v=4",
+        "languages": {
+            "TypeScript": 3482216,
+            "JavaScript": 1886022,
+            "SCSS": 375220,
+            "CSS": 206937,
+            "HTML": 16470,
+            "Shell": 7433,
+            "Handlebars": 1212,
+            "Less": 337
+        },
+        "forks": 282,
+        "stars": 3414,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/requestly/requestly"
+    },
+    {
+        "title": "grai-core",
+        "desc": null,
+        "avatar": "https://avatars.githubusercontent.com/u/79798532?v=4",
+        "languages": {
+            "Python": 3114388,
+            "TypeScript": 1060527,
+            "HTML": 266086,
+            "Shell": 12130,
+            "Makefile": 5990,
+            "Dockerfile": 4717,
+            "JavaScript": 1210,
+            "CSS": 664,
+            "TSQL": 341
+        },
+        "forks": 21,
+        "stars": 304,
+        "issues": 17,
+        "goodFirstIssues": 0,
+        "ycBatch": 2022,
+        "url": "https://github.com/grai-io/grai-core"
+    },
+    {
+        "title": "lightly",
+        "desc": "A python library for self-supervised learning on images.",
+        "avatar": "https://avatars.githubusercontent.com/u/50146475?v=4",
+        "languages": {
+            "Python": 4067402,
+            "Makefile": 6102,
+            "Shell": 1045
+        },
+        "forks": 292,
+        "stars": 3381,
+        "issues": 30,
+        "goodFirstIssues": 4,
+        "ycBatch": 2021,
+        "url": "https://github.com/lightly-ai/lightly"
+    },
+    {
+        "title": "evidence",
+        "desc": "Business intelligence as code: build fast, interactive data visualizations in SQL and markdown",
+        "avatar": "https://avatars.githubusercontent.com/u/82418810?v=4",
+        "languages": {
+            "JavaScript": 1036523,
+            "Svelte": 817526,
+            "TypeScript": 144094,
+            "CSS": 20950,
+            "HTML": 5008
+        },
+        "forks": 255,
+        "stars": 5191,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/evidence-dev/evidence"
+    },
+    {
+        "title": "bytebot",
+        "desc": "Bytebot is the container for desktop agents.",
+        "avatar": "https://avatars.githubusercontent.com/u/154629106?v=4",
+        "languages": {
+            "TypeScript": 182221,
+            "Dockerfile": 12431,
+            "CSS": 10902,
+            "Shell": 6723,
+            "Scheme": 3812,
+            "JavaScript": 2186
+        },
+        "forks": 39,
+        "stars": 621,
+        "issues": 1,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/bytebot-ai/bytebot"
+    },
+    {
+        "title": "evidently",
+        "desc": "Evidently is ​​an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline. From tabular data to Gen AI. 100+ metrics.",
+        "avatar": "https://avatars.githubusercontent.com/u/75031056?v=4",
+        "languages": {
+            "Jupyter Notebook": 11601416,
+            "Python": 3276773,
+            "TypeScript": 262285,
+            "HTML": 3899,
+            "Makefile": 3344,
+            "CSS": 546,
+            "JavaScript": 409,
+            "Shell": 95
+        },
+        "forks": 675,
+        "stars": 6152,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/evidentlyai/evidently"
+    },
+    {
+        "title": "mergent-js",
+        "desc": "JavaScript / TypeScript library for the Mergent API.",
+        "avatar": "https://avatars.githubusercontent.com/u/59773996?v=4",
+        "languages": {
+            "TypeScript": 37072,
+            "JavaScript": 1014
+        },
+        "forks": 2,
+        "stars": 24,
+        "issues": 4,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/mergentlabs/mergent-js"
+    },
+    {
+        "title": "docs",
+        "desc": "Cloudanix Docs",
+        "avatar": "https://avatars.githubusercontent.com/u/43715237?v=4",
+        "languages": {},
+        "forks": 8,
+        "stars": 3,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/Cloudanix/docs"
+    },
+    {
+        "title": "enso",
+        "desc": "Enso Analytics is a self-service data prep and analysis platform designed for data teams.",
+        "avatar": "https://avatars.githubusercontent.com/u/17415943?v=4",
+        "languages": {
+            "Scala": 6649662,
+            "Java": 6433752,
+            "TypeScript": 5162767,
+            "Rust": 1928229,
+            "Vue": 628934,
+            "JavaScript": 116061,
+            "Python": 71901,
+            "HTML": 71892,
+            "Starlark": 45275,
+            "CSS": 38228,
+            "Shell": 6552,
+            "Dockerfile": 5753,
+            "C++": 4825,
+            "Nix": 4347,
+            "ANTLR": 4117,
+            "Haskell": 2689,
+            "Makefile": 824,
+            "PowerShell": 648,
+            "Batchfile": 453
+        },
+        "forks": 327,
+        "stars": 7403,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/enso-org/enso"
+    },
+    {
+        "title": "HyperAgent",
+        "desc": "AI Browser Automation",
+        "avatar": "https://avatars.githubusercontent.com/u/189776885?v=4",
+        "languages": {
+            "TypeScript": 149760,
+            "JavaScript": 29181,
+            "Shell": 129
+        },
+        "forks": 47,
+        "stars": 422,
+        "issues": 13,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/hyperbrowserai/HyperAgent"
+    },
+    {
+        "title": "lago",
+        "desc": "Open Source Metering and Usage Based Billing API ⭐️ Consumption tracking, Subscription management, Pricing iterations, Payment orchestration & Revenue analytics",
+        "avatar": "https://avatars.githubusercontent.com/u/75492405?v=4",
+        "languages": {
+            "Go": 76712,
+            "Shell": 13755,
+            "Dockerfile": 3145,
+            "Procfile": 137
+        },
+        "forks": 374,
+        "stars": 7646,
+        "issues": 17,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/getlago/lago"
+    },
+    {
+        "title": "prisma-auth",
+        "desc": "Declarative Prisma Authorization layer",
+        "avatar": "https://avatars.githubusercontent.com/u/63299074?v=4",
+        "languages": {
+            "TypeScript": 62407,
+            "PEG.js": 1122,
+            "JavaScript": 276
+        },
+        "forks": 2,
+        "stars": 81,
+        "issues": 3,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/joindeed/prisma-auth"
+    },
+    {
+        "title": "lea",
+        "desc": "🏃‍♀️ Minimalist SQL orchestrator",
+        "avatar": "https://avatars.githubusercontent.com/u/89984339?v=4",
+        "languages": {
+            "Python": 118102,
+            "Jinja": 443,
+            "Makefile": 43
+        },
+        "forks": 8,
+        "stars": 244,
+        "issues": 15,
+        "goodFirstIssues": 4,
+        "ycBatch": 2021,
+        "url": "https://github.com/carbonfact/lea"
+    },
+    {
+        "title": "argo-workflows-ci-example",
+        "desc": "An example CI leveraging Argo Workflows",
+        "avatar": "https://avatars.githubusercontent.com/u/61849330?v=4",
+        "languages": {
+            "Python": 19116,
+            "Shell": 1604,
+            "HTML": 467,
+            "Dockerfile": 56
+        },
+        "forks": 14,
+        "stars": 52,
+        "issues": 3,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/pipekit/argo-workflows-ci-example"
+    },
+    {
+        "title": "Superwall-iOS",
+        "desc": "Remotely configure every aspect of your paywall and double your revenue.",
+        "avatar": "https://avatars.githubusercontent.com/u/88794805?v=4",
+        "languages": {
+            "Swift": 1819598,
+            "Shell": 4211,
+            "Ruby": 2182,
+            "Python": 541
+        },
+        "forks": 35,
+        "stars": 113,
+        "issues": 9,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/superwall/Superwall-iOS"
+    },
+    {
+        "title": "gluestick",
+        "desc": "A small Python module containing quick utility functions for standard ETL processes.",
+        "avatar": "https://avatars.githubusercontent.com/u/65564016?v=4",
+        "languages": {
+            "Python": 62335
+        },
+        "forks": 8,
+        "stars": 35,
+        "issues": 9,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/hotgluexyz/gluestick"
+    },
+    {
+        "title": "artillery",
+        "desc": "The complete load testing platform. Everything you need for production-grade load tests. Serverless & distributed. Load test with Playwright. Load test HTTP APIs, GraphQL, WebSocket, and more. Use any Node.js module.",
+        "avatar": "https://avatars.githubusercontent.com/u/12608521?v=4",
+        "languages": {
+            "JavaScript": 1111629,
+            "TypeScript": 60058,
+            "Shell": 21779,
+            "Dockerfile": 2178,
+            "Roff": 1119,
+            "Makefile": 166,
+            "Batchfile": 92
+        },
+        "forks": 527,
+        "stars": 8417,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/artilleryio/artillery"
+    },
+    {
+        "title": "openlayer-python",
+        "desc": "The official Python library for Openlayer, the Continuous Model Improvement Platform for AI. 📈",
+        "avatar": "https://avatars.githubusercontent.com/u/78678711?v=4",
+        "languages": {
+            "Python": 829672,
+            "Shell": 3620,
+            "Dockerfile": 332,
+            "Ruby": 12
+        },
+        "forks": 1,
+        "stars": 10,
+        "issues": 1,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/openlayer-ai/openlayer-python"
+    },
+    {
+        "title": "ollama",
+        "desc": "Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, Mistral Small 3.1 and other large language models.",
+        "avatar": "https://avatars.githubusercontent.com/u/151674099?v=4",
+        "languages": {
+            "Go": 1832620,
+            "C": 46582,
+            "Shell": 21285,
+            "TypeScript": 17893,
+            "PowerShell": 12190,
+            "Inno Setup": 7568,
+            "CMake": 5914,
+            "Dockerfile": 4880,
+            "Objective-C": 1285,
+            "CSS": 518,
+            "JavaScript": 248,
+            "HTML": 123
+        },
+        "forks": 11737,
+        "stars": 140369,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/ollama/ollama"
+    },
+    {
+        "title": "open-saas",
+        "desc": "A free, open-source SaaS app starter for React & Node.js with superpowers. Full-featured. Community-driven.",
+        "avatar": "https://avatars.githubusercontent.com/u/55102317?v=4",
+        "languages": {
+            "TypeScript": 433549,
+            "MDX": 169140,
+            "JavaScript": 20065,
+            "Astro": 13139,
+            "Shell": 6777,
+            "CSS": 4701
+        },
+        "forks": 1113,
+        "stars": 10882,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/wasp-lang/open-saas"
+    },
+    {
+        "title": "svix-webhooks",
+        "desc": "The open source and enterprise-ready webhooks service 🦀",
+        "avatar": "https://avatars.githubusercontent.com/u/80175132?v=4",
+        "languages": {
+            "Rust": 1456312,
+            "Java": 632376,
+            "C#": 479597,
+            "Ruby": 321015,
+            "Python": 297675,
+            "TypeScript": 269322,
+            "Go": 230862,
+            "Kotlin": 212031,
+            "Jinja": 140127,
+            "PHP": 12293,
+            "Dockerfile": 5819,
+            "Shell": 5189,
+            "JavaScript": 4415,
+            "HTML": 837,
+            "Just": 149
+        },
+        "forks": 188,
+        "stars": 2684,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/svix/svix-webhooks"
+    },
+    {
+        "title": "infracost",
+        "desc": "Cloud cost estimates for Terraform in pull requests💰📉 Shift FinOps Left!",
+        "avatar": "https://avatars.githubusercontent.com/u/68374653?v=4",
+        "languages": {
+            "Go": 3602283,
+            "Shell": 50195,
+            "Makefile": 8390,
+            "Dockerfile": 2764,
+            "HCL": 520
+        },
+        "forks": 596,
+        "stars": 11491,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/infracost/infracost"
+    },
+    {
+        "title": "chatwoot",
+        "desc": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+        "avatar": "https://avatars.githubusercontent.com/u/23416667?v=4",
+        "languages": {
+            "Ruby": 3518280,
+            "Vue": 2671931,
+            "JavaScript": 2309194,
+            "HTML": 178752,
+            "SCSS": 103280,
+            "Shell": 40275,
+            "Liquid": 11903,
+            "TypeScript": 5496,
+            "Dockerfile": 5096,
+            "Makefile": 1114,
+            "Procfile": 283
+        },
+        "forks": 4346,
+        "stars": 23600,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/chatwoot/chatwoot"
+    },
+    {
+        "title": "lunatic",
+        "desc": "Lunatic is an Erlang-inspired runtime for WebAssembly",
+        "avatar": "https://avatars.githubusercontent.com/u/21106782?v=4",
+        "languages": {
+            "Rust": 500264,
+            "WebAssembly": 8989
+        },
+        "forks": 137,
+        "stars": 4726,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/lunatic-solutions/lunatic"
+    },
+    {
+        "title": "Summer2025-Internships",
+        "desc": "Collection of Summer 2025 tech internships!",
+        "avatar": "https://avatars.githubusercontent.com/u/63759855?v=4",
+        "languages": {},
+        "forks": 2907,
+        "stars": 37691,
+        "issues": 10,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/SimplifyJobs/Summer2025-Internships"
+    },
+    {
+        "title": "text2sql",
+        "desc": "Text2SQL Engine with advanced RAG",
+        "avatar": "https://avatars.githubusercontent.com/u/69847034?v=4",
+        "languages": {
+            "Python": 157991,
+            "Shell": 1062,
+            "Dockerfile": 797
+        },
+        "forks": 2,
+        "stars": 29,
+        "issues": 2,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/datrics-ai/text2sql"
+    },
+    {
+        "title": "doctr",
+        "desc": "docTR (Document Text Recognition) - a seamless, high-performing & accessible library for OCR-related tasks powered by Deep Learning.",
+        "avatar": "https://avatars.githubusercontent.com/u/68231970?v=4",
+        "languages": {
+            "Python": 1577421,
+            "Dockerfile": 1942,
+            "Makefile": 1574
+        },
+        "forks": 502,
+        "stars": 4662,
+        "issues": 30,
+        "goodFirstIssues": 2,
+        "ycBatch": 2021,
+        "url": "https://github.com/mindee/doctr"
+    },
+    {
+        "title": "fintoc-python",
+        "desc": "The official Python library for the Fintoc API 🐍",
+        "avatar": "https://avatars.githubusercontent.com/u/62265373?v=4",
+        "languages": {
+            "Python": 129593,
+            "Shell": 1199,
+            "Makefile": 949
+        },
+        "forks": 9,
+        "stars": 79,
+        "issues": 2,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/fintoc-com/fintoc-python"
+    },
+    {
+        "title": "laudspeaker",
+        "desc": "📢 Laudspeaker is an Open Source Customer Engagement and Product Onboarding Platform. Open Source alternative to  Braze /  One Signal / Customer Io / Appcues / Pendo . Use Laudspeaker to design product onboarding flows and send product and event triggered emails, sms, push and more. ",
+        "avatar": "https://avatars.githubusercontent.com/u/108190953?v=4",
+        "languages": {
+            "TypeScript": 4739432,
+            "JavaScript": 297161,
+            "CSS": 25554,
+            "Dockerfile": 3586,
+            "Shell": 2891,
+            "HTML": 985,
+            "Procfile": 448
+        },
+        "forks": 171,
+        "stars": 2354,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/laudspeaker/laudspeaker"
+    },
+    {
+        "title": "triplit",
+        "desc": "A full-stack, syncing database that runs on both server and client. Pluggable storage (indexeddb, sqlite, durable objects), syncs over websockets, and works with your favorite framework (React, Solid, Vue, Svelte).",
+        "avatar": "https://avatars.githubusercontent.com/u/61718420?v=4",
+        "languages": {
+            "TypeScript": 2562958,
+            "MDX": 253907,
+            "JavaScript": 48810,
+            "CSS": 18476,
+            "HTML": 4052,
+            "Svelte": 3935,
+            "Vue": 3854,
+            "Shell": 1034,
+            "Dockerfile": 308
+        },
+        "forks": 82,
+        "stars": 2708,
+        "issues": 18,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/aspen-cloud/triplit"
+    },
+    {
+        "title": "charts",
+        "desc": "Helm Charts for SigNoz",
+        "avatar": "https://avatars.githubusercontent.com/u/76905799?v=4",
+        "languages": {
+            "Smarty": 67714,
+            "Mustache": 27077,
+            "Makefile": 1321
+        },
+        "forks": 98,
+        "stars": 87,
+        "issues": 30,
+        "goodFirstIssues": 7,
+        "ycBatch": 2021,
+        "url": "https://github.com/SigNoz/charts"
+    },
+    {
+        "title": "next-img",
+        "desc": "A Next.js plugin for embedding optimized images.",
+        "avatar": "https://avatars.githubusercontent.com/u/50487684?v=4",
+        "languages": {
+            "JavaScript": 25899
+        },
+        "forks": 11,
+        "stars": 272,
+        "issues": 6,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/humaans/next-img"
+    },
+    {
+        "title": "bridge-manager",
+        "desc": "A tool for running self-hosted bridges with the Beeper Matrix server.",
+        "avatar": "https://avatars.githubusercontent.com/u/74791520?v=4",
+        "languages": {
+            "Go": 89874,
+            "Shell": 1452,
+            "Dockerfile": 892
+        },
+        "forks": 65,
+        "stars": 1012,
+        "issues": 15,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/beeper/bridge-manager"
+    },
+    {
+        "title": "docs",
+        "desc": "Dyte's documentation portal built with Docusaurus.",
+        "avatar": "https://avatars.githubusercontent.com/u/102591504?v=4",
+        "languages": {
+            "JavaScript": 125781,
+            "TypeScript": 83877,
+            "CSS": 44675,
+            "HTML": 9658,
+            "MDX": 6367,
+            "Python": 3917,
+            "Shell": 494
+        },
+        "forks": 172,
+        "stars": 199,
+        "issues": 9,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/dyte-io/docs"
+    },
+    {
+        "title": "ios-metrics-sdk",
+        "desc": "iOS client library for Promoted.ai metrics tracking.",
+        "avatar": "https://avatars.githubusercontent.com/u/56567857?v=4",
+        "languages": {
+            "Swift": 733495,
+            "Ruby": 5542,
+            "Shell": 777,
+            "C": 213
+        },
+        "forks": 2,
+        "stars": 7,
+        "issues": 4,
+        "goodFirstIssues": 0,
+        "ycBatch": 2021,
+        "url": "https://github.com/promotedai/ios-metrics-sdk"
+    },
+    {
+        "title": "action-hasura-change-summary",
+        "desc": "GitHub Action to generate readable Hasura metadata change summaries.",
+        "avatar": "https://avatars.githubusercontent.com/u/63974706?v=4",
+        "languages": {
+            "TypeScript": 80337,
+            "JavaScript": 173
+        },
+        "forks": 1,
+        "stars": 44,
+        "issues": 13,
+        "goodFirstIssues": 0,
+        "ycBatch": 2020,
+        "url": "https://github.com/Fieldguide/action-hasura-change-summary"
+    },
+    {
+        "title": "mito",
+        "desc": "Jupyter extensions that help you write code faster: Context aware AI Chat, Autocomplete, and Spreadsheet",
+        "avatar": "https://avatars.githubusercontent.com/u/55325926?v=4",
+        "languages": {
+            "Jupyter Notebook": 19558910,
+            "Python": 3236505,
+            "TypeScript": 3206914,
+            "CSS": 185741,
+            "JavaScript": 13979,
+            "Shell": 5796,
+            "Batchfile": 947,
+            "HTML": 700
+        },
+        "forks": 178,
+        "stars": 2457,
+        "issues": 30,
+        "goodFirstIssues": 1,
+        "ycBatch": 2020,
+        "url": "https://github.com/mito-ds/mito"
+    },
+    {
+        "title": "auth",
+        "desc": "A JWT based API for managing users and issuing JWT tokens",
+        "avatar": "https://avatars.githubusercontent.com/u/54469796?v=4",
+        "languages": {
+            "Go": 1447686,
+            "PLpgSQL": 6444,
+            "Makefile": 3161,
+            "Shell": 1903,
+            "Dockerfile": 902
+        },
+        "forks": 450,
+        "stars": 1891,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2020,
+        "url": "https://github.com/supabase/auth"
+    },
+    {
+        "title": "docs",
+        "desc": "Welcome to the Seam Docs.",
+        "avatar": "https://avatars.githubusercontent.com/u/63884939?v=4",
+        "languages": {
+            "TypeScript": 41946,
+            "Handlebars": 11162,
+            "Dockerfile": 1834,
+            "Java": 561,
+            "C#": 556,
+            "Go": 525,
+            "Python": 261,
+            "JavaScript": 246,
+            "Ruby": 240,
+            "PHP": 227,
+            "Shell": 216
+        },
+        "forks": 11,
+        "stars": 8,
+        "issues": 12,
+        "goodFirstIssues": 0,
+        "ycBatch": 2020,
+        "url": "https://github.com/seamapi/docs"
+    },
+    {
+        "title": "questdb",
+        "desc": "QuestDB is a high performance, open-source, time-series database",
+        "avatar": "https://avatars.githubusercontent.com/u/52297642?v=4",
+        "languages": {
+            "Java": 41846228,
+            "C++": 2301824,
+            "Rust": 1129745,
+            "C": 337963,
+            "Assembly": 333093,
+            "Python": 30139,
+            "JavaScript": 26291,
+            "CMake": 23939,
+            "Shell": 21773,
+            "C#": 13428,
+            "PHP": 11038,
+            "HTML": 5333,
+            "Dockerfile": 4445,
+            "R": 887,
+            "Makefile": 816,
+            "DTrace": 300,
+            "RenderScript": 1
+        },
+        "forks": 1238,
+        "stars": 15161,
+        "issues": 30,
+        "goodFirstIssues": 1,
+        "ycBatch": 2020,
+        "url": "https://github.com/questdb/questdb"
+    },
+    {
+        "title": "lightdash",
+        "desc": "Self-serve BI to 10x your data team ⚡️",
+        "avatar": "https://avatars.githubusercontent.com/u/65912827?v=4",
+        "languages": {
+            "TypeScript": 13030620,
+            "HTML": 1049156,
+            "JavaScript": 47660,
+            "Shell": 23275,
+            "CSS": 9142,
+            "MDX": 1088
+        },
+        "forks": 547,
+        "stars": 4707,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2020,
+        "url": "https://github.com/lightdash/lightdash"
+    },
+    {
+        "title": "docs",
+        "desc": "SuperTokens documentation",
+        "avatar": "https://avatars.githubusercontent.com/u/50478857?v=4",
+        "languages": {
+            "TypeScript": 471500,
+            "CSS": 28079,
+            "SCSS": 16975,
+            "JavaScript": 5644,
+            "Shell": 2590,
+            "Dockerfile": 2583,
+            "HTML": 1841,
+            "Ruby": 1355,
+            "Kotlin": 1151,
+            "Swift": 1127,
+            "C#": 135,
+            "Dart": 68,
+            "Objective-C": 38
+        },
+        "forks": 76,
+        "stars": 45,
+        "issues": 18,
+        "goodFirstIssues": 1,
+        "ycBatch": 2020,
+        "url": "https://github.com/supertokens/docs"
+    },
+    {
+        "title": "increase-python",
+        "desc": "Python bindings for the Increase REST API",
+        "avatar": "https://avatars.githubusercontent.com/u/106408779?v=4",
+        "languages": {
+            "Python": 3495570,
+            "Shell": 3618,
+            "Dockerfile": 332,
+            "Ruby": 12
+        },
+        "forks": 1,
+        "stars": 10,
+        "issues": 0,
+        "goodFirstIssues": 0,
+        "ycBatch": 2020,
+        "url": "https://github.com/Increase/increase-python"
+    },
+    {
+        "title": "jitsu",
+        "desc": "Jitsu is an open-source Segment alternative. Fully-scriptable data ingestion engine for modern data teams. Set-up a real-time data pipeline in minutes, not days",
+        "avatar": "https://avatars.githubusercontent.com/u/49232250?v=4",
+        "languages": {
+            "TypeScript": 4063725,
+            "JavaScript": 15806,
+            "CSS": 10411,
+            "Shell": 9207,
+            "HTML": 7005,
+            "Dockerfile": 3684
+        },
+        "forks": 313,
+        "stars": 4293,
+        "issues": 10,
+        "goodFirstIssues": 1,
+        "ycBatch": 2020,
+        "url": "https://github.com/jitsucom/jitsu"
+    },
+    {
+        "title": "ukama",
+        "desc": "Ukama's open-source cellular network",
+        "avatar": "https://avatars.githubusercontent.com/u/18661062?v=4",
+        "languages": {
+            "Go": 3752445,
+            "TypeScript": 1733796,
+            "C": 1522207,
+            "Shell": 266634,
+            "Python": 124436,
+            "Makefile": 108885,
+            "Dockerfile": 25679,
+            "CSS": 7273,
+            "HTML": 6480,
+            "JavaScript": 5537,
+            "Awk": 581
+        },
+        "forks": 18,
+        "stars": 119,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2020,
+        "url": "https://github.com/ukama/ukama"
+    },
+    {
+        "title": "jet-bridge",
+        "desc": "Jet Admin – No-code Business App builder",
+        "avatar": "https://avatars.githubusercontent.com/u/42719136?v=4",
+        "languages": {
+            "Python": 510009,
+            "HTML": 92623,
+            "Shell": 13360,
+            "Dockerfile": 357,
+            "Procfile": 312
+        },
+        "forks": 156,
+        "stars": 1725,
+        "issues": 7,
+        "goodFirstIssues": 0,
+        "ycBatch": 2020,
+        "url": "https://github.com/jet-admin/jet-bridge"
+    },
+    {
+        "title": "airbyte",
+        "desc": "The leading data integration platform for ETL / ELT data pipelines from APIs, databases & files to data warehouses, data lakes & data lakehouses. Both self-hosted and Cloud-hosted.",
+        "avatar": "https://avatars.githubusercontent.com/u/59758427?v=4",
+        "languages": {
+            "Python": 12895063,
+            "Kotlin": 7441014,
+            "Java": 3058918,
+            "JavaScript": 156222,
+            "Shell": 89676,
+            "MDX": 44954,
+            "Jinja": 39110,
+            "PLpgSQL": 27167,
+            "Dockerfile": 21948,
+            "CSS": 21547,
+            "PLSQL": 10497,
+            "TSQL": 5665,
+            "Makefile": 2598,
+            "HTML": 2452,
+            "Groovy": 1778
+        },
+        "forks": 4515,
+        "stars": 18129,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2020,
+        "url": "https://github.com/airbytehq/airbyte"
+    },
+    {
+        "title": "voice-agent-demo",
+        "desc": null,
+        "avatar": "https://avatars.githubusercontent.com/u/88795516?v=4",
+        "languages": {
+            "JavaScript": 45516,
+            "Python": 6784,
+            "TypeScript": 6143,
+            "CSS": 2857,
+            "HTML": 304
+        },
+        "forks": 5,
+        "stars": 22,
+        "issues": 0,
+        "goodFirstIssues": 0,
+        "ycBatch": 2020,
+        "url": "https://github.com/recallai/voice-agent-demo"
+    },
+    {
+        "title": "script-commands",
+        "desc": "Script Commands let you tailor Raycast to your needs. Think of them as little productivity boosts throughout your day.",
+        "avatar": "https://avatars.githubusercontent.com/u/58117316?v=4",
+        "languages": {
+            "Shell": 466584,
+            "AppleScript": 169574,
+            "Python": 115772,
+            "Swift": 110205,
+            "JavaScript": 60964,
+            "Ruby": 21918,
+            "Makefile": 1028,
+            "PHP": 791
+        },
+        "forks": 920,
+        "stars": 6295,
+        "issues": 0,
+        "goodFirstIssues": 0,
+        "ycBatch": 2020,
+        "url": "https://github.com/raycast/script-commands"
+    },
+    {
+        "title": "datago",
+        "desc": "A Rust-based data loader which can be used from Python. Processing data per sample at GB/s speeds, covering various use cases eventually.",
+        "avatar": "https://avatars.githubusercontent.com/u/55580714?v=4",
+        "languages": {
+            "Rust": 89268,
+            "Python": 22300
+        },
+        "forks": 1,
+        "stars": 94,
+        "issues": 4,
+        "goodFirstIssues": 0,
+        "ycBatch": 2020,
+        "url": "https://github.com/Photoroom/datago"
+    },
+    {
+        "title": "buildbuddy",
+        "desc": "BuildBuddy is an open source Bazel build event viewer, result store, remote cache, and remote build execution platform.",
+        "avatar": "https://avatars.githubusercontent.com/u/59430608?v=4",
+        "languages": {
+            "Go": 8196412,
+            "TypeScript": 2940506,
+            "Starlark": 1040429,
+            "CSS": 366349,
+            "MDX": 137678,
+            "Python": 66605,
+            "Shell": 52772,
+            "Dockerfile": 24002,
+            "JavaScript": 19380,
+            "HCL": 10091,
+            "HTML": 2093
+        },
+        "forks": 104,
+        "stars": 649,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2020,
+        "url": "https://github.com/buildbuddy-io/buildbuddy"
+    },
+    {
+        "title": "querypie-mcp-server",
+        "desc": "The MCP server for QueryPie for administrators to manage it.",
+        "avatar": "https://avatars.githubusercontent.com/u/177301290?v=4",
+        "languages": {
+            "Go": 22476,
+            "Shell": 2127,
+            "Dockerfile": 637
+        },
+        "forks": 0,
+        "stars": 8,
+        "issues": 0,
+        "goodFirstIssues": 0,
+        "ycBatch": 2020,
+        "url": "https://github.com/querypie/querypie-mcp-server"
+    },
+    {
+        "title": "hotrod",
+        "desc": "Demo app with instrumentation",
+        "avatar": "https://avatars.githubusercontent.com/u/57196635?v=4",
+        "languages": {
+            "Go": 184445,
+            "TypeScript": 29922,
+            "JavaScript": 2648,
+            "Shell": 2038,
+            "Makefile": 1924,
+            "Starlark": 1288,
+            "CSS": 923,
+            "HTML": 872,
+            "Dockerfile": 123
+        },
+        "forks": 9,
+        "stars": 16,
+        "issues": 7,
+        "goodFirstIssues": 0,
+        "ycBatch": 2020,
+        "url": "https://github.com/signadot/hotrod"
+    },
+    {
+        "title": "corrosion",
+        "desc": "Gossip-based service discovery (and more) for large distributed systems.",
+        "avatar": "https://avatars.githubusercontent.com/u/22525303?v=4",
+        "languages": {
+            "Rust": 1300653,
+            "Shell": 2712,
+            "Nix": 2361,
+            "RenderScript": 1
+        },
+        "forks": 35,
+        "stars": 934,
+        "issues": 30,
+        "goodFirstIssues": 1,
+        "ycBatch": 2020,
+        "url": "https://github.com/superfly/corrosion"
+    },
+    {
+        "title": "cog",
+        "desc": "Containers for machine learning",
+        "avatar": "https://avatars.githubusercontent.com/u/60410876?v=4",
+        "languages": {
+            "Go": 468281,
+            "Python": 444226,
+            "Shell": 8580
+        },
+        "forks": 602,
+        "stars": 8592,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2020,
+        "url": "https://github.com/replicate/cog"
+    },
+    {
+        "title": "mindsdb",
+        "desc": "AI's query engine - Platform for building AI that can learn and answer questions over large scale federated data.",
+        "avatar": "https://avatars.githubusercontent.com/u/31035808?v=4",
+        "languages": {
+            "Python": 6562722,
+            "Dockerfile": 5535,
+            "HCL": 3906,
+            "HTML": 1190,
+            "Makefile": 1015,
+            "Mako": 540,
+            "Shell": 196
+        },
+        "forks": 4961,
+        "stars": 27932,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2020,
+        "url": "https://github.com/mindsdb/mindsdb"
+    },
+    {
+        "title": "dbt-expectations",
+        "desc": null,
+        "avatar": "https://avatars.githubusercontent.com/u/70387245?v=4",
+        "languages": {
+            "Shell": 534
+        },
+        "forks": 5,
+        "stars": 66,
+        "issues": 3,
+        "goodFirstIssues": 0,
+        "ycBatch": 2020,
+        "url": "https://github.com/metaplane/dbt-expectations"
+    },
+    {
+        "title": "autocomplete",
+        "desc": "IDE-style autocomplete for your existing terminal & shell",
+        "avatar": "https://avatars.githubusercontent.com/u/68212401?v=4",
+        "languages": {
+            "TypeScript": 102746938,
+            "Dockerfile": 814,
+            "JavaScript": 64,
+            "Shell": 58
+        },
+        "forks": 5519,
+        "stars": 24910,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2020,
+        "url": "https://github.com/withfig/autocomplete"
+    },
+    {
+        "title": "JamPadCompose",
+        "desc": null,
+        "avatar": "https://avatars.githubusercontent.com/u/51542573?v=4",
+        "languages": {
+            "Kotlin": 111017,
+            "Swift": 580,
+            "Shell": 579,
+            "JSON": 463
+        },
+        "forks": 1,
+        "stars": 21,
+        "issues": 0,
+        "goodFirstIssues": 0,
+        "ycBatch": 2020,
+        "url": "https://github.com/piepacker/JamPadCompose"
+    },
+    {
+        "title": "pulse-data",
+        "desc": "A data platform for criminal justice analysis and product development [public mirror]",
+        "avatar": "https://avatars.githubusercontent.com/u/35868122?v=4",
+        "languages": {
+            "Python": 33992347,
+            "TypeScript": 840836,
+            "Shell": 311475,
+            "LookML": 305503,
+            "HCL": 234842,
+            "JavaScript": 220323,
+            "Jinja": 38830,
+            "CSS": 8770,
+            "Dockerfile": 7327,
+            "Mako": 3180,
+            "HTML": 2118
+        },
+        "forks": 25,
+        "stars": 40,
+        "issues": 11,
+        "goodFirstIssues": 0,
+        "ycBatch": 2019,
+        "url": "https://github.com/Recidiviz/pulse-data"
+    },
+    {
+        "title": "rainbow",
+        "desc": "🌈‒ the Ethereum wallet that lives in your pocket ",
+        "avatar": "https://avatars.githubusercontent.com/u/48327834?v=4",
+        "languages": {
+            "TypeScript": 6365146,
+            "JavaScript": 562376,
+            "Swift": 88977,
+            "Objective-C": 67677,
+            "Java": 47623,
+            "Shell": 18522,
+            "Ruby": 11679,
+            "Objective-C++": 11137,
+            "CSS": 9875,
+            "Kotlin": 5498,
+            "Starlark": 2664,
+            "C": 290
+        },
+        "forks": 660,
+        "stars": 4087,
+        "issues": 20,
+        "goodFirstIssues": 0,
+        "ycBatch": 2019,
+        "url": "https://github.com/rainbow-me/rainbow"
+    },
+    {
+        "title": "openreplay",
+        "desc": "Session replay, cobrowsing and product analytics you can self-host. Ideal for reproducing issues and iterating on your product.",
+        "avatar": "https://avatars.githubusercontent.com/u/81692971?v=4",
+        "languages": {
+            "TypeScript": 5518889,
+            "Python": 2036536,
+            "JavaScript": 928747,
+            "Go": 901772,
+            "PLpgSQL": 409322,
+            "HTML": 345263,
+            "Jupyter Notebook": 296069,
+            "Mustache": 272730,
+            "CSS": 213580,
+            "Shell": 95169,
+            "Smarty": 89355,
+            "Cython": 88823,
+            "Ruby": 21291,
+            "Kotlin": 17706,
+            "Dockerfile": 12857,
+            "Makefile": 10978,
+            "Swift": 10008,
+            "Objective-C": 4478,
+            "Objective-C++": 1127,
+            "C": 103
+        },
+        "forks": 581,
+        "stars": 10078,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2019,
+        "url": "https://github.com/openreplay/openreplay"
+    },
+    {
+        "title": "pluto",
+        "desc": "Pluto is a design system used to build accessible, consistent, and high quality public-facing experiences at Localyze.",
+        "avatar": "https://avatars.githubusercontent.com/u/63723296?v=4",
+        "languages": {
+            "TypeScript": 489158,
+            "JavaScript": 19752,
+            "HTML": 3267,
+            "MDX": 1620,
+            "Handlebars": 1152,
+            "Dockerfile": 811,
+            "Shell": 260
+        },
+        "forks": 1,
+        "stars": 4,
+        "issues": 4,
+        "goodFirstIssues": 0,
+        "ycBatch": 2019,
+        "url": "https://github.com/Localitos/pluto"
+    },
+    {
+        "title": "embrace-android-sdk",
+        "desc": "Embrace's Android SDK built on OpenTelemetry",
+        "avatar": "https://avatars.githubusercontent.com/u/8295703?v=4",
+        "languages": {
+            "Kotlin": 3314923,
+            "C": 125256,
+            "Java": 98256,
+            "C++": 7027,
+            "CMake": 4920,
+            "Smali": 3407,
+            "TypeScript": 2617,
+            "Makefile": 327,
+            "JavaScript": 296
+        },
+        "forks": 15,
+        "stars": 157,
+        "issues": 7,
+        "goodFirstIssues": 0,
+        "ycBatch": 2019,
+        "url": "https://github.com/embrace-io/embrace-android-sdk"
+    },
+    {
+        "title": "method-node",
+        "desc": "Node.js library for the Method API",
+        "avatar": "https://avatars.githubusercontent.com/u/66761576?v=4",
+        "languages": {
+            "TypeScript": 228808,
+            "JavaScript": 2327
+        },
+        "forks": 4,
+        "stars": 4,
+        "issues": 4,
+        "goodFirstIssues": 0,
+        "ycBatch": 2019,
+        "url": "https://github.com/MethodFi/method-node"
+    },
+    {
+        "title": "courier-node",
+        "desc": "A node.js module for communicating with the Courier REST API.",
+        "avatar": "https://avatars.githubusercontent.com/u/45976574?v=4",
+        "languages": {
+            "TypeScript": 485586,
+            "JavaScript": 3325
+        },
+        "forks": 9,
+        "stars": 63,
+        "issues": 4,
+        "goodFirstIssues": 0,
+        "ycBatch": 2019,
+        "url": "https://github.com/trycourier/courier-node"
+    },
+    {
+        "title": "bun",
+        "desc": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+        "avatar": "https://avatars.githubusercontent.com/u/108928776?v=4",
+        "languages": {
+            "Zig": 22571814,
+            "C++": 8019252,
+            "TypeScript": 2925225,
+            "C": 1053943,
+            "JavaScript": 488525,
+            "CMake": 136953,
+            "Shell": 107459,
+            "Python": 99304,
+            "Makefile": 84615,
+            "Objective-C": 41850,
+            "CSS": 39855,
+            "Rust": 31216,
+            "Perl": 30364,
+            "HTML": 29322,
+            "PowerShell": 27793,
+            "Dockerfile": 18861,
+            "Ruby": 14292,
+            "Svelte": 7184,
+            "Linker Script": 6073,
+            "MDX": 864,
+            "AMPL": 112
+        },
+        "forks": 3071,
+        "stars": 78004,
+        "issues": 30,
+        "goodFirstIssues": 1,
+        "ycBatch": 2019,
+        "url": "https://github.com/oven-sh/bun"
+    },
+    {
+        "title": "minidyn",
+        "desc": "A go library for testing Amazon DynamoDB.",
+        "avatar": "https://avatars.githubusercontent.com/u/88005013?v=4",
+        "languages": {
+            "Go": 444788,
+            "Shell": 1708
+        },
+        "forks": 14,
+        "stars": 25,
+        "issues": 20,
+        "goodFirstIssues": 0,
+        "ycBatch": 2019,
+        "url": "https://github.com/truora/minidyn"
+    },
+    {
+        "title": "arlo",
+        "desc": null,
+        "avatar": "https://avatars.githubusercontent.com/u/44530793?v=4",
+        "languages": {
+            "Python": 2722163,
+            "TypeScript": 1303887,
+            "JavaScript": 49369,
+            "HTML": 5449,
+            "CSS": 3906,
+            "Makefile": 2332,
+            "Shell": 2001,
+            "Procfile": 911,
+            "Mako": 525
+        },
+        "forks": 26,
+        "stars": 143,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2019,
+        "url": "https://github.com/votingworks/arlo"
+    },
+    {
+        "title": "rune",
+        "desc": "Build multiplayer web games played by millions! 👾 You focus on your game, Rune handles everything else, incl. backend and networking 🚀 Make your game using JavaScript / TypeScript and any frontend web framework such as React, Svelte, Vue, Threejs, PixiJS, Phaser. You can even use plain HTML and CSS. Perfect for web devs interested in gamedev.",
+        "avatar": "https://avatars.githubusercontent.com/u/49489660?v=4",
+        "languages": {
+            "TypeScript": 521751,
+            "JavaScript": 56332,
+            "CSS": 21260,
+            "HTML": 7953,
+            "Svelte": 5606,
+            "Vue": 3044,
+            "Shell": 811
+        },
+        "forks": 33,
+        "stars": 367,
+        "issues": 1,
+        "goodFirstIssues": 0,
+        "ycBatch": 2019,
+        "url": "https://github.com/rune/rune"
+    },
+    {
+        "title": "glide-data-grid",
+        "desc": "🚀 Glide Data Grid is a no compromise, outrageously react fast data grid with rich rendering, first class accessibility, and full TypeScript support.",
+        "avatar": "https://avatars.githubusercontent.com/u/30638520?v=4",
+        "languages": {
+            "TypeScript": 1550060,
+            "Shell": 4299,
+            "CSS": 2903,
+            "HTML": 2451,
+            "JavaScript": 1387,
+            "Dockerfile": 739
+        },
+        "forks": 335,
+        "stars": 4370,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2019,
+        "url": "https://github.com/glideapps/glide-data-grid"
+    },
+    {
+        "title": "dagger",
+        "desc": "An open-source runtime for composable workflows. Great for AI agents and CI/CD.",
+        "avatar": "https://avatars.githubusercontent.com/u/78824383?v=4",
+        "languages": {
+            "Go": 4526462,
+            "C#": 505087,
+            "TypeScript": 244707,
+            "Python": 228323,
+            "Java": 198217,
+            "Elixir": 158250,
+            "PHP": 148812,
+            "Rust": 122350,
+            "Shell": 19511,
+            "Groovy": 17177,
+            "PowerShell": 15713,
+            "HTML": 12172,
+            "CSS": 6569,
+            "Dockerfile": 1979,
+            "Smarty": 1892,
+            "JavaScript": 1845
+        },
+        "forks": 724,
+        "stars": 13702,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2019,
+        "url": "https://github.com/dagger/dagger"
+    },
+    {
+        "title": "deeplake",
+        "desc": "Database for AI. Store Vectors, Images, Texts, Videos, etc. Use with LLMs/LangChain. Store, query, version, & visualize any AI data. Stream data in real-time to PyTorch/TensorFlow. https://activeloop.ai",
+        "avatar": "https://avatars.githubusercontent.com/u/34816118?v=4",
+        "languages": {
+            "Python": 418899
+        },
+        "forks": 662,
+        "stars": 8609,
+        "issues": 30,
+        "goodFirstIssues": 0,
+        "ycBatch": 2018,
+        "url": "https://github.com/activeloopai/deeplake"
+    },
+    {
+        "title": "cat-paywall-compose",
+        "desc": "🐈 Cat Paywall Compose demonstrates the paywall with Google Play's billing system using RevenueCat SDK for Android and Jetpack Compose.",
+        "avatar": "https://avatars.githubusercontent.com/u/33013347?v=4",
+        "languages": {
+            "Kotlin": 86510
+        },
+        "forks": 2,
+        "stars": 80,
+        "issues": 0,
+        "goodFirstIssues": 0,
+        "ycBatch": 2018,
+        "url": "https://github.com/RevenueCat/cat-paywall-compose"
+    },
+    {
+        "title": "modern-treasury-python",
+        "desc": "Python library for the Modern Treasury API",
+        "avatar": "https://avatars.githubusercontent.com/u/39248252?v=4",
+        "languages": {
+            "Python": 2985962,
+            "Shell": 3632,
+            "Dockerfile": 332,
+            "Ruby": 12
+        },
+        "forks": 3,
+        "stars": 39,
+        "issues": 0,
+        "goodFirstIssues": 0,
+        "ycBatch": 2018,
+        "url": "https://github.com/Modern-Treasury/modern-treasury-python"
+    },
+    {
+        "title": "psoxy",
+        "desc": "serverless ☁️ 🚀 , pseudonymizing proxy between Worklytics and your workplace 💼 SaaS data sources' APIs. Data Loss Prevention (DLP) 🛡️🔒 and compliance layer deployable to AWS Lambda or GCP Cloud Functions.",
+        "avatar": "https://avatars.githubusercontent.com/u/19978094?v=4",
+        "languages": {
+            "Java": 1260781,
+            "HCL": 498528,
+            "Shell": 109881,
+            "JavaScript": 94678,
+            "Python": 1062
+        },
+        "forks": 6,
+        "stars": 11,
+        "issues": 9,
+        "goodFirstIssues": 0,
+        "ycBatch": 2018,
+        "url": "https://github.com/Worklytics/psoxy"
+    }
+]
