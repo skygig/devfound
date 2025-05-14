@@ -64,6 +64,15 @@ const Repos = () => {
         setOptionEnabled(newOptions);
     }
 
+    const clearFilters = () => {
+        if (search) {
+            setSearch("");
+            setRepoList(repoListData);
+        }
+        if (optionEnabled[0]) enableOption(0);
+        if (optionEnabled[1]) enableOption(1)
+    }
+
     return <div className={styles.main}>
         {
             isModalOpen && <SkillsModal onClose={() => setIsModalOpen(false)} onSave={handleSaveSkills} />
@@ -135,7 +144,7 @@ const Repos = () => {
                     </div>
                 </div>
 
-                <button className={styles.clear}>Clear Filters</button>
+                <button className={styles.clear} onClick={clearFilters}>Clear Filters</button>
             </div>
 
             <div className={styles.reposContainer}>
