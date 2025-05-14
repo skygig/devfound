@@ -4,25 +4,37 @@ import Image from "next/image";
 
 import SkillsModal from "@/components/SkillsModal";
 import RepoCard from "@/components/RepoCard";
-import repoList from "@/libs/data.json"
+import repoListData from "@/libs/data.json"
 
 import styles from "./repos.module.scss"
 import ycLogo from "@/assets/svgs/yc_logo.svg"
 
 const Repos = () => {
+    const [repoList, setRepoList] = useState(repoListData)
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [userSkills, setUserSkills] = useState(['JavaScript', 'Python', 'TypeScript']);
-    const [optionEnabled, setOptionEnabled] = useState([false, false, false]);
+    const [optionEnabled, setOptionEnabled] = useState([false, false]);
 
     const [currRepos, setCurrRepos] = useState(repoList.slice(0, 12));
     const [page, setPage] = useState(0);
 
     useEffect(() => {
         setCurrRepos(repoList.slice(12 * page, 12 * page + 12))
-    }, [page])
+    }, [page, repoList])
+
+    useEffect(() => {
+        setPage(0)
+        if (optionEnabled[0] == true) {
+            const newRepoList = repoList.filter(repo => repo.goodFirstIssues > 0);
+            setRepoList(newRepoList);
+        } else {
+            setRepoList(repoListData)
+        }
+    }, [optionEnabled])
 
     const handlePage = (action: number) => {
-        if (action === -1 && page === 0 || action == 1 && page === 19) return;
+        const maxPage = repoList.length / 12 - 1;
+        if (action === -1 && page === 0 || action == 1 && page >= maxPage) return;
         setPage(page + action);
     }
 
@@ -86,8 +98,8 @@ const Repos = () => {
                         <label className={styles.toggleSwitch}>
                             <input
                                 type="checkbox"
-                                checked={optionEnabled[1]}
-                                onChange={() => enableOption(1)}
+                                checked={optionEnabled[0]}
+                                onChange={() => enableOption(0)}
                             />
                             <span className={styles.slider}></span>
                         </label>
@@ -101,8 +113,8 @@ const Repos = () => {
                         <label className={styles.toggleSwitch}>
                             <input
                                 type="checkbox"
-                                checked={optionEnabled[2]}
-                                onChange={() => enableOption(2)}
+                                checked={optionEnabled[1]}
+                                onChange={() => enableOption(1)}
                             />
                             <span className={styles.slider}></span>
                         </label>
@@ -117,7 +129,7 @@ const Repos = () => {
                     <p>Showing {page * 12} - {page * 12 + 12} of {repoList.length} repositories</p>
                     <div>
                         <p className={styles.pageControl} onClick={() => handlePage(-1)}>{"<"}</p>
-                        <p className={styles.pageCount}>{page}</p>
+                        <p className={styles.pageCount}>{page + 1}</p>
                         <p className={styles.pageControl} onClick={() => handlePage(1)}>{">"}</p>
                     </div>
 
@@ -126,7 +138,7 @@ const Repos = () => {
                 <div className={styles.repos}>
                     {
                         currRepos.map((repo, i) =>
-                            <RepoCard key={i} data={repo} />
+                            <RepoCard key={i} data={repo} gfIssues={optionEnabled[0]} />
                         )
                     }
                 </div>

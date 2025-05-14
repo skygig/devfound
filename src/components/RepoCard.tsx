@@ -17,7 +17,7 @@ type RepoType = {
     url: string;
 }
 
-const RepoCard = ({ data }: { data: RepoType }) => {
+const RepoCard = ({ data, gfIssues }: { data: RepoType, gfIssues: boolean }) => {
     return <div className={styles.card}>
         <div className={styles.header}>
             <img src={data.avatar} alt="logo" />
@@ -31,7 +31,7 @@ const RepoCard = ({ data }: { data: RepoType }) => {
             <h3>Languages</h3>
             <div>
                 {
-                    Object.keys(data.languages).map((lang: string) => <p key={lang}>{lang}</p>)
+                    Object.keys(data.languages).slice(0, 7).map((lang: string) => <p key={lang}>{lang}</p>)
                 }
             </div>
         </div>
@@ -40,13 +40,13 @@ const RepoCard = ({ data }: { data: RepoType }) => {
             <h3>More Info</h3>
             <div>
                 <div className={styles.infoTitle}>
-                    <p>Open Issues</p>
+                    <p>{gfIssues ? "Good first issues" : "Open issues"}</p>
                     <p>Stars</p>
                     <p>Forks</p>
                     <Image src={ycLogo} alt="YC" height={18} />
                 </div>
                 <div className={styles.infoData}>
-                    <p>{data.issues}</p>
+                    <p>{gfIssues ? data.goodFirstIssues : data.issues}</p>
                     <p>{data.stars}</p>
                     <p>{data.forks}</p>
                     <p>YC-{data.ycBatch}</p>
@@ -54,8 +54,10 @@ const RepoCard = ({ data }: { data: RepoType }) => {
             </div>
         </div>
 
-        <a href={`${data.url}/issues`} target="_blank" className={styles.issuesBtn}>
-            <button>View Issues</button>
+        <a href={`${data.url}/issues` + (gfIssues ? "?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22" : "")}
+            target="_blank"
+            className={styles.issuesBtn}>
+            <button>View {gfIssues ? "good first issues" : "issues"}</button>
         </a>
     </div>
 }
