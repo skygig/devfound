@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 
 import Sucker from "@/components/Sucker";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import "./globals.scss";
 
 const poppins = Poppins({
@@ -27,6 +28,7 @@ export default function RootLayout({
         <Sucker>
           <Navbar />
           {children}
+          <Footer />
         </Sucker>
       </body>
     </html>
