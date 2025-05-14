@@ -14,6 +14,7 @@ const Repos = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [userSkills, setUserSkills] = useState(['JavaScript', 'Python', 'TypeScript']);
     const [optionEnabled, setOptionEnabled] = useState([false, false]);
+    const [search, setSearch] = useState("");
 
     const [currRepos, setCurrRepos] = useState(repoList.slice(0, 12));
     const [page, setPage] = useState(0);
@@ -31,6 +32,19 @@ const Repos = () => {
             setRepoList(repoListData)
         }
     }, [optionEnabled])
+
+    const handleSearch = (e: any) => {
+        const toSearch = e.target.value;
+        setSearch(toSearch);
+        if (!toSearch) {
+            setRepoList(repoListData);
+        } else {
+            const filterRepo = repoListData.filter(repo => repo.title.includes(toSearch));
+            setRepoList(filterRepo);
+        }
+
+        setPage(0);
+    }
 
     const handlePage = (action: number) => {
         const maxPage = repoList.length / 12 - 1;
@@ -63,7 +77,7 @@ const Repos = () => {
             <div className={styles.sidebar}>
                 <div className={styles.search}>
                     <h3>Search</h3>
-                    <input type="text" placeholder="Search repositories..." />
+                    <input type="text" placeholder="Search repositories..." value={search} onChange={handleSearch} />
                 </div>
 
                 <div>
@@ -126,7 +140,7 @@ const Repos = () => {
 
             <div className={styles.reposContainer}>
                 <div className={styles.reposHead}>
-                    <p>Showing {page * 12} - {page * 12 + 12} of {repoList.length} repositories</p>
+                    <p>Showing {page * 12} - {Math.min(page * 12 + 12, repoList.length)} of {repoList.length} repositories</p>
                     <div>
                         <p className={styles.pageControl} onClick={() => handlePage(-1)}>{"<"}</p>
                         <p className={styles.pageCount}>{page + 1}</p>
