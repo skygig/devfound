@@ -1,0 +1,137 @@
+.container {
+    padding: 20px;
+    max-width: 800px;
+    background-color: #fff;
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 4px 0;
+}
+
+.subtitle {
+    color: var(--gray);
+}
+
+.editButton {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    font-size: 14px;
+
+    svg {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.card {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 16px;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+
+.skillName {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.skillLevel {
+    display: inline-block;
+    padding: 4px 12px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    font-size: 14px;
+    color: var(--gray);
+    font-weight: 500;
+}
+
+.editControls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.levelSelect {
+    padding: 4px 8px;
+    border-radius: 0.5rem;
+    border: 1px solid var(--border);
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.removeButton {
+    cursor: pointer;
+    height: 20px;
+
+    img {
+        height: 100%;
+        width: auto;
+    }
+}
+
+.addCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: 1px dashed var(--border);
+    border-radius: 8px;
+    padding: 16px 20px;
+    min-width: 160px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+
+    &:hover {
+        background-color: #f6f8fa;
+    }
+}
+
+.plusIcon {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+
+        .editButton {
+            margin-top: 16px;
+            align-self: flex-start;
+        }
+    }
+
+    .grid {
+
+        .card,
+        .addCard {
+            flex: 1 1 calc(50% - 16px);
+            min-width: 140px;
+        }
+    }
+}
