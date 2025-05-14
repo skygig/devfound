@@ -26,3 +26,47 @@
         margin-bottom: -2px;
     }
 }
+
+.user {
+    height: 38px;
+    position: relative;
+
+    >img {
+        height: 100%;
+        width: auto;
+        border: 1px solid var(--border);
+        border-radius: 0.5rem;
+        cursor: pointer;
+        box-shadow: 3px 3px #a589fab2;
+        transition: all 0.2s ease-out;
+
+        &:active {
+            box-shadow: none;
+            transform: translateX(3px) translateY(3px);
+        }
+    }
+
+    div {
+        background-color: #fff;
+        border: 1px solid var(--border);
+        border-radius: 0.75rem;
+        box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+        padding: 1rem;
+        position: absolute;
+        right: 0;
+        min-width: 140px;
+        z-index: 22;
+    }
+
+    p {
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+        cursor: default;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 0.5rem;
+        width: 100%;
+    }
+}

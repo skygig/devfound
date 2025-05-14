@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import { signIn } from "next-auth/react";
 
 import styles from "./page.module.scss";
 import YClogo from "@/assets/svgs/yc_logo.svg"
@@ -26,7 +29,7 @@ export default function Home() {
             <p>Connect your GitHub and discover open-source projects that match your skills and interests.</p>
           </div>
 
-          <button className={styles.heroButton}>Connect w/ GitHub</button>
+          <button className={styles.heroButton} onClick={() => signIn("github")}>Connect w/ GitHub</button>
 
           <div className={styles.pop2}>
             <p>More than <span>230</span> repos </p>
