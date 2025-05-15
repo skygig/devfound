@@ -159,7 +159,7 @@
 
 .activeStar {
     path {
-        fill: var(--primary);
+        fill: var(--primary) !important;
         opacity: 1;
     }
 }

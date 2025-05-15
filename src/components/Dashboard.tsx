@@ -1,15 +1,23 @@
 import { useEffect, useState } from "react";
 import { useSession } from "next-auth/react";
+import { useDispatch, useSelector } from "react-redux";
 
 import styles from "@/styles/dashboard.module.scss";
+
+import { RootState } from "@/store/store";
+import { setStarredRepo } from "@/store/starsSlice";
 
 import TopSkills from "./TopSkills";
 import Repositories from "./Repositories";
 import SkillsModal from "./SkillsModal";
 
 
+
 const Dashboard = () => {
     const { data: session } = useSession()
+    const dispatch = useDispatch()
+    const starredRepoCount = useSelector((state: RootState) => state.starredRepos.count)
+
     const [skills, setSkills] = useState<{ [key: string]: string }>({
         'JavaScript': 'Expert',
         'React': 'Expert',
@@ -28,7 +36,9 @@ const Dashboard = () => {
             if (!response.ok) console.log("Couldn't fetch user details!")
 
             const data = await response.json();
-            const languages = data.languages;
+            const { languages, starredRepos } = data;
+
+            dispatch(setStarredRepo(starredRepos));
 
             // remove unnecessary languages
             if (languages["VBScript"]) delete languages["VBScript"]
@@ -111,7 +121,7 @@ const Dashboard = () => {
                 </div>
                 <div>
                     <h2>Saved Repositories</h2>
-                    <p>12</p>
+                    <p>{starredRepoCount}</p>
                 </div>
             </div>
         </div>
