@@ -2,16 +2,10 @@ import { useEffect, useState } from 'react';
 
 import styles from '@/styles/skillsModal.module.scss';
 
-const SkillsModal = ({ onClose, onSave }: SkillsModalProps) => {
+const SkillsModal = ({ skills, onClose, onSave }: SkillsModalProps) => {
     const categories = ['Languages', 'Frontend', 'Backend', 'DevOps'];
     const [activeCategory, setActiveCategory] = useState('Languages');
-    const [selectedSkills, setSelectedSkills] = useState<{ [key: string]: boolean }>({
-        JavaScript: true,
-        Python: true,
-        TypeScript: true,
-        Go: true,
-        Docker: true
-    });
+    const [selectedSkills, setSelectedSkills] = useState<{ [key: string]: boolean }>({});
 
     const skillsByCategory: { [key: string]: string[] } = {
         "Languages": ["JavaScript", "TypeScript", "Python", "Java", "C#", "Go", "Kotlin", "C++", "Ruby", "PHP", "Swift", "Rust"],
@@ -35,6 +29,12 @@ const SkillsModal = ({ onClose, onSave }: SkillsModalProps) => {
     };
 
     const selectedCount = Object.values(selectedSkills).filter(Boolean).length;
+
+    useEffect(() => {
+        const currSelectedSkills: { [key: string]: boolean } = {};
+        skills.forEach(skill => currSelectedSkills[skill] = true);
+        setSelectedSkills(currSelectedSkills);
+    }, [skills])
 
     useEffect(() => {
         const closeModal = (event: any) => {
@@ -102,6 +102,7 @@ const SkillsModal = ({ onClose, onSave }: SkillsModalProps) => {
 };
 
 type SkillsModalProps = {
+    skills: string[],
     onClose: () => void,
     onSave: (skills: string[]) => void
 }

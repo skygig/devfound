@@ -8,15 +8,30 @@ import SkillsModal from "./SkillsModal";
 import styles from "@/styles/repositories.module.scss"
 import ycLogo from "@/assets/svgs/yc_logo.svg"
 
-const Repositories = ({ isMatched }: { isMatched: boolean }) => {
+const Repositories = ({ isMatched, currSkills }: { isMatched: boolean, currSkills?: string[] }) => {
     const [repoList, setRepoList] = useState(repoListData)
-    const [userSkills, setUserSkills] = useState(['JavaScript', 'Python', 'TypeScript']);
+    const [userSkills, setUserSkills] = useState(['JavaScript', 'TypeScript', 'Go', 'Python']);
     const [optionEnabled, setOptionEnabled] = useState([false, false]);
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [search, setSearch] = useState("");
 
     const [currRepos, setCurrRepos] = useState(repoList.slice(0, 12));
     const [page, setPage] = useState(0);
+
+    useEffect(() => {
+        if (isMatched) setUserSkills(currSkills || [])
+    }, [isMatched, currSkills])
+
+    useEffect(() => {
+        const newRepoList = repoList.filter(repo => {
+            for (const skill of userSkills) {
+                if (Object.keys(repo.languages).includes(skill)) return true
+            }
+            return false;
+        });
+        setRepoList(newRepoList);
+        setPage(0);
+    }, [userSkills])
 
     useEffect(() => {
         setCurrRepos(repoList.slice(12 * page, 12 * page + 12))
@@ -51,10 +66,8 @@ const Repositories = ({ isMatched }: { isMatched: boolean }) => {
         setPage(page + action);
     }
 
-
     const handleSaveSkills = (skills: string[]) => {
         setUserSkills(skills);
-        console.log('Saved skills:', skills);
     };
 
     const enableOption = (index: number) => {
@@ -75,7 +88,7 @@ const Repositories = ({ isMatched }: { isMatched: boolean }) => {
     return <div className={styles.container}>
         {
             !isMatched && isModalOpen &&
-            <SkillsModal onClose={() => setIsModalOpen(false)} onSave={handleSaveSkills} />
+            <SkillsModal skills={userSkills} onClose={() => setIsModalOpen(false)} onSave={handleSaveSkills} />
         }
         <div className={styles.sidebar}>
             <div className={styles.search}>
