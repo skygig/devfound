@@ -48,7 +48,7 @@ export default function Home() {
       </div>
 
       <div className={styles.overview}>
-        <p>"Explore repos aligned with your skills and passions with AI-powered filters."</p>
+        <p>&ldquo;Explore repos aligned with your skills and passions with AI-powered filters.&rdquo;</p>
         <Image src={repoView} alt="App view" />
       </div>
     </div>

@@ -35,7 +35,7 @@ const Dashboard = () => {
         }
         <div className={styles.header}>
             <h2>Dashboard</h2>
-            <p>Welcome back! Here's an overview of your profile and matching repos.</p>
+            <p>Welcome back! Here&apos;s an overview of your profile and matching repos.</p>
         </div>
 
         <div className={styles.topSection}>
@@ -46,7 +46,7 @@ const Dashboard = () => {
             <div className={styles.otherInfo}>
                 <div>
                     <h2>Matching Repositories</h2>
-                    <p>128 / 233</p>
+                    <p>{142} / 233</p>
                 </div>
                 <div>
                     <h2>Saved Repositories</h2>

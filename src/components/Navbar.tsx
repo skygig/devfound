@@ -21,7 +21,7 @@ const Navbar = () => {
         <div>
             {
                 session ? <div className={styles.user}>
-                    <img src={session.user?.image!} alt="avatar" onClick={() => setUserPop(!userPop)} />
+                    <img src={session.user?.image ?? ""} alt="avatar" onClick={() => setUserPop(!userPop)} />
                     {userPop && <div>
                         <p>Hi, {session.user?.name?.split(" ")[0]}</p>
                         <button onClick={() => signOut()}>Logout</button>
