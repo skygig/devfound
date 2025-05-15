@@ -4,28 +4,28 @@ import React, { useState } from 'react';
 import styles from '@/styles/topSkills.module.scss';
 import binIcon from "@/assets/svgs/bin.svg"
 
-const TopSkills = () => {
-    const [skills, setSkills] = useState([
-        { name: 'JavaScript', level: 'Expert' },
-        { name: 'React', level: 'Expert' },
-        { name: 'TypeScript', level: 'Advance' },
-        { name: 'Node.js', level: 'Intermediate' },
-        { name: 'Python', level: 'Beginner' }
-    ]);
+type TopSkillsParams = {
+    skills: { [key: string]: string };
+    setSkills: any;
+    openSkillModal: () => void;
+}
 
+const TopSkills = ({ skills, setSkills, openSkillModal }: TopSkillsParams) => {
     const [isEditing, setIsEditing] = useState(false);
 
     const toggleEditMode = () => {
         setIsEditing(!isEditing);
     };
 
-    const removeSkill = (skillIndex: number) => {
-        setSkills(skills.filter((_, index) => index !== skillIndex));
+    const removeSkill = (skill: string) => {
+        const currSkills = { ...skills };
+        delete currSkills[skill];
+        setSkills(currSkills);
     };
 
-    const changeSkillLevel = (skillIndex: number, newLevel: string) => {
-        const updatedSkills = [...skills];
-        updatedSkills[skillIndex].level = newLevel;
+    const changeSkillLevel = (skill: string, newLevel: string) => {
+        const updatedSkills = { ...skills };
+        updatedSkills[skill] = newLevel;
         setSkills(updatedSkills);
     };
 
@@ -48,40 +48,40 @@ const TopSkills = () => {
             </div>
 
             <div className={styles.grid}>
-                {skills.map((skill, index) => (
+                {Object.keys(skills).map((skill, index) => (
                     <div className={styles.card} key={index}>
                         <div className={styles.skillName}
                             style={{
-                                fontSize: skill.level === "Expert" ? "20px" :
-                                    skill.level === "Advance" ? "18px" :
-                                        skill.level === "Intermediate" ? "16px" : "14px"
+                                fontSize: skills[skill] === "Expert" ? "20px" :
+                                    skills[skill] === "Advance" ? "18px" :
+                                        skills[skill] === "Intermediate" ? "16px" : "14px"
                             }}>
-                            {skill.name}
+                            {skill}
                         </div>
 
                         {isEditing ? (
                             <div className={styles.editControls}>
                                 <select
-                                    value={skill.level}
-                                    onChange={(e) => changeSkillLevel(index, e.target.value)}
+                                    value={skills[skill]}
+                                    onChange={(e) => changeSkillLevel(skill, e.target.value)}
                                     className={styles.levelSelect}
                                 >
                                     {skillLevels.map(level => (
                                         <option key={level} value={level}>{level}</option>
                                     ))}
                                 </select>
-                                <div className={styles.removeButton} onClick={() => removeSkill(index)}>
+                                <div className={styles.removeButton} onClick={() => removeSkill(skill)}>
                                     <Image src={binIcon} alt="bin" />
                                 </div>
                             </div>
                         ) : (
-                            <div className={styles.skillLevel}>{skill.level}</div>
+                            <div className={styles.skillLevel}>{skills[skill]}</div>
                         )}
                     </div>
                 ))}
 
                 {isEditing && (
-                    <div className={styles.addCard}>
+                    <div className={styles.addCard} onClick={openSkillModal}>
                         <span className={styles.plusIcon}>+</span>
                         <span>Add Skill</span>
                     </div>

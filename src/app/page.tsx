@@ -1,7 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import { signIn } from "next-auth/react";
+import { signIn, useSession } from "next-auth/react";
+
+import Dashboard from "@/components/Dashboard";
 
 import styles from "./page.module.scss";
 import YClogo from "@/assets/svgs/yc_logo.svg"
@@ -9,6 +11,10 @@ import aiStar from "@/assets/svgs/aiStars.svg"
 import repoView from "@/assets/svgs/overview.svg"
 
 export default function Home() {
+  const { data: session } = useSession();
+
+  if (session) return <Dashboard />
+
   return (
     <div className={styles.page}>
 
