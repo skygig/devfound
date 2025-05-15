@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useSession } from "next-auth/react";
 
 import styles from "@/styles/dashboard.module.scss";
 
@@ -8,6 +9,7 @@ import SkillsModal from "./SkillsModal";
 
 
 const Dashboard = () => {
+    const { data: session } = useSession()
     const [skills, setSkills] = useState<{ [key: string]: string }>({
         'JavaScript': 'Expert',
         'React': 'Expert',
@@ -16,6 +18,65 @@ const Dashboard = () => {
         'Python': 'Beginner'
     })
     const [isModalOpen, setIsModalOpen] = useState(false);
+
+
+    useEffect(() => {
+        if (!session?.userId) return;
+
+        const fetchData = async () => {
+            const response = await fetch(`/api/user-data?userId=${session.userId}`)
+            if (!response.ok) console.log("Couldn't fetch user details!")
+
+            const data = await response.json();
+            const languages = data.languages;
+
+            // remove unnecessary languages
+            if (languages["VBScript"]) delete languages["VBScript"]
+
+            const langLength = Object.keys(languages).length;
+            let total = 0;
+            let firstHalfSum = 0;
+            let secondHalfSum = 0;
+
+            const sortedLang = Object.fromEntries(
+                Object.entries(languages).sort((a: any, b: any) => b[1] - a[1])
+            );
+            let values = Object.values(sortedLang);
+            values.forEach(val => total += val as number);
+
+            Object.keys(sortedLang).forEach(lang => sortedLang[lang] = Math.floor((sortedLang[lang] as number / total) * 100))
+            total = 0;
+            values = Object.values(sortedLang);
+
+            for (let i = 0; i < langLength; i++) {
+                const currValue = values[i] as number;
+                total += currValue;
+                if (i <= langLength / 2) firstHalfSum += currValue;
+                else secondHalfSum += currValue;
+            }
+
+            const totalAvg = total / langLength;
+            const firstHalfAvg = firstHalfSum / Math.ceil((langLength / 2));
+            const secondHalfAvg = secondHalfSum / (langLength / 2);
+
+            const skillObj: { [key: string]: string } = {};
+            Object.keys(sortedLang).forEach(lang => {
+                const value = sortedLang[lang] as number;
+                if (value >= firstHalfAvg) {
+                    skillObj[lang] = "Expert";
+                } else if (value >= secondHalfAvg) {
+                    if (value >= totalAvg) skillObj[lang] = "Advance";
+                    else skillObj[lang] = "Intermediate";
+                } else {
+                    skillObj[lang] = "Beginner";
+                }
+            })
+
+            setSkills(skillObj);
+        }
+
+        fetchData()
+    }, [session])
 
     const handleSaveSkills = (newSkills: string[]) => {
         const currSkills = { ...skills };
