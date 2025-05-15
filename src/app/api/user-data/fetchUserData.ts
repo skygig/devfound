@@ -1,11 +1,28 @@
 const fetchUserData = async (user: string) => {
     const languages: { [key: string]: string } = {};
+    const starredRepos: string[] = [];
 
     try {
+        const starredRes = await fetch(`https://api.github.com/users/${user}/starred`, {
+            headers: {
+                'Authorization': `token ${process.env.GITHUB_TOKEN}`,
+                'User-Agent': 'Devfound'
+            }
+        });
+
+        if (!starredRes.ok) {
+            console.warn(`Repose Not OK: ${starredRes.status} ${starredRes.statusText}`);
+        }
+
+        const starredRepoData = await starredRes.json()
+        for (const repo of starredRepoData) {
+            starredRepos.push(repo.html_url);
+        }
+
         const response = await fetch(`https://api.github.com/users/${user}/repos`, {
             headers: {
                 'Authorization': `token ${process.env.GITHUB_TOKEN}`,
-                'User-Agent': 'Node.js App'
+                'User-Agent': 'Devfound'
             }
         });
 
@@ -21,7 +38,7 @@ const fetchUserData = async (user: string) => {
             const languagesRes = await fetch(`https://api.github.com/repos/${repo.full_name}/languages`, {
                 headers: {
                     'Authorization': `token ${process.env.GITHUB_TOKEN}`,
-                    'User-Agent': 'Node.js App'
+                    'User-Agent': 'Devfound'
                 }
             });
             if (!languagesRes.ok) {
@@ -34,11 +51,11 @@ const fetchUserData = async (user: string) => {
                 else languages[lang] = currLangs[lang];
             }
         }
-
-        return languages;
     } catch (err) {
         console.error("Error occured while fetching user data", err)
     }
+
+    return { languages, starredRepos };
 }
 
 export default fetchUserData;

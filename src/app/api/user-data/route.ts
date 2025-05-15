@@ -11,8 +11,8 @@ export const GET = async (req: NextRequest) => {
 
     // TODO: check if the user exists in the db and then only fetch the user details
     try {
-        const languages = await fetchUserData(userId);
-        return NextResponse.json({ languages }, { status: 200 })
+        const { languages, starredRepos } = await fetchUserData(userId);
+        return NextResponse.json({ languages, starredRepos }, { status: 200 })
     } catch (err) {
         console.error("Unable to fetch user details", err)
         return NextResponse.json({ message: "Server Side Error." }, { status: 500 })
