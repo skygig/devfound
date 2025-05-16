@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next"
 
 import Sucker from "@/components/Sucker";
 import Navbar from "@/components/Navbar";
@@ -30,6 +31,8 @@ export default function RootLayout({
           {children}
           <Footer />
         </Sucker>
+
+        <Analytics />
       </body>
     </html>
   );
