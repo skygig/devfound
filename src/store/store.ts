@@ -1,9 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit'
 import starReducer from '@/store/starsSlice'
+import reposReducer from "@/store/reposSlice"
 
 export const store = configureStore({
     reducer: {
         starredRepos: starReducer,
+        repoList: reposReducer
     },
 })
 

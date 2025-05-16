@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import { useDispatch } from "react-redux";
 
 import repoListData from "@/libs/data.json"
+import { setReposCount } from "@/store/reposSlice";
 import RepoCard from "@/components/RepoCard";
 import SkillsModal from "./SkillsModal";
 
@@ -17,6 +19,11 @@ const Repositories = ({ isMatched, currSkills }: { isMatched: boolean, currSkill
 
     const [currRepos, setCurrRepos] = useState(repoList.slice(0, 12));
     const [page, setPage] = useState(0);
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(setReposCount(repoList.length));
+    }, [repoList])
 
     useEffect(() => {
         if (isMatched) setUserSkills(currSkills || [])
@@ -53,7 +60,7 @@ const Repositories = ({ isMatched, currSkills }: { isMatched: boolean, currSkill
         if (!toSearch) {
             setRepoList(repoListData);
         } else {
-            const filterRepo = repoListData.filter(repo => repo.title.includes(toSearch));
+            const filterRepo = repoList.filter(repo => repo.title.includes(toSearch));
             setRepoList(filterRepo);
         }
 

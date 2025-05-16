@@ -17,6 +17,7 @@ const Dashboard = () => {
     const { data: session } = useSession()
     const dispatch = useDispatch()
     const starredRepoCount = useSelector((state: RootState) => state.starredRepos.count)
+    const reposCount = useSelector((state: RootState) => state.repoList.count);
 
     const [skills, setSkills] = useState<{ [key: string]: string }>({
         'JavaScript': 'Expert',
@@ -117,7 +118,7 @@ const Dashboard = () => {
             <div className={styles.otherInfo}>
                 <div>
                     <h2>Matching Repositories</h2>
-                    <p>{142} / 233</p>
+                    <p>{reposCount} / 233</p>
                 </div>
                 <div>
                     <h2>Saved Repositories</h2>
