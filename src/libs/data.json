@@ -19,7 +19,29 @@
         "issues": 30,
         "goodFirstIssues": 12,
         "ycBatch": 2025,
-        "url": "https://github.com/airweave-ai/airweave"
+        "url": "https://github.com/airweave-ai/airweave",
+        "frameworks": [
+            "React",
+            "Tailwind CSS",
+            "FastAPI"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Prettier",
+            "CodeSpell",
+            "ESLint",
+            "Ruff",
+            "Cursor",
+            "Vite",
+            "Poetry",
+            "Fern",
+            "pre-commit",
+            "Git",
+            "npm",
+            "pytest",
+            "Alembic"
+        ]
     },
     {
         "title": "mlop",
@@ -34,7 +56,23 @@
         "issues": 1,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/mlop-ai/mlop"
+        "url": "https://github.com/mlop-ai/mlop",
+        "frameworks": [
+            "PyTorch Lightning",
+            "PyTorch",
+            "Hugging Face Transformers",
+            "Docusaurus"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "Jupyter Notebook",
+            "npm",
+            "Git",
+            "Visual Studio Code",
+            "Bash",
+            "pip",
+            "Poetry"
+        ]
     },
     {
         "title": "Zero",
@@ -52,7 +90,34 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/Mail-0/Zero"
+        "url": "https://github.com/Mail-0/Zero",
+        "frameworks": [
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+            "Hono"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Husky",
+            "ESLint",
+            "Prettier",
+            "TypeScript",
+            "Turborepo",
+            "Drizzle ORM",
+            "Sentry",
+            "Redis",
+            "tRPC",
+            "PostCSS",
+            "i18next",
+            "Zod",
+            "Bun",
+            "Cloudflare Workers",
+            "Vercel",
+            "PostHog",
+            "ProseMirror"
+        ]
     },
     {
         "title": "klavis",
@@ -72,7 +137,17 @@
         "issues": 11,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/Klavis-AI/klavis"
+        "url": "https://github.com/Klavis-AI/klavis",
+        "frameworks": [
+            "Express.js"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "uv",
+            "OpenAPI Generator",
+            "npm"
+        ]
     },
     {
         "title": "morphik-core",
@@ -91,7 +166,29 @@
         "issues": 26,
         "goodFirstIssues": 1,
         "ycBatch": 2025,
-        "url": "https://github.com/morphik-org/morphik-core"
+        "url": "https://github.com/morphik-org/morphik-core",
+        "frameworks": [
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+            "FastAPI"
+        ],
+        "tools": [
+            "Docker",
+            "pre-commit",
+            "pyenv",
+            "Git",
+            "PostgreSQL",
+            "PGVector",
+            "AWS S3",
+            "LiteLLM",
+            "pytest",
+            "Uv",
+            "npm",
+            "Colpali",
+            "FlagReranker",
+            "FFmpeg"
+        ]
     },
     {
         "title": "tinfoil-cli",
@@ -107,7 +204,15 @@
         "issues": 1,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/tinfoilsh/tinfoil-cli"
+        "url": "https://github.com/tinfoilsh/tinfoil-cli",
+        "frameworks": [],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "GoReleaser",
+            "Go Modules",
+            "Git"
+        ]
     },
     {
         "title": "web-eval-agent",
@@ -125,7 +230,16 @@
         "issues": 3,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/Operative-Sh/web-eval-agent"
+        "url": "https://github.com/Operative-Sh/web-eval-agent",
+        "frameworks": [],
+        "tools": [
+            "Cursor",
+            "Ruff",
+            "pre-commit",
+            "Docker",
+            "uv",
+            "Smithery"
+        ]
     },
     {
         "title": "better-auth",
@@ -140,7 +254,34 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/better-auth/better-auth"
+        "url": "https://github.com/better-auth/better-auth",
+        "frameworks": [
+            "Next.js",
+            "Expo",
+            "SvelteKit",
+            "Nuxt.js",
+            "Remix",
+            "Astro",
+            "Tailwind CSS"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "Docker",
+            "Vite",
+            "Biome",
+            "Bump",
+            "pnpm",
+            "Prisma",
+            "Drizzle",
+            "Vitest",
+            "Wrangler",
+            "Cloudflare Workers",
+            "Expo CLI",
+            "PostCSS",
+            "Prettier",
+            "Turborepo",
+            "CLI"
+        ]
     },
     {
         "title": "attune",
@@ -158,7 +299,20 @@
         "issues": 9,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/attunehq/attune"
+        "url": "https://github.com/attunehq/attune",
+        "frameworks": [
+            "sqlx"
+        ],
+        "tools": [
+            "docker",
+            "docker-compose",
+            "goreleaser",
+            "cargo",
+            "git",
+            "github",
+            "minio",
+            "visual-studio-code"
+        ]
     },
     {
         "title": "pgdog",
@@ -181,7 +335,36 @@
         "issues": 27,
         "goodFirstIssues": 1,
         "ycBatch": 2025,
-        "url": "https://github.com/pgdogdev/pgdog"
+        "url": "https://github.com/pgdogdev/pgdog",
+        "frameworks": [
+            "Tokio",
+            "sqlx",
+            "tokio_postgres",
+            "asyncpg",
+            "SQLAlchemy",
+            "JDBC",
+            "Go-PGX",
+            "ActiveRecord",
+            "RSpec"
+        ],
+        "tools": [
+            "Docker",
+            "Docker Compose",
+            "GitHub Actions",
+            "Cargo",
+            "Make",
+            "Bundler",
+            "Pyright",
+            "PgBouncer",
+            "Datadog",
+            "Gel",
+            "Mastodon",
+            "Pgvector",
+            "Toxiproxy",
+            "PostgreSQL",
+            "PSQL",
+            "RubyGems"
+        ]
     },
     {
         "title": "sim",
@@ -200,7 +383,46 @@
         "issues": 29,
         "goodFirstIssues": 4,
         "ycBatch": 2025,
-        "url": "https://github.com/simstudioai/sim"
+        "url": "https://github.com/simstudioai/sim",
+        "frameworks": [
+            "Next.js",
+            "React",
+            "Tailwind CSS"
+        ],
+        "tools": [
+            "Docker",
+            "Docker Compose",
+            "GitHub Actions",
+            "Drizzle ORM",
+            "Redis",
+            "AWS S3",
+            "OpenAI",
+            "Anthropic",
+            "Google Cloud",
+            "GitHub",
+            "Slack",
+            "Airtable",
+            "Supabase",
+            "Pinecone",
+            "Notion",
+            "Exa",
+            "Serper",
+            "Tavily",
+            "ElevenLabs",
+            "BrowserUse",
+            "Autoblocks",
+            "Mem0",
+            "Jira",
+            "Confluence",
+            "Groq",
+            "Ollama",
+            "Mistral",
+            "DeepSeek",
+            "Cerebras",
+            "XAI",
+            "Vitest",
+            "Prettier"
+        ]
     },
     {
         "title": "cua",
@@ -218,7 +440,19 @@
         "issues": 30,
         "goodFirstIssues": 1,
         "ycBatch": 2025,
-        "url": "https://github.com/trycua/cua"
+        "url": "https://github.com/trycua/cua",
+        "frameworks": [
+            "Gradio",
+            "SwiftNIO"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Visual Studio Code",
+            "Swift Package Manager",
+            "Poetry",
+            "Cursor"
+        ]
     },
     {
         "title": "authed",
@@ -234,7 +468,14 @@
         "issues": 16,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/authed-dev/authed"
+        "url": "https://github.com/authed-dev/authed",
+        "frameworks": [
+            "OPA"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "OSV-scanner"
+        ]
     },
     {
         "title": "plexe",
@@ -250,7 +491,19 @@
         "issues": 2,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/plexe-ai/plexe"
+        "url": "https://github.com/plexe-ai/plexe",
+        "frameworks": [
+            "MLflow"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "pre-commit",
+            "Poetry",
+            "tox",
+            "Docker",
+            "Ray",
+            "Jinja2"
+        ]
     },
     {
         "title": "assistant-ui",
@@ -268,7 +521,31 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/assistant-ui/assistant-ui"
+        "url": "https://github.com/assistant-ui/assistant-ui",
+        "frameworks": [
+            "Next.js",
+            "React",
+            "ShadCN"
+        ],
+        "tools": [
+            "ESLint",
+            "Prettier",
+            "Turbo",
+            "pnpm",
+            "Tailwind CSS",
+            "PostCSS",
+            "Vitest",
+            "Stryker",
+            "React Hook Form",
+            "LangGraph",
+            "OpenAI Assistants",
+            "FFmpeg",
+            "Assistant Stream",
+            "React AI SDK",
+            "React Syntax Highlighter",
+            "MagicUI",
+            "Docker"
+        ]
     },
     {
         "title": "sdk",
@@ -285,7 +562,14 @@
         "issues": 0,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/TrainLoop/sdk"
+        "url": "https://github.com/TrainLoop/sdk",
+        "frameworks": [],
+        "tools": [
+            "npm",
+            "go mod",
+            "pip",
+            "tsc"
+        ]
     },
     {
         "title": "browser-use",
@@ -301,7 +585,19 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/gregpr07/browser-use"
+        "url": "https://github.com/gregpr07/browser-use",
+        "frameworks": [
+            "Playwright"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "pre-commit",
+            "pytest",
+            "Gradio",
+            "Streamlit",
+            "Visual Studio Code"
+        ]
     },
     {
         "title": "pig-python",
@@ -315,7 +611,16 @@
         "issues": 1,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/pig-dot-dev/pig-python"
+        "url": "https://github.com/pig-dot-dev/pig-python",
+        "frameworks": [],
+        "tools": [
+            "Git",
+            "Poetry",
+            "pyenv",
+            "pip",
+            "pytest",
+            "Click"
+        ]
     },
     {
         "title": "tensorpool",
@@ -329,7 +634,16 @@
         "issues": 0,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/tensorpool/tensorpool"
+        "url": "https://github.com/tensorpool/tensorpool",
+        "frameworks": [
+            "CUDA",
+            "Triton",
+            "PyTorch"
+        ],
+        "tools": [
+            "uv",
+            "Ollama"
+        ]
     },
     {
         "title": "sdk-roark-analytics-node",
@@ -346,7 +660,21 @@
         "issues": 3,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/roarkhq/sdk-roark-analytics-node"
+        "url": "https://github.com/roarkhq/sdk-roark-analytics-node",
+        "frameworks": [
+            "Jest"
+        ],
+        "tools": [
+            "Docker",
+            "DevContainers",
+            "ESLint",
+            "Prettier",
+            "GitHub Actions",
+            "Yarn",
+            "TypeScript",
+            "Homebrew",
+            "release-please"
+        ]
     },
     {
         "title": "mastra",
@@ -363,7 +691,58 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/mastra-ai/mastra"
+        "url": "https://github.com/mastra-ai/mastra",
+        "frameworks": [
+            "Next.js",
+            "React",
+            "Express",
+            "Nextra"
+        ],
+        "tools": [
+            "Vercel",
+            "Netlify",
+            "Cloudflare",
+            "Prettier",
+            "Husky",
+            "Inngest",
+            "Mem0",
+            "Firecrawl",
+            "GitHub",
+            "Azure",
+            "Deepgram",
+            "ElevenLabs",
+            "Google Cloud",
+            "Murf",
+            "OpenAI",
+            "PlayAI",
+            "Sarvam",
+            "Speechify",
+            "PostgreSQL",
+            "MongoDB",
+            "Redis",
+            "Upstash",
+            "Qdrant",
+            "Pinecone",
+            "Couchbase",
+            "ClickHouse",
+            "DynamoDB",
+            "Astra",
+            "Chroma",
+            "LibSQL",
+            "Vectorize",
+            "Turbo",
+            "CLI",
+            "MCP",
+            "Langfuse",
+            "Langsmith",
+            "Traceloop",
+            "Signoz",
+            "New Relic",
+            "Braintrust",
+            "Laminar",
+            "Dash0",
+            "Langwatch"
+        ]
     },
     {
         "title": "deepeval",
@@ -377,7 +756,25 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/confident-ai/deepeval"
+        "url": "https://github.com/confident-ai/deepeval",
+        "frameworks": [
+            "HuggingFace",
+            "Langchain",
+            "LlamaIndex",
+            "Qdrant",
+            "Ragas"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "Poetry",
+            "OpenAI",
+            "Anthropic",
+            "Gemini",
+            "Ollama",
+            "Detoxify",
+            "Docusaurus",
+            "Azure"
+        ]
     },
     {
         "title": "PLAPT",
@@ -394,7 +791,19 @@
         "issues": 1,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/Bindwell/PLAPT"
+        "url": "https://github.com/Bindwell/PLAPT",
+        "frameworks": [
+            "ONNX Runtime"
+        ],
+        "tools": [
+            "Git",
+            "Docker",
+            "Jupyter Notebook",
+            "Wolfram Mathematica",
+            "Conda",
+            "draw.io",
+            "pip"
+        ]
     },
     {
         "title": "cookbook",
@@ -406,7 +815,11 @@
         "issues": 1,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/asteroidai/cookbook"
+        "url": "https://github.com/asteroidai/cookbook",
+        "frameworks": [],
+        "tools": [
+            "Git"
+        ]
     },
     {
         "title": "a1framework",
@@ -423,7 +836,20 @@
         "issues": 1,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/a1baseai/a1framework"
+        "url": "https://github.com/a1baseai/a1framework",
+        "frameworks": [
+            "Next.js",
+            "React",
+            "Tailwind CSS"
+        ],
+        "tools": [
+            "Docker",
+            "ESLint",
+            "Supabase",
+            "PostCSS",
+            "OpenAI",
+            "Perplexity"
+        ]
     },
     {
         "title": "truffle-ai-sdk",
@@ -437,7 +863,13 @@
         "issues": 0,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/truffle-ai/truffle-ai-sdk"
+        "url": "https://github.com/truffle-ai/truffle-ai-sdk",
+        "frameworks": [],
+        "tools": [
+            "git",
+            "npm",
+            "typescript"
+        ]
     },
     {
         "title": "superglue",
@@ -455,7 +887,26 @@
         "issues": 11,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/superglue-ai/superglue"
+        "url": "https://github.com/superglue-ai/superglue",
+        "frameworks": [
+            "Next.js",
+            "Tailwind CSS",
+            "GraphQL"
+        ],
+        "tools": [
+            "Docker",
+            "Docker Compose",
+            "GitHub Actions",
+            "Vitest",
+            "PostCSS",
+            "Turbo",
+            "Redis",
+            "PostgreSQL",
+            "Supabase",
+            "Gemini",
+            "OpenAI",
+            "Biome"
+        ]
     },
     {
         "title": "subtrace",
@@ -475,7 +926,19 @@
         "issues": 12,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/subtrace/subtrace"
+        "url": "https://github.com/subtrace/subtrace",
+        "frameworks": [
+            "Protocol Buffers",
+            "ClickHouse"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Make",
+            "Node.js",
+            "Python",
+            "protoc"
+        ]
     },
     {
         "title": "partcleda.github.io",
@@ -491,7 +954,17 @@
         "issues": 0,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/partcleda/partcleda.github.io"
+        "url": "https://github.com/partcleda/partcleda.github.io",
+        "frameworks": [
+            "React",
+            "Jekyll"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "npm",
+            "Jest",
+            "Git"
+        ]
     },
     {
         "title": "cartography",
@@ -509,7 +982,18 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/cartography-cncf/cartography"
+        "url": "https://github.com/cartography-cncf/cartography",
+        "frameworks": [],
+        "tools": [
+            "Docker",
+            "Docker Compose",
+            "GitHub Actions",
+            "pre-commit",
+            "Sphinx",
+            "Make",
+            "OSSF Scorecard",
+            "Dependabot"
+        ]
     },
     {
         "title": "onlook",
@@ -529,7 +1013,28 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2025,
-        "url": "https://github.com/onlook-dev/onlook"
+        "url": "https://github.com/onlook-dev/onlook",
+        "frameworks": [
+            "React",
+            "Next.js",
+            "Supabase"
+        ],
+        "tools": [
+            "TypeScript",
+            "Prettier",
+            "ESLint",
+            "Husky",
+            "Docker",
+            "Docker Compose",
+            "Vite",
+            "Vitest",
+            "Deno",
+            "Bun",
+            "Dependabot",
+            "GitHub Actions",
+            "tRPC",
+            "Tailwind CSS"
+        ]
     },
     {
         "title": "12-factor-agents",
@@ -545,7 +1050,17 @@
         "issues": 5,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/humanlayer/12-factor-agents"
+        "url": "https://github.com/humanlayer/12-factor-agents",
+        "frameworks": [
+            "BAML"
+        ],
+        "tools": [
+            "Docker",
+            "Jest",
+            "Make",
+            "npm",
+            "HumanLayer"
+        ]
     },
     {
         "title": "core",
@@ -562,7 +1077,17 @@
         "issues": 29,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/diffusionstudio/core"
+        "url": "https://github.com/diffusionstudio/core",
+        "frameworks": [],
+        "tools": [
+            "Vite",
+            "Vitest",
+            "Biome",
+            "FFmpeg",
+            "WebCodecs",
+            "WebAssembly",
+            "Opus"
+        ]
     },
     {
         "title": "autumn",
@@ -580,7 +1105,35 @@
         "issues": 0,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/johnyeocx/autumn"
+        "url": "https://github.com/johnyeocx/autumn",
+        "frameworks": [
+            "Next.js",
+            "React",
+            "Vite"
+        ],
+        "tools": [
+            "Tailwind CSS",
+            "PostCSS",
+            "Stripe",
+            "Clerk",
+            "Supabase",
+            "Redis",
+            "Resend",
+            "Logtail",
+            "Svix",
+            "TsUp",
+            "cron",
+            "Husky",
+            "lint-staged",
+            "Jest",
+            "Sonner",
+            "SWR",
+            "Unkey",
+            "Vercel",
+            "GitHub Actions",
+            "ESLint",
+            "Prettier"
+        ]
     },
     {
         "title": "lingo.dev",
@@ -598,7 +1151,22 @@
         "issues": 30,
         "goodFirstIssues": 1,
         "ycBatch": 2024,
-        "url": "https://github.com/lingodotdev/lingo.dev"
+        "url": "https://github.com/lingodotdev/lingo.dev",
+        "frameworks": [],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "pnpm",
+            "Changesets",
+            "Husky",
+            "Commitlint",
+            "Prettier",
+            "Visual Studio Code",
+            "tsup",
+            "Vitest",
+            "Docker Compose",
+            "Dependabot"
+        ]
     },
     {
         "title": "fast-graphrag",
@@ -614,7 +1182,20 @@
         "issues": 27,
         "goodFirstIssues": 4,
         "ycBatch": 2024,
-        "url": "https://github.com/circlemind-ai/fast-graphrag"
+        "url": "https://github.com/circlemind-ai/fast-graphrag",
+        "frameworks": [],
+        "tools": [
+            "GitHub Actions",
+            "Visual Studio Code",
+            "Poetry",
+            "Jupyter Notebook",
+            "pytest",
+            "OpenAI API",
+            "Voyage AI",
+            "Google GenAI",
+            "HNSWLib",
+            "iGraph"
+        ]
     },
     {
         "title": "vespper",
@@ -637,7 +1218,29 @@
         "issues": 11,
         "goodFirstIssues": 2,
         "ycBatch": 2024,
-        "url": "https://github.com/vespperhq/vespper"
+        "url": "https://github.com/vespperhq/vespper",
+        "frameworks": [
+            "React",
+            "Vite",
+            "ORY Kratos"
+        ],
+        "tools": [
+            "ESLint",
+            "Prettier",
+            "Husky",
+            "lint-staged",
+            "Commitlint",
+            "Docker",
+            "Docker Compose",
+            "GitHub Actions",
+            "Yarn",
+            "Nx",
+            "Terraform",
+            "Poetry",
+            "Envoy Proxy",
+            "HashiCorp Vault",
+            "Jest"
+        ]
     },
     {
         "title": "pearai-master",
@@ -651,7 +1254,13 @@
         "issues": 23,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/trypear/pearai-master"
+        "url": "https://github.com/trypear/pearai-master",
+        "frameworks": [],
+        "tools": [
+            "GitHub Actions",
+            "Git Submodules",
+            "Visual Studio Code"
+        ]
     },
     {
         "title": "cloudstate",
@@ -666,7 +1275,21 @@
         "issues": 12,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/freestyle-sh/cloudstate"
+        "url": "https://github.com/freestyle-sh/cloudstate",
+        "frameworks": [
+            "Actix",
+            "Rocket",
+            "V8",
+            "Cloudstate",
+            "AWS SDK"
+        ],
+        "tools": [
+            "Cargo",
+            "npm",
+            "Docker",
+            "GitHub Actions",
+            "Visual Studio Code"
+        ]
     },
     {
         "title": "patchwork",
@@ -684,7 +1307,24 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/patched-codes/patchwork"
+        "url": "https://github.com/patched-codes/patchwork",
+        "frameworks": [],
+        "tools": [
+            "GitHub Actions",
+            "Poetry",
+            "Git",
+            "GitHub CLI",
+            "Semgrep",
+            "SonarQube",
+            "OWASP Dependency-Check",
+            "CSVKit",
+            "Grep",
+            "Shell",
+            "Database Query Tools",
+            "OpenAI API",
+            "Anthropic API",
+            "Google Gemini API"
+        ]
     },
     {
         "title": "GA",
@@ -700,7 +1340,22 @@
         "issues": 1,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/General-Analysis/GA"
+        "url": "https://github.com/General-Analysis/GA",
+        "frameworks": [
+            "Hugging Face Transformers",
+            "PEFT",
+            "PyTorch",
+            "OLMo",
+            "LlamaGuard"
+        ],
+        "tools": [
+            "Jupyter Notebook",
+            "Poetry",
+            "Git",
+            "Docker",
+            "Markdown",
+            "JSON"
+        ]
     },
     {
         "title": "void",
@@ -760,7 +1415,24 @@
         "issues": 30,
         "goodFirstIssues": 1,
         "ycBatch": 2024,
-        "url": "https://github.com/voideditor/void"
+        "url": "https://github.com/voideditor/void",
+        "frameworks": [
+            "Visual Studio Code",
+            "Monaco Editor"
+        ],
+        "tools": [
+            "Docker",
+            "Azure Pipelines",
+            "ESLint",
+            "Stylelint",
+            "npm",
+            "Gulp",
+            "Grunt",
+            "VS Code CLI",
+            "Remote Development",
+            "GitHub Authentication",
+            "TypeScript Compiler"
+        ]
     },
     {
         "title": "rowboat",
@@ -779,7 +1451,17 @@
         "issues": 22,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/rowboatlabs/rowboat"
+        "url": "https://github.com/rowboatlabs/rowboat",
+        "frameworks": [
+            "Next.js",
+            "Tailwind CSS"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "MkDocs",
+            "Poetry"
+        ]
     },
     {
         "title": "atopile-analyzer",
@@ -798,7 +1480,19 @@
         "issues": 0,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/diodeinc/atopile-analyzer"
+        "url": "https://github.com/diodeinc/atopile-analyzer",
+        "frameworks": [
+            "React",
+            "Language Server Protocol"
+        ],
+        "tools": [
+            "Cargo",
+            "GitHub Actions",
+            "Visual Studio Code",
+            "TypeScript",
+            "npm",
+            "ESLint"
+        ]
     },
     {
         "title": "zeropath-mcp-server",
@@ -813,7 +1507,13 @@
         "issues": 1,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/ZeroPathAI/zeropath-mcp-server"
+        "url": "https://github.com/ZeroPathAI/zeropath-mcp-server",
+        "frameworks": [],
+        "tools": [
+            "Cursor",
+            "Bash",
+            "uv"
+        ]
     },
     {
         "title": "heroui",
@@ -832,7 +1532,28 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/heroui-inc/heroui"
+        "url": "https://github.com/heroui-inc/heroui",
+        "frameworks": [
+            "React",
+            "Next.js",
+            "Remix",
+            "Laravel",
+            "Astro",
+            "Vite"
+        ],
+        "tools": [
+            "ESLint",
+            "Prettier",
+            "Husky",
+            "GitHub Actions",
+            "lint-staged",
+            "Turborepo",
+            "Vercel",
+            "Plop",
+            "Commitlint",
+            "Storybook",
+            "Changesets"
+        ]
     },
     {
         "title": "lmnr",
@@ -852,7 +1573,29 @@
         "issues": 19,
         "goodFirstIssues": 5,
         "ycBatch": 2024,
-        "url": "https://github.com/lmnr-ai/lmnr"
+        "url": "https://github.com/lmnr-ai/lmnr",
+        "frameworks": [
+            "Next.js",
+            "gRPC",
+            "OpenTelemetry",
+            "ClickHouse",
+            "Drizzle ORM",
+            "Tonic",
+            "Supabase"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Cargo",
+            "pnpm",
+            "Tailwind CSS",
+            "NextAuth.js",
+            "Redis",
+            "RabbitMQ",
+            "ClickHouse CLI",
+            "Drizzle CLI",
+            "OpenTelemetry Collector"
+        ]
     },
     {
         "title": "zenoh",
@@ -867,7 +1610,18 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/eclipse-zenoh/zenoh"
+        "url": "https://github.com/eclipse-zenoh/zenoh",
+        "frameworks": [],
+        "tools": [
+            "Cargo",
+            "GitHub Actions",
+            "Docker",
+            "Clippy",
+            "pre-commit",
+            "Markdownlint",
+            "Cross",
+            "Valgrind"
+        ]
     },
     {
         "title": "core",
@@ -882,7 +1636,23 @@
         "issues": 0,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/zenbase-ai/core"
+        "url": "https://github.com/zenbase-ai/core",
+        "frameworks": [
+            "Arize",
+            "Braintrust",
+            "LangChain",
+            "Langfuse",
+            "Lunary",
+            "Parea"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "JetBrains IDE",
+            "Visual Studio Code",
+            "Jupyter Notebook",
+            "Docker Compose",
+            "pre-commit"
+        ]
     },
     {
         "title": "tach",
@@ -898,7 +1668,20 @@
         "issues": 30,
         "goodFirstIssues": 2,
         "ycBatch": 2024,
-        "url": "https://github.com/gauge-sh/tach"
+        "url": "https://github.com/gauge-sh/tach",
+        "frameworks": [
+            "MkDocs",
+            "pytest"
+        ],
+        "tools": [
+            "Cargo",
+            "GitHub Actions",
+            "Dependabot",
+            "make",
+            "setuptools",
+            "uv",
+            "rustup"
+        ]
     },
     {
         "title": "minusx",
@@ -918,7 +1701,25 @@
         "issues": 5,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/minusxai/minusx"
+        "url": "https://github.com/minusxai/minusx",
+        "frameworks": [
+            "React",
+            "Chakra UI",
+            "Redux",
+            "Google Apps Script"
+        ],
+        "tools": [
+            "Jest",
+            "Playwright",
+            "Docker",
+            "Docker Compose",
+            "Webpack",
+            "Babel",
+            "ESLint",
+            "Prettier",
+            "GitHub Actions",
+            "Yarn"
+        ]
     },
     {
         "title": "spongecake",
@@ -941,7 +1742,18 @@
         "issues": 2,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/aditya-nadkarni/spongecake"
+        "url": "https://github.com/aditya-nadkarni/spongecake",
+        "frameworks": [
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+            "spongecake-sdk",
+            "noVNC"
+        ],
+        "tools": [
+            "Docker",
+            "ESLint"
+        ]
     },
     {
         "title": "CodeViz-Public",
@@ -953,7 +1765,9 @@
         "issues": 0,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/EdisonLabs-Inc/CodeViz-Public"
+        "url": "https://github.com/EdisonLabs-Inc/CodeViz-Public",
+        "frameworks": [],
+        "tools": []
     },
     {
         "title": "stack-auth",
@@ -973,7 +1787,22 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/stack-auth/stack-auth"
+        "url": "https://github.com/stack-auth/stack-auth",
+        "frameworks": [
+            "React",
+            "Next.js",
+            "Tailwind CSS"
+        ],
+        "tools": [
+            "Prisma",
+            "Docker",
+            "Docker Compose",
+            "GitHub Actions",
+            "Vitest",
+            "ESLint",
+            "pnpm",
+            "Sentry"
+        ]
     },
     {
         "title": "unsloth",
@@ -988,7 +1817,16 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/unslothai/unsloth"
+        "url": "https://github.com/unslothai/unsloth",
+        "frameworks": [
+            "Hugging Face Transformers",
+            "PEFT",
+            "TRL",
+            "PyTorch"
+        ],
+        "tools": [
+            "unsloth-cli"
+        ]
     },
     {
         "title": "synnax",
@@ -1017,7 +1855,29 @@
         "issues": 13,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/synnaxlabs/synnax"
+        "url": "https://github.com/synnaxlabs/synnax",
+        "frameworks": [
+            "React",
+            "Tauri",
+            "Electron",
+            "Astro",
+            "gRPC"
+        ],
+        "tools": [
+            "Bazel",
+            "Clang",
+            "Git",
+            "GitHub Actions",
+            "Prettier",
+            "ESLint",
+            "Stylelint",
+            "Vite",
+            "npm",
+            "Docker",
+            "systemd",
+            "TypeScript",
+            "Visual Studio Code"
+        ]
     },
     {
         "title": "glasskube",
@@ -1037,7 +1897,25 @@
         "issues": 16,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/glasskube/glasskube"
+        "url": "https://github.com/glasskube/glasskube",
+        "frameworks": [
+            "Kubernetes",
+            "HTMX"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Make",
+            "GoReleaser",
+            "GolangCI-Lint",
+            "Renovate",
+            "Node.js",
+            "npm",
+            "Kustomize",
+            "Helm",
+            "Cert-manager",
+            "Flux"
+        ]
     },
     {
         "title": "mem0",
@@ -1061,7 +1939,30 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/mem0ai/mem0"
+        "url": "https://github.com/mem0ai/mem0",
+        "frameworks": [
+            "Next.js",
+            "React",
+            "FastAPI",
+            "LangChain",
+            "Embedchain",
+            "Mem0",
+            "Vercel AI SDK"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "pre-commit",
+            "Make",
+            "Poetry",
+            "pnpm",
+            "Jest",
+            "tsup",
+            "Tailwind CSS",
+            "OpenAPI",
+            "Alembic",
+            "Pytest"
+        ]
     },
     {
         "title": "quivr",
@@ -1076,7 +1977,31 @@
         "issues": 22,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/quivrhq/quivr"
+        "url": "https://github.com/quivrhq/quivr",
+        "frameworks": [
+            "Chainlit",
+            "Flask",
+            "LangGraph",
+            "PGVector",
+            "Unstructured",
+            "Apache Tika"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "Flake8",
+            "pre-commit",
+            "pyenv",
+            "tox",
+            "Docker",
+            "pip-tools",
+            "Poetry",
+            "Vercel",
+            "VS Code",
+            "Git",
+            "pytest",
+            "MkDocs",
+            "Read the Docs"
+        ]
     },
     {
         "title": "titan",
@@ -1091,7 +2016,18 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/Titan-Systems/titan"
+        "url": "https://github.com/Titan-Systems/titan",
+        "frameworks": [
+            "Titan"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "pytest",
+            "DBT",
+            "Permifrost",
+            "Terraform",
+            "Snowflake CLI"
+        ]
     },
     {
         "title": "hatchet",
@@ -1114,7 +2050,22 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/hatchet-dev/hatchet"
+        "url": "https://github.com/hatchet-dev/hatchet",
+        "frameworks": [
+            "Next.js",
+            "gRPC",
+            "OpenAPI",
+            "Protocol Buffers"
+        ],
+        "tools": [
+            "Docker",
+            "Nginx",
+            "Caddy",
+            "ESLint",
+            "Prettier",
+            "Atlas CLI",
+            "protoc"
+        ]
     },
     {
         "title": "zep",
@@ -1129,7 +2080,16 @@
         "issues": 0,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/getzep/zep"
+        "url": "https://github.com/getzep/zep",
+        "frameworks": [],
+        "tools": [
+            "GitHub Actions",
+            "Docker",
+            "Docker Compose",
+            "Make",
+            "GolangCI-Lint",
+            "Bun"
+        ]
     },
     {
         "title": "chunkr",
@@ -1152,7 +2112,28 @@
         "issues": 9,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/lumina-ai-inc/chunkr"
+        "url": "https://github.com/lumina-ai-inc/chunkr",
+        "frameworks": [
+            "React",
+            "Tailwind CSS",
+            "Diesel",
+            "Kubernetes",
+            "Helm"
+        ],
+        "tools": [
+            "Docker",
+            "Docker Compose",
+            "ESLint",
+            "PostCSS",
+            "Vite",
+            "pnpm",
+            "Jest",
+            "pytest",
+            "Codespell",
+            "Release-Please",
+            "GitHub Actions",
+            "Cargo"
+        ]
     },
     {
         "title": "elodin",
@@ -1178,7 +2159,22 @@
         "issues": 3,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/elodin-sys/elodin"
+        "url": "https://github.com/elodin-sys/elodin",
+        "frameworks": [
+            "Kubernetes",
+            "Basilisk",
+            "GitHub Actions"
+        ],
+        "tools": [
+            "Cargo",
+            "Just",
+            "ClangFormat",
+            "Nix",
+            "WiX Toolset",
+            "OpenOCD",
+            "SASS",
+            "Jupyter Notebook"
+        ]
     },
     {
         "title": "trieve",
@@ -1209,7 +2205,34 @@
         "issues": 20,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/devflowinc/trieve"
+        "url": "https://github.com/devflowinc/trieve",
+        "frameworks": [
+            "React",
+            "Docusaurus",
+            "Vite",
+            "Helm",
+            "Keycloak",
+            "Caddy",
+            "OpenAPI Generator",
+            "Prisma",
+            "Diesel",
+            "Terraform"
+        ],
+        "tools": [
+            "Docker",
+            "Kubernetes",
+            "PostgreSQL",
+            "ClickHouse",
+            "Redis",
+            "Stripe",
+            "Shopify CLI",
+            "ESLint",
+            "Prettier",
+            "Jest",
+            "Axios",
+            "Husky",
+            "Vitest"
+        ]
     },
     {
         "title": "pyspur",
@@ -1231,7 +2254,38 @@
         "issues": 22,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/PySpur-com/PySpur"
+        "url": "https://github.com/PySpur-com/PySpur",
+        "frameworks": [
+            "Alembic",
+            "Pydantic",
+            "React",
+            "Next.js"
+        ],
+        "tools": [
+            "Docker",
+            "Docker Compose",
+            "GitHub Actions",
+            "Dependabot",
+            "Redis",
+            "PostgreSQL",
+            "Pinecone",
+            "Weaviate",
+            "Supabase",
+            "Chroma",
+            "Qdrant",
+            "Slack SDK",
+            "SendGrid",
+            "Resend",
+            "Ollama",
+            "pre-commit",
+            "Poetry",
+            "Pytest",
+            "OpenAPI",
+            "Visual Studio Code Dev Containers",
+            "Tailwind CSS",
+            "Prettier",
+            "PostCSS"
+        ]
     },
     {
         "title": "phospho-legacy",
@@ -1252,7 +2306,32 @@
         "issues": 1,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/phospho-app/phospho-legacy"
+        "url": "https://github.com/phospho-app/phospho-legacy",
+        "frameworks": [
+            "FastAPI",
+            "React",
+            "Next.js",
+            "Tailwind CSS"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Temporal",
+            "MongoDB",
+            "Qdrant",
+            "PostHog",
+            "Sentry",
+            "Stripe",
+            "Poetry",
+            "Make",
+            "Langfuse",
+            "Langsmith",
+            "OpenTelemetry",
+            "Power BI",
+            "Argilla",
+            "Pydantic",
+            "PostgreSQL"
+        ]
     },
     {
         "title": "ragas",
@@ -1269,7 +2348,22 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/explodinggradients/ragas"
+        "url": "https://github.com/explodinggradients/ragas",
+        "frameworks": [
+            "ragas",
+            "LangChain",
+            "LlamaIndex",
+            "Haystack",
+            "LangGraph"
+        ],
+        "tools": [
+            "pytest",
+            "MkDocs",
+            "Docker",
+            "GitHub Actions",
+            "Make",
+            "Poetry"
+        ]
     },
     {
         "title": "pandas-ai",
@@ -1285,7 +2379,19 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/gventuri/pandas-ai"
+        "url": "https://github.com/gventuri/pandas-ai",
+        "frameworks": [
+            "GitHub Actions",
+            "Docker",
+            "pre-commit",
+            "Poetry",
+            "pytest",
+            "Jupyter"
+        ],
+        "tools": [
+            "Makefile",
+            "Sourcery"
+        ]
     },
     {
         "title": "zerox",
@@ -1302,7 +2408,20 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/getomni-ai/zerox"
+        "url": "https://github.com/getomni-ai/zerox",
+        "frameworks": [
+            "Jest"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "pre-commit",
+            "npm",
+            "Poetry",
+            "setuptools",
+            "commitlint",
+            "Make",
+            "EditorConfig"
+        ]
     },
     {
         "title": "atopile",
@@ -1322,7 +2441,24 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/atopile/atopile"
+        "url": "https://github.com/atopile/atopile",
+        "frameworks": [
+            "Faebryk",
+            "KiCAD"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "pre-commit",
+            "Docker",
+            "Visual Studio Code",
+            "pytest",
+            "MkDocs",
+            "uv",
+            "ANTLR",
+            "ESLint",
+            "Prettier",
+            "Webpack"
+        ]
     },
     {
         "title": "ai-chatbot",
@@ -1338,7 +2474,19 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/vercel/ai-chatbot"
+        "url": "https://github.com/vercel/ai-chatbot",
+        "frameworks": [
+            "Next.js",
+            "Tailwind CSS"
+        ],
+        "tools": [
+            "ESLint",
+            "Playwright",
+            "pnpm",
+            "Drizzle ORM",
+            "Biome",
+            "GitHub Actions"
+        ]
     },
     {
         "title": "buster",
@@ -1365,7 +2513,17 @@
         "issues": 1,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/buster-so/buster-platform"
+        "url": "https://github.com/buster-so/buster-platform",
+        "frameworks": [
+            "Next.js"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Supabase",
+            "Release Please",
+            "Windsurf"
+        ]
     },
     {
         "title": "nuanced",
@@ -1379,7 +2537,12 @@
         "issues": 13,
         "goodFirstIssues": 2,
         "ycBatch": 2024,
-        "url": "https://github.com/nuanced-dev/nuanced"
+        "url": "https://github.com/nuanced-dev/nuanced",
+        "frameworks": [],
+        "tools": [
+            "uv",
+            "GitHub Actions"
+        ]
     },
     {
         "title": "tracecat",
@@ -1401,7 +2564,29 @@
         "issues": 29,
         "goodFirstIssues": 4,
         "ycBatch": 2024,
-        "url": "https://github.com/TracecatHQ/tracecat"
+        "url": "https://github.com/TracecatHQ/tracecat",
+        "frameworks": [
+            "Next.js",
+            "FastAPI",
+            "Tailwind CSS"
+        ],
+        "tools": [
+            "Docker",
+            "Docker Compose",
+            "GitHub Actions",
+            "Caddy",
+            "Alembic",
+            "pre-commit",
+            "ESLint",
+            "Prettier",
+            "Jest",
+            "Husky",
+            "lint-staged",
+            "pnpm",
+            "Just",
+            "Pytest",
+            "OpenAPI"
+        ]
     },
     {
         "title": "ubicloud",
@@ -1422,7 +2607,309 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/ubicloud/ubicloud"
+        "url": "https://github.com/ubicloud/ubicloud",
+        "frameworks": [
+            "Ruby on Rails",
+            "Tailwind CSS",
+            "RSpec",
+            "Rodauth"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Dependabot",
+            "Bundler",
+            "Rake",
+            "RuboCop",
+            "asdf",
+            "Redocly",
+            "OpenAPI",
+            "Kubernetes",
+            "MinIO",
+            "Capistrano",
+            "Sentry",
+            "PostgreSQL",
+            "SQLite",
+            "Webpack",
+            "Yarn",
+            "Puma",
+            "NGINX",
+            "Let's Encrypt",
+            "Certbot",
+            "Hetzner API",
+            "Cloudflare API",
+            "GitHub CLI",
+            "AWS CLI",
+            "Terraform",
+            "Ansible",
+            "Jenkins",
+            "Prometheus",
+            "Grafana",
+            "Elasticsearch",
+            "Kibana",
+            "Fluentd",
+            "Datadog",
+            "New Relic",
+            "Snyk",
+            "SonarQube",
+            "Codecov",
+            "Coveralls",
+            "BrowserStack",
+            "Sauce Labs",
+            "Cypress",
+            "Jest",
+            "Mocha",
+            "Chai",
+            "Sinon",
+            "Nightwatch",
+            "Protractor",
+            "WebdriverIO",
+            "Playwright",
+            "Puppeteer",
+            "Cucumber",
+            "Gherkin",
+            "Jasmine",
+            "Karma",
+            "PhantomJS",
+            "Slack API",
+            "Discord API",
+            "Twilio API",
+            "SendGrid API",
+            "Stripe API",
+            "PayPal API",
+            "OAuth2",
+            "JWT",
+            "Passport",
+            "OpenID Connect",
+            "LDAP",
+            "SAML",
+            "GraphQL",
+            "Apollo",
+            "Relay",
+            "Prisma",
+            "TypeORM",
+            "Sequelize",
+            "Knex",
+            "Mongoose",
+            "Fastify",
+            "Express",
+            "Koa",
+            "Hapi",
+            "Socket.IO",
+            "Sails",
+            "NestJS",
+            "LoopBack",
+            "Feathers",
+            "Adonis",
+            "Laravel",
+            "Symfony",
+            "CodeIgniter",
+            "Django",
+            "Flask",
+            "Pyramid",
+            "FastAPI",
+            "Spring",
+            "Hibernate",
+            "Play",
+            "Grails",
+            "ASP.NET",
+            "Entity Framework",
+            "Angular",
+            "React",
+            "Vue",
+            "Svelte",
+            "Alpine.js",
+            "jQuery",
+            "Backbone",
+            "Underscore",
+            "Lodash",
+            "Axios",
+            "jQuery",
+            "Moment",
+            "Day.js",
+            "Luxon",
+            "Zod",
+            "Joi",
+            "Yup",
+            "Formik",
+            "React Hook Form",
+            "Redux",
+            "MobX",
+            "Vuex",
+            "Pinia",
+            "Zustand",
+            "Jotai",
+            "Recoil",
+            "Apollo Client",
+            "URQL",
+            "TanStack Query",
+            "SWR",
+            "MUI",
+            "Chakra UI",
+            "Tailwind UI",
+            "Ant Design",
+            "Element UI",
+            "Bootstrap",
+            "Foundation",
+            "Bulma",
+            "Semantic UI",
+            "UIKit",
+            "Quasar",
+            "Vuetify",
+            "PrimeVue",
+            "Sass",
+            "Less",
+            "Stylus",
+            "PostCSS",
+            "CSS Modules",
+            "Styled Components",
+            "Emotion",
+            "Jest",
+            "Mocha",
+            "Chai",
+            "Sinon",
+            "Vitest",
+            "Testing Library",
+            "Cypress",
+            "Playwright",
+            "Puppeteer",
+            "WebdriverIO",
+            "Nightwatch",
+            "Protractor",
+            "Selenium",
+            "Cucumber",
+            "Gherkin",
+            "Allure",
+            "ReportPortal",
+            "Jenkins",
+            "GitLab CI",
+            "CircleCI",
+            "Travis CI",
+            "TeamCity",
+            "Bamboo",
+            "Azure Pipelines",
+            "ArgoCD",
+            "Flux",
+            "Skaffold",
+            "Helm",
+            "Kustomize",
+            "Docker Compose",
+            "Podman",
+            "Kaniko",
+            "Buildpacks",
+            "Packer",
+            "Vagrant",
+            "Terraform",
+            "Pulumi",
+            "Serverless Framework",
+            "AWS CDK",
+            "Google Cloud Deployment Manager",
+            "Azure Resource Manager",
+            "CloudFormation",
+            "Ansible Tower",
+            "SaltStack",
+            "Chef",
+            "Puppet",
+            "Jira",
+            "Confluence",
+            "Trello",
+            "Asana",
+            "ClickUp",
+            "Notion",
+            "Slack",
+            "Microsoft Teams",
+            "Discord",
+            "Telegram",
+            "Zoom",
+            "Google Meet",
+            "Webex",
+            "Skype",
+            "Jabber",
+            "Rocket.Chat",
+            "Mattermost",
+            "Zulip",
+            "Discourse",
+            "Git",
+            "GitHub",
+            "GitLab",
+            "Bitbucket",
+            "Subversion",
+            "Mercurial",
+            "Perforce",
+            "Bazaar",
+            "Darcs",
+            "Fossil",
+            "Monotone",
+            "Arch",
+            "SVK",
+            "Veracity",
+            "Plastic SCM",
+            "Rhodecode",
+            "Gitea",
+            "Gogs",
+            "SourceForge",
+            "Launchpad",
+            "Phabricator",
+            "Gerrit",
+            "GitKraken",
+            "Sourcetree",
+            "Tower",
+            "Fork",
+            "Delta",
+            "Diffuse",
+            "Meld",
+            "KDiff3",
+            "WinMerge",
+            "Araxis Merge",
+            "Beyond Compare",
+            "ExamDiff",
+            "DiffMerge",
+            "Kaleidoscope",
+            "Changes",
+            "FileMerge",
+            "Kompare",
+            "Diffuse",
+            "Emacs Ediff",
+            "Vimdiff",
+            "GitX",
+            "QGit",
+            "Tig",
+            "Git-cola",
+            "Gitk",
+            "Git GUI",
+            "SmartGit",
+            "Git Extensions",
+            "GitAhead",
+            "GitKraken",
+            "Sourcetree",
+            "Tower",
+            "Fork",
+            "Delta",
+            "Diffuse",
+            "Meld",
+            "KDiff3",
+            "WinMerge",
+            "Araxis Merge",
+            "Beyond Compare",
+            "ExamDiff",
+            "DiffMerge",
+            "Kaleidoscope",
+            "Changes",
+            "FileMerge",
+            "Kompare",
+            "Diffuse",
+            "Emacs Ediff",
+            "Vimdiff",
+            "GitX",
+            "QGit",
+            "Tig",
+            "Git-cola",
+            "Gitk",
+            "Git GUI",
+            "SmartGit",
+            "Git Extensions",
+            "GitAhead"
+        ]
     },
     {
         "title": "ssoready",
@@ -1443,7 +2930,25 @@
         "issues": 5,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/ssoready/ssoready"
+        "url": "https://github.com/ssoready/ssoready",
+        "frameworks": [
+            "React",
+            "Tailwind CSS"
+        ],
+        "tools": [
+            "Docker",
+            "Docker Compose",
+            "GitHub Actions",
+            "Make",
+            "Netlify",
+            "Prettier",
+            "ESLint",
+            "sqlc",
+            "Buf",
+            "Protobuf",
+            "Sentry",
+            "Fly.io"
+        ]
     },
     {
         "title": "R2R",
@@ -1464,23 +2969,21 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/SciPhi-AI/R2R"
-    },
-    {
-        "title": "guMCP",
-        "desc": "Gumloop Unified Model Context Protocol (guMCP)",
-        "avatar": "https://avatars.githubusercontent.com/u/133821906?v=4",
-        "languages": {
-            "Python": 3363666,
-            "PowerShell": 1679,
-            "Shell": 980
-        },
-        "forks": 43,
-        "stars": 395,
-        "issues": 17,
-        "goodFirstIssues": 0,
-        "ycBatch": 2024,
-        "url": "https://github.com/gumloop/guMCP"
+        "url": "https://github.com/SciPhi-AI/R2R",
+        "frameworks": [
+            "R2R"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "npm",
+            "Uv",
+            "pre-commit",
+            "PostgreSQL",
+            "Unstructured",
+            "Hatchet",
+            "Alembic"
+        ]
     },
     {
         "title": "onyx",
@@ -1503,7 +3006,31 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/onyx-dot-app/onyx"
+        "url": "https://github.com/onyx-dot-app/onyx",
+        "frameworks": [
+            "FastAPI",
+            "SQLAlchemy",
+            "React",
+            "Next.js",
+            "Vespa",
+            "Tailwind CSS",
+            "Pydantic"
+        ],
+        "tools": [
+            "Docker",
+            "Celery",
+            "Redis",
+            "PostgreSQL",
+            "Alembic",
+            "pytest",
+            "Jest",
+            "Playwright",
+            "Sentry",
+            "Supervisor",
+            "OAuth2",
+            "OpenAPI",
+            "Prettier"
+        ]
     },
     {
         "title": "celest",
@@ -1523,7 +3050,20 @@
         "issues": 24,
         "goodFirstIssues": 0,
         "ycBatch": 2024,
-        "url": "https://github.com/celest-dev/celest"
+        "url": "https://github.com/celest-dev/celest",
+        "frameworks": [
+            "Flutter",
+            "Firebase",
+            "Supabase"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "Docker",
+            "Make",
+            "Pub",
+            "CocoaPods",
+            "Gradle"
+        ]
     },
     {
         "title": "preswald",
@@ -1543,7 +3083,23 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/StructuredLabs/preswald"
+        "url": "https://github.com/StructuredLabs/preswald",
+        "frameworks": [
+            "React",
+            "Tailwind CSS",
+            "Vite",
+            "Preswald"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Git",
+            "Make",
+            "Prettier",
+            "ESLint",
+            "Pre-commit",
+            "Pyodide"
+        ]
     },
     {
         "title": "srcbook",
@@ -1561,7 +3117,24 @@
         "issues": 30,
         "goodFirstIssues": 1,
         "ycBatch": 2023,
-        "url": "https://github.com/srcbookdev/srcbook"
+        "url": "https://github.com/srcbookdev/srcbook",
+        "frameworks": [
+            "React",
+            "Tailwind CSS"
+        ],
+        "tools": [
+            "Docker",
+            "Docker Compose",
+            "GitHub Actions",
+            "Prettier",
+            "ESLint",
+            "Vite",
+            "PostCSS",
+            "Drizzle ORM",
+            "Turborepo",
+            "pnpm",
+            "NVM"
+        ]
     },
     {
         "title": "Flowise",
@@ -1582,7 +3155,34 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/FlowiseAI/Flowise"
+        "url": "https://github.com/FlowiseAI/Flowise",
+        "frameworks": [
+            "Express",
+            "React",
+            "LangChain",
+            "LlamaIndex",
+            "Material-UI",
+            "Vite",
+            "SCSS"
+        ],
+        "tools": [
+            "Docker",
+            "Docker Compose",
+            "GitHub Actions",
+            "Husky",
+            "ESLint",
+            "Artillery",
+            "Cypress",
+            "Swagger",
+            "Nodemon",
+            "TypeORM",
+            "Prometheus",
+            "Grafana",
+            "OpenTelemetry",
+            "Opik",
+            "Phoenix",
+            "pnpm"
+        ]
     },
     {
         "title": "paradedb",
@@ -1600,7 +3200,26 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/paradedb/paradedb"
+        "url": "https://github.com/paradedb/paradedb",
+        "frameworks": [
+            "PGRX"
+        ],
+        "tools": [
+            "Cargo",
+            "GitHub Actions",
+            "Dependabot",
+            "Docker",
+            "Hadolint",
+            "Prettier",
+            "pre-commit",
+            "clippy",
+            "ShellCheck",
+            "YAMLLint",
+            "Markdownlint",
+            "codespell",
+            "Make",
+            "pg_regress"
+        ]
     },
     {
         "title": "tiptap",
@@ -1616,7 +3235,31 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/ueberdosis/tiptap"
+        "url": "https://github.com/ueberdosis/tiptap",
+        "frameworks": [
+            "React",
+            "Vue",
+            "Svelte",
+            "Tiptap",
+            "ProseMirror"
+        ],
+        "tools": [
+            "ESLint",
+            "Husky",
+            "Lint-staged",
+            "Babel",
+            "PostCSS",
+            "Vite",
+            "Tailwind CSS",
+            "Cypress",
+            "GitHub Actions",
+            "Dependabot",
+            "npm",
+            "TypeScript",
+            "Commitlint",
+            "EditorConfig",
+            "Changeset"
+        ]
     },
     {
         "title": "silisizer",
@@ -1634,7 +3277,19 @@
         "issues": 0,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/Silimate/silisizer"
+        "url": "https://github.com/Silimate/silisizer",
+        "frameworks": [
+            "OpenSTA",
+            "backward-cpp"
+        ],
+        "tools": [
+            "CMake",
+            "Make",
+            "ClangFormat",
+            "ClangTidy",
+            "VisualStudioCode",
+            "Git"
+        ]
     },
     {
         "title": "khoj",
@@ -1656,7 +3311,35 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/khoj-ai/khoj"
+        "url": "https://github.com/khoj-ai/khoj",
+        "frameworks": [
+            "Django",
+            "Next.js",
+            "Docusaurus",
+            "Android",
+            "Electron"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Yarn",
+            "pre-commit",
+            "Gunicorn",
+            "Gradle",
+            "Pytest",
+            "Poetry",
+            "Visual Studio Code Dev Containers",
+            "Tailwind CSS",
+            "ESLint",
+            "Husky",
+            "Chatwoot",
+            "Excalidraw",
+            "Mermaid",
+            "Pico CSS",
+            "Markdown-it",
+            "Purify.js",
+            "Three.js"
+        ]
     },
     {
         "title": "continue",
@@ -1687,7 +3370,26 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/continuedev/continue"
+        "url": "https://github.com/continuedev/continue",
+        "frameworks": [
+            "React",
+            "Tailwind CSS"
+        ],
+        "tools": [
+            "IntelliJ IDEA",
+            "Visual Studio Code",
+            "ESLint",
+            "Prettier",
+            "Jest",
+            "GitHub Actions",
+            "Dependabot",
+            "Docker",
+            "npm",
+            "Node.js",
+            "Gradle",
+            "Vite",
+            "Cargo"
+        ]
     },
     {
         "title": "revideo",
@@ -1706,7 +3408,25 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/redotvideo/revideo"
+        "url": "https://github.com/redotvideo/revideo",
+        "frameworks": [
+            "React"
+        ],
+        "tools": [
+            "ESLint",
+            "Prettier",
+            "Husky",
+            "Lerna",
+            "GitHub Actions",
+            "Vite",
+            "Rollup",
+            "Nx",
+            "FFmpeg",
+            "PostCSS",
+            "Sass",
+            "Vitest",
+            "TSDoc"
+        ]
     },
     {
         "title": "refine",
@@ -1725,7 +3445,33 @@
         "issues": 30,
         "goodFirstIssues": 1,
         "ycBatch": 2023,
-        "url": "https://github.com/refinedev/refine"
+        "url": "https://github.com/refinedev/refine",
+        "frameworks": [
+            "React",
+            "Next.js",
+            "SvelteKit",
+            "Remix",
+            "Ant Design",
+            "Chakra UI",
+            "Mantine",
+            "Material UI",
+            "Docusaurus"
+        ],
+        "tools": [
+            "Cypress",
+            "Biome",
+            "Changesets",
+            "CodeSandbox",
+            "Docker",
+            "EditorConfig",
+            "GitHub Actions",
+            "Husky",
+            "Nx",
+            "Prettier",
+            "Syncpack",
+            "VS Code",
+            "Helm"
+        ]
     },
     {
         "title": "vectordb",
@@ -1743,7 +3489,19 @@
         "issues": 12,
         "goodFirstIssues": 1,
         "ycBatch": 2023,
-        "url": "https://github.com/epsilla-cloud/vectordb"
+        "url": "https://github.com/epsilla-cloud/vectordb",
+        "frameworks": [
+            "oat++",
+            "RapidJSON",
+            "nlohmann/json"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "CMake",
+            "Visual Studio Code",
+            "Git"
+        ]
     },
     {
         "title": "skyvern",
@@ -1766,7 +3524,27 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/Skyvern-AI/skyvern/tree/main/integrations/mcp"
+        "url": "https://github.com/Skyvern-AI/skyvern/tree/main/integrations/mcp",
+        "frameworks": [
+            "React",
+            "FastAPI",
+            "LangChain",
+            "LlamaIndex",
+            "SQLAlchemy",
+            "Tailwind CSS"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Pre-commit",
+            "Alembic",
+            "Poetry",
+            "Vite",
+            "Fern",
+            "mypy",
+            "Flake8",
+            "ESLint"
+        ]
     },
     {
         "title": "briefer",
@@ -1788,7 +3566,28 @@
         "issues": 30,
         "goodFirstIssues": 2,
         "ycBatch": 2023,
-        "url": "https://github.com/briefercloud/briefer"
+        "url": "https://github.com/briefercloud/briefer",
+        "frameworks": [
+            "React",
+            "Next.js",
+            "Express.js",
+            "Prisma",
+            "Tailwind CSS"
+        ],
+        "tools": [
+            "Docker",
+            "Docker Compose",
+            "GitHub Actions",
+            "ESLint",
+            "Prettier",
+            "Jest",
+            "Yarn",
+            "Nodemon",
+            "Prisma CLI",
+            "Jupyter Notebook",
+            "Helm",
+            "PostCSS"
+        ]
     },
     {
         "title": "tegon",
@@ -1808,7 +3607,27 @@
         "issues": 30,
         "goodFirstIssues": 4,
         "ycBatch": 2023,
-        "url": "https://github.com/tegonhq/tegon"
+        "url": "https://github.com/tegonhq/tegon",
+        "frameworks": [
+            "NestJS",
+            "Next.js",
+            "React",
+            "Tailwind CSS",
+            "Prisma ORM",
+            "Supertokens"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "pnpm",
+            "ESLint",
+            "Prettier",
+            "Rollup.js",
+            "Jest",
+            "Tsup",
+            "PostCSS",
+            "OpenAPI"
+        ]
     },
     {
         "title": "atla-mcp-server",
@@ -1822,7 +3641,13 @@
         "issues": 1,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/atla-ai/atla-mcp-server"
+        "url": "https://github.com/atla-ai/atla-mcp-server",
+        "frameworks": [],
+        "tools": [
+            "GitHub Actions",
+            "pre-commit",
+            "pyenv"
+        ]
     },
     {
         "title": "cli",
@@ -1838,7 +3663,17 @@
         "issues": 2,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/opentoolsteam/cli"
+        "url": "https://github.com/opentoolsteam/cli",
+        "frameworks": [
+            "Mocha"
+        ],
+        "tools": [
+            "ESLint",
+            "Prettier",
+            "GitHub Actions",
+            "TypeScript",
+            "npm"
+        ]
     },
     {
         "title": "cedana",
@@ -1856,7 +3691,29 @@
         "issues": 10,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/cedana/cedana"
+        "url": "https://github.com/cedana/cedana",
+        "frameworks": [
+            "containerd",
+            "CRI-O",
+            "Kubernetes",
+            "runc",
+            "Kata Containers",
+            "Cloud-Hypervisor"
+        ],
+        "tools": [
+            "Docker",
+            "Make",
+            "GitBook",
+            "GitHub Actions",
+            "BATS",
+            "gRPC",
+            "SQLite",
+            "SQLC",
+            "YQ",
+            "CAdvisor",
+            "OpenTelemetry",
+            "RabbitMQ"
+        ]
     },
     {
         "title": "dioxus",
@@ -1881,7 +3738,29 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/DioxusLabs/dioxus"
+        "url": "https://github.com/DioxusLabs/dioxus",
+        "frameworks": [
+            "Dioxus",
+            "Tailwind CSS"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Dependabot",
+            "Visual Studio Code",
+            "Cargo",
+            "Rustfmt",
+            "Clippy",
+            "Miri",
+            "wasm-bindgen",
+            "wasm-split",
+            "Playwright",
+            "Nix",
+            "Lychee",
+            "Codecov",
+            "Dioxus CLI",
+            "Prettier"
+        ]
     },
     {
         "title": "xeol",
@@ -1902,7 +3781,23 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/xeol-io/xeol"
+        "url": "https://github.com/xeol-io/xeol",
+        "frameworks": [
+            "GORM",
+            "Cobra"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "GoReleaser",
+            "Syft",
+            "Grype",
+            "GolangCI-Lint",
+            "Dependabot",
+            "CodeQL",
+            "Make",
+            "Notary"
+        ]
     },
     {
         "title": "twenty",
@@ -1924,7 +3819,25 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/twentyhq/twenty"
+        "url": "https://github.com/twentyhq/twenty",
+        "frameworks": [
+            "React",
+            "ApolloClient",
+            "Storybook"
+        ],
+        "tools": [
+            "ESLint",
+            "Prettier",
+            "Yarn",
+            "Nx",
+            "Docker",
+            "Kubernetes",
+            "Terraform",
+            "SWC",
+            "nyc",
+            "GitHub Actions",
+            "Git"
+        ]
     },
     {
         "title": "AgentGPT",
@@ -1945,7 +3858,27 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/reworkd/AgentGPT"
+        "url": "https://github.com/reworkd/AgentGPT",
+        "frameworks": [
+            "Next.js"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "npm",
+            "Poetry",
+            "Docker Compose",
+            "Prisma",
+            "TypeScript",
+            "ESLint",
+            "Prettier",
+            "Husky",
+            "Jest",
+            "pytest",
+            "Flake8",
+            "pre-commit",
+            "Dependabot"
+        ]
     },
     {
         "title": "transfer",
@@ -1962,7 +3895,29 @@
         "issues": 5,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/artie-labs/transfer"
+        "url": "https://github.com/artie-labs/transfer",
+        "frameworks": [],
+        "tools": [
+            "BigQuery",
+            "Snowflake",
+            "Redshift",
+            "PostgreSQL",
+            "MySQL",
+            "MongoDB",
+            "Kafka",
+            "Debezium",
+            "Apache Livy",
+            "AWS S3",
+            "Docker",
+            "Docker Compose",
+            "GitHub Actions",
+            "Goreleaser",
+            "Make",
+            "Apache Parquet",
+            "Databricks",
+            "Iceberg",
+            "MSSQL"
+        ]
     },
     {
         "title": "moon",
@@ -1986,7 +3941,24 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/moonrepo/moon"
+        "url": "https://github.com/moonrepo/moon",
+        "frameworks": [
+            "Tailwind CSS",
+            "Docusaurus",
+            "Vite",
+            "GitHub Actions"
+        ],
+        "tools": [
+            "Docker",
+            "Babel",
+            "ESLint",
+            "Prettier",
+            "Just",
+            "Yarn",
+            "Cargo",
+            "Moon",
+            "Proto"
+        ]
     },
     {
         "title": "litellm",
@@ -2010,7 +3982,20 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/BerriAI/litellm"
+        "url": "https://github.com/BerriAI/litellm",
+        "frameworks": [
+            "Kubernetes",
+            "Helm"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Dev Containers",
+            "Make",
+            "Flake8",
+            "Prism",
+            "Grafana"
+        ]
     },
     {
         "title": "graphql-armor",
@@ -2027,7 +4012,23 @@
         "issues": 18,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/Escape-Technologies/graphql-armor"
+        "url": "https://github.com/Escape-Technologies/graphql-armor",
+        "frameworks": [
+            "Apollo",
+            "NestJS",
+            "Yoga",
+            "Docusaurus"
+        ],
+        "tools": [
+            "ESLint",
+            "Prettier",
+            "GitHub Actions",
+            "Yarn",
+            "Babel",
+            "Commitlint",
+            "Renovate",
+            "Changeset"
+        ]
     },
     {
         "title": "fern",
@@ -2055,7 +4056,16 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/fern-api/fern"
+        "url": "https://github.com/fern-api/fern",
+        "frameworks": [
+            "Express.js"
+        ],
+        "tools": [
+            "Docker",
+            "npm",
+            "GitHub Actions",
+            "OpenAPI Generator"
+        ]
     },
     {
         "title": "openint",
@@ -2073,7 +4083,29 @@
         "issues": 7,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/evefancom/evefan"
+        "url": "https://github.com/evefancom/evefan",
+        "frameworks": [
+            "nextjs",
+            "trpc",
+            "shadcn",
+            "storybook",
+            "aws-cdk"
+        ],
+        "tools": [
+            "github-actions",
+            "docker",
+            "pnpm",
+            "sentry",
+            "jest",
+            "turbo",
+            "vercel",
+            "eslint",
+            "prettier",
+            "drizzle-orm",
+            "firebase",
+            "micro-memoize",
+            "esbuild-jest"
+        ]
     },
     {
         "title": "actor-core",
@@ -2091,7 +4123,28 @@
         "issues": 30,
         "goodFirstIssues": 2,
         "ycBatch": 2023,
-        "url": "https://github.com/rivet-gg/actor-core"
+        "url": "https://github.com/rivet-gg/actor-core",
+        "frameworks": [
+            "React",
+            "Next.js"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "Yarn",
+            "Cargo",
+            "Biome",
+            "TsUp",
+            "Vitest",
+            "Lefthook",
+            "Verdaccio",
+            "Cloudflare Workers",
+            "Bun",
+            "Node.js",
+            "pip",
+            "Turborepo",
+            "Poetry",
+            "pytest"
+        ]
     },
     {
         "title": "gobl",
@@ -2109,7 +4162,16 @@
         "issues": 10,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/invopop/gobl"
+        "url": "https://github.com/invopop/gobl",
+        "frameworks": [],
+        "tools": [
+            "GitHub Actions",
+            "GolangCI",
+            "Goreleaser",
+            "Mage",
+            "Cypress",
+            "npm"
+        ]
     },
     {
         "title": "keep",
@@ -2129,7 +4191,32 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/keephq/keep"
+        "url": "https://github.com/keephq/keep",
+        "frameworks": [
+            "React",
+            "Next.js",
+            "FastAPI",
+            "Tailwind CSS"
+        ],
+        "tools": [
+            "Docker",
+            "PostgreSQL",
+            "Grafana",
+            "Prometheus",
+            "Keycloak",
+            "Logstash",
+            "OpenTelemetry",
+            "OpenAPI",
+            "GitHub Actions",
+            "Jest",
+            "ESLint",
+            "Prettier",
+            "ARQ",
+            "SQLAlchemy",
+            "React Flow",
+            "Monaco Editor",
+            "Turbopack"
+        ]
     },
     {
         "title": "pyht",
@@ -2144,7 +4231,20 @@
         "issues": 14,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/playht/pyht"
+        "url": "https://github.com/playht/pyht",
+        "frameworks": [
+            "gRPC",
+            "Protocol Buffers",
+            "Sphinx"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "pre-commit",
+            "Make",
+            "Poetry",
+            "Codecov",
+            "Read the Docs"
+        ]
     },
     {
         "title": "odigos",
@@ -2169,35 +4269,31 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/odigos-io/odigos"
-    },
-    {
-        "title": "baml",
-        "desc": "The AI framework that adds the engineering to prompt engineering (Python/TS/Ruby/Java/C#/Rust/Go compatible)",
-        "avatar": "https://avatars.githubusercontent.com/u/124114301?v=4",
-        "languages": {
-            "Rust": 3971139,
-            "TypeScript": 1183972,
-            "MDX": 524049,
-            "Python": 442450,
-            "HTML": 299287,
-            "Jinja": 112718,
-            "Go": 70826,
-            "JavaScript": 67444,
-            "Ruby": 64685,
-            "Shell": 29938,
-            "CSS": 23643,
-            "Nix": 11549,
-            "Dockerfile": 8193,
-            "C": 4561,
-            "RenderScript": 1
-        },
-        "forks": 148,
-        "stars": 3539,
-        "issues": 30,
-        "goodFirstIssues": 0,
-        "ycBatch": 2023,
-        "url": "https://github.com/boundaryml/baml"
+        "url": "https://github.com/odigos-io/odigos",
+        "frameworks": [
+            "Kubernetes",
+            "OpenTelemetry Collector",
+            "Next.js",
+            "React",
+            "Apollo GraphQL",
+            "Kubernetes Operator SDK",
+            "Protocol Buffers",
+            "Kubernetes Controller Runtime"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "GolangCI-Lint",
+            "GoReleaser",
+            "Make",
+            "Helm",
+            "Yarn",
+            "Chainsaw",
+            "Kubebuilder",
+            "Kubernetes kubectl",
+            "Operator SDK",
+            "Protobuf Compiler"
+        ]
     },
     {
         "title": "helicone",
@@ -2218,7 +4314,22 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/Helicone/helicone"
+        "url": "https://github.com/Helicone/helicone",
+        "frameworks": [
+            "React",
+            "Next.js"
+        ],
+        "tools": [
+            "Docker",
+            "ESLint",
+            "Vercel",
+            "ClickHouse",
+            "Supabase",
+            "PostHog",
+            "Swagger",
+            "GitHub Actions",
+            "PostCSS"
+        ]
     },
     {
         "title": "openmeter",
@@ -2243,7 +4354,35 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/openmeterio/openmeter"
+        "url": "https://github.com/openmeterio/openmeter",
+        "frameworks": [
+            "Ent",
+            "Watermill",
+            "React",
+            "Benthos",
+            "Orval",
+            "Helm"
+        ],
+        "tools": [
+            "Docker",
+            "Docker Compose",
+            "GitHub Actions",
+            "GolangCI-Lint",
+            "GoReleaser",
+            "Spectral",
+            "TypeScript",
+            "ESLint",
+            "Vitest",
+            "Poetry",
+            "Svix",
+            "Atlas",
+            "Kubernetes",
+            "Pnpm",
+            "ClickHouse",
+            "Kafka",
+            "Redis",
+            "PostgreSQL"
+        ]
     },
     {
         "title": "langfuse",
@@ -2262,7 +4401,28 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/langfuse/langfuse"
+        "url": "https://github.com/langfuse/langfuse",
+        "frameworks": [
+            "Next.js"
+        ],
+        "tools": [
+            "Docker",
+            "ESLint",
+            "Husky",
+            "NPM",
+            "Prisma",
+            "TypeScript",
+            "GitHub Actions",
+            "Cursor",
+            "Turbo",
+            "ClickHouse",
+            "Fern",
+            "Posthog",
+            "Stripe",
+            "AWS S3",
+            "Langfuse",
+            "Redis"
+        ]
     },
     {
         "title": "trench",
@@ -2281,7 +4441,25 @@
         "issues": 3,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/FrigadeHQ/trench"
+        "url": "https://github.com/FrigadeHQ/trench",
+        "frameworks": [
+            "NestJS"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Prettier",
+            "ESLint",
+            "Docker Compose",
+            "Swagger",
+            "Grafana",
+            "Kafka",
+            "ClickHouse",
+            "Jest",
+            "pnpm",
+            "Turborepo",
+            "Changeset"
+        ]
     },
     {
         "title": "flower",
@@ -2310,7 +4488,25 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "http://github.com/adap/flower"
+        "url": "http://github.com/adap/flower",
+        "frameworks": [
+            "FLWR",
+            "PyTorch",
+            "TensorFlow",
+            "XGBoost",
+            "Next.js"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Swift Package Manager",
+            "Xcode",
+            "Android Studio",
+            "SwiftFormat",
+            "Sphinx",
+            "Make",
+            "Gradle"
+        ]
     },
     {
         "title": "nango",
@@ -2331,7 +4527,15 @@
         "issues": 22,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/NangoHQ/nango"
+        "url": "https://github.com/NangoHQ/nango",
+        "frameworks": [],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Husky",
+            "Prettier",
+            "Yamllint"
+        ]
     },
     {
         "title": "bake-action",
@@ -2346,7 +4550,16 @@
         "issues": 2,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/depot/bake-action"
+        "url": "https://github.com/depot/bake-action",
+        "frameworks": [],
+        "tools": [
+            "GitHub Actions",
+            "Dependabot",
+            "Git",
+            "Prettier",
+            "Visual Studio Code",
+            "pnpm"
+        ]
     },
     {
         "title": "PlayBooks",
@@ -2366,7 +4579,28 @@
         "issues": 27,
         "goodFirstIssues": 5,
         "ycBatch": 2023,
-        "url": "https://github.com/DrDroidLab/PlayBooks"
+        "url": "https://github.com/DrDroidLab/PlayBooks",
+        "frameworks": [
+            "Django",
+            "React",
+            "Django REST framework"
+        ],
+        "tools": [
+            "Docker",
+            "Helm",
+            "pytest",
+            "Celery",
+            "Redis",
+            "PostgreSQL",
+            "Fluentd",
+            "Kubernetes",
+            "Protocol Buffers",
+            "Vite",
+            "TypeScript",
+            "Tailwind CSS",
+            "Redux",
+            "Nginx"
+        ]
     },
     {
         "title": "trigger.dev",
@@ -2386,7 +4620,24 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/triggerdotdev/trigger.dev"
+        "url": "https://github.com/triggerdotdev/trigger.dev",
+        "frameworks": [
+            "React",
+            "Next.js"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Prettier",
+            "ESLint",
+            "Prisma",
+            "Changeset",
+            "Zed",
+            "Kubernetes",
+            "Cursor",
+            "Infisical",
+            "NVM"
+        ]
     },
     {
         "title": "openllmetry",
@@ -2401,7 +4652,19 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/traceloop/openllmetry"
+        "url": "https://github.com/traceloop/openllmetry",
+        "frameworks": [
+            "OpenTelemetry",
+            "OpenTelemetry Semantic Conventions for AI"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "Dependabot",
+            "Poetry",
+            "Pytest",
+            "Flake8",
+            "Nx"
+        ]
     },
     {
         "title": "reflex",
@@ -2422,7 +4685,32 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/reflex-dev/reflex"
+        "url": "https://github.com/reflex-dev/reflex",
+        "frameworks": [
+            "Reflex",
+            "Next.js",
+            "Tailwind CSS",
+            "Radix UI"
+        ],
+        "tools": [
+            "Docker",
+            "Docker Compose",
+            "GitHub Actions",
+            "CodeQL",
+            "pre-commit",
+            "Caddy",
+            "Playwright",
+            "Bun",
+            "Hatch",
+            "Shiki",
+            "Recharts",
+            "Plotly",
+            "Lucide",
+            "SQLAlchemy",
+            "React Player",
+            "Sonner",
+            "SunEditor"
+        ]
     },
     {
         "title": "agent-apm-python",
@@ -2436,7 +4724,12 @@
         "issues": 13,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/middleware-labs/agent-apm-python"
+        "url": "https://github.com/middleware-labs/agent-apm-python",
+        "frameworks": [],
+        "tools": [
+            "GitHub Actions",
+            "pip"
+        ]
     },
     {
         "title": "tremor",
@@ -2452,7 +4745,21 @@
         "issues": 14,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "https://github.com/tremorlabs/tremor"
+        "url": "https://github.com/tremorlabs/tremor",
+        "frameworks": [
+            "React",
+            "Tremor"
+        ],
+        "tools": [
+            "Vite",
+            "Storybook",
+            "Playwright",
+            "Vitest",
+            "ESLint",
+            "Prettier",
+            "GitHub Actions",
+            "pnpm"
+        ]
     },
     {
         "title": "highlight",
@@ -2487,7 +4794,28 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2023,
-        "url": "http://github.com/highlight/highlight"
+        "url": "http://github.com/highlight/highlight",
+        "frameworks": [
+            "React",
+            "ANTLR",
+            "ClickHouse",
+            "OpenTelemetry"
+        ],
+        "tools": [
+            "Docker",
+            "Yarn",
+            "Cypress",
+            "Husky",
+            "Prettier",
+            "GitHub Actions",
+            "Changesets",
+            "ESLint",
+            "Stylelint",
+            "AWS Lambda",
+            "Redis",
+            "Make",
+            "All Contributors"
+        ]
     },
     {
         "title": "hamilton",
@@ -2509,7 +4837,29 @@
         "issues": 30,
         "goodFirstIssues": 1,
         "ycBatch": 2023,
-        "url": "https://github.com/DAGWorks-Inc/hamilton"
+        "url": "https://github.com/DAGWorks-Inc/hamilton",
+        "frameworks": [
+            "Hamilton",
+            "Docusaurus",
+            "React",
+            "Django"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "CircleCI",
+            "pre-commit",
+            "Flake8",
+            "YAPF",
+            "Docker",
+            "Docker Compose",
+            "Babel",
+            "npm",
+            "pytest",
+            "VS Code",
+            "Read the Docs",
+            "ESLint",
+            "Prettier"
+        ]
     },
     {
         "title": "firecrawl",
@@ -2532,7 +4882,23 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2022,
-        "url": "https://github.com/mendableai/firecrawl"
+        "url": "https://github.com/mendableai/firecrawl",
+        "frameworks": [
+            "React",
+            "Express.js"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "pnpm",
+            "Jest",
+            "Pytest",
+            "Cargo",
+            "Vite",
+            "Tailwind CSS",
+            "Redis",
+            "Playwright"
+        ]
     },
     {
         "title": "lamindb",
@@ -2548,7 +4914,24 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2022,
-        "url": "https://github.com/laminlabs/lamindb"
+        "url": "https://github.com/laminlabs/lamindb",
+        "frameworks": [
+            "Django",
+            "pre-commit",
+            "pytest"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "Jupyter",
+            "Nox",
+            "Git",
+            "Vitessce",
+            "Bionty",
+            "Cellxgene",
+            "Clinicore",
+            "lamin-cli",
+            "Poetry"
+        ]
     },
     {
         "title": "metriport",
@@ -2571,7 +4954,31 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2022,
-        "url": "https://github.com/metriport/metriport"
+        "url": "https://github.com/metriport/metriport",
+        "frameworks": [
+            "React"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Husky",
+            "Lerna",
+            "npm",
+            "Artillery",
+            "Postman",
+            "OpenAPI",
+            "Fern",
+            "CDA Validator",
+            "Carequality-cert-runner",
+            "Carequality-sdk",
+            "Commonwell-cert-runner",
+            "Commonwell-sdk",
+            "Handlebars",
+            "GitLeaks",
+            "AWS SDK",
+            "OpenSearch",
+            "Slack API"
+        ]
     },
     {
         "title": "anything-llm",
@@ -2590,7 +4997,23 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2022,
-        "url": "https://github.com/Mintplex-Labs/anything-llm"
+        "url": "https://github.com/Mintplex-Labs/anything-llm",
+        "frameworks": [
+            "React",
+            "Tailwind CSS",
+            "Express.js"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Vite",
+            "Prisma ORM",
+            "Nodemon",
+            "ESLint",
+            "Prettier",
+            "Swagger",
+            "dotenv"
+        ]
     },
     {
         "title": "neosync",
@@ -2613,7 +5036,28 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2022,
-        "url": "https://github.com/nucleuscloud/neosync"
+        "url": "https://github.com/nucleuscloud/neosync",
+        "frameworks": [
+            "React",
+            "Next.js",
+            "gRPC",
+            "Tailwind CSS"
+        ],
+        "tools": [
+            "Docker",
+            "PostgreSQL",
+            "MySQL",
+            "Helm",
+            "GitHub Actions",
+            "sqlc",
+            "protoc",
+            "Tilt",
+            "Prettier",
+            "ESLint",
+            "Knip",
+            "CSpell",
+            "Mockery"
+        ]
     },
     {
         "title": "activepieces",
@@ -2633,7 +5077,20 @@
         "issues": 30,
         "goodFirstIssues": 7,
         "ycBatch": 2022,
-        "url": "https://github.com/activepieces/activepieces"
+        "url": "https://github.com/activepieces/activepieces",
+        "frameworks": [
+            "ESLint",
+            "Prettier",
+            "Husky",
+            "Nx"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Pulumi",
+            "Verdaccio",
+            "Visual Studio Code"
+        ]
     },
     {
         "title": "build-your-own-x",
@@ -2647,34 +5104,13 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2022,
-        "url": "https://github.com/codecrafters-io/build-your-own-x"
-    },
-    {
-        "title": "customeros",
-        "desc": "CustomerOS is all-in-one GTM platform for B2B SaaS.  Everything you need to achieve Hyperscale.",
-        "avatar": "https://avatars.githubusercontent.com/u/176803522?v=4",
-        "languages": {
-            "Go": 7053366,
-            "TypeScript": 340796,
-            "Elixir": 115812,
-            "Cypher": 39303,
-            "HTML": 29904,
-            "Shell": 22905,
-            "Python": 16347,
-            "CSS": 15271,
-            "Dockerfile": 11209,
-            "Just": 8437,
-            "JavaScript": 7713,
-            "Makefile": 2946,
-            "Gherkin": 1533,
-            "Batchfile": 48
-        },
-        "forks": 19,
-        "stars": 106,
-        "issues": 4,
-        "goodFirstIssues": 0,
-        "ycBatch": 2022,
-        "url": "https://github.com/customeros/customeros"
+        "url": "https://github.com/codecrafters-io/build-your-own-x",
+        "frameworks": [],
+        "tools": [
+            "Git",
+            "GitHub",
+            "Codecrafters"
+        ]
     },
     {
         "title": "dittofeed",
@@ -2696,7 +5132,33 @@
         "issues": 28,
         "goodFirstIssues": 0,
         "ycBatch": 2022,
-        "url": "https://github.com/dittofeed/dittofeed"
+        "url": "https://github.com/dittofeed/dittofeed",
+        "frameworks": [
+            "React",
+            "Next.js",
+            "Material-UI",
+            "Tailwind CSS",
+            "Drizzle ORM",
+            "Temporal",
+            "Supabase",
+            "Express"
+        ],
+        "tools": [
+            "Docker",
+            "Docker Compose",
+            "Kubernetes",
+            "Helm",
+            "GitHub Actions",
+            "ESLint",
+            "Prettier",
+            "Yarn",
+            "Jest",
+            "Prometheus",
+            "Grafana",
+            "Apache Kafka",
+            "OpenTelemetry",
+            "ClickHouse"
+        ]
     },
     {
         "title": "medplum",
@@ -2720,7 +5182,24 @@
         "issues": 30,
         "goodFirstIssues": 1,
         "ycBatch": 2022,
-        "url": "https://github.com/medplum/medplum"
+        "url": "https://github.com/medplum/medplum",
+        "frameworks": [
+            "React",
+            "React Native",
+            "Next.js"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Vercel",
+            "PostCSS",
+            "esbuild",
+            "Jest",
+            "Prettier",
+            "Babel",
+            "Microsoft API Extractor",
+            "Expo"
+        ]
     },
     {
         "title": "netmaker",
@@ -2736,7 +5215,24 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2022,
-        "url": "https://github.com/gravitl/netmaker"
+        "url": "https://github.com/gravitl/netmaker",
+        "frameworks": [
+            "Swaggo"
+        ],
+        "tools": [
+            "Docker",
+            "Docker Compose",
+            "GitHub Actions",
+            "Goreleaser",
+            "Kubernetes",
+            "Caddy",
+            "Nginx",
+            "EMQX",
+            "Mosquitto",
+            "RQLite",
+            "PostgreSQL",
+            "SQLite"
+        ]
     },
     {
         "title": "jupysql",
@@ -2754,7 +5250,23 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2022,
-        "url": "https://github.com/ploomber/jupysql"
+        "url": "https://github.com/ploomber/jupysql",
+        "frameworks": [
+            "pytest",
+            "Sphinx",
+            "SQLAlchemy",
+            "plotnine",
+            "Pandas",
+            "Polars"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Read the Docs",
+            "Conda",
+            "Nox",
+            "Jupyter"
+        ]
     },
     {
         "title": "LSpec",
@@ -2769,7 +5281,17 @@
         "issues": 2,
         "goodFirstIssues": 0,
         "ycBatch": 2022,
-        "url": "https://github.com/argumentcomputer/LSpec"
+        "url": "https://github.com/argumentcomputer/LSpec",
+        "frameworks": [
+            "LSpec",
+            "SlimCheck"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "Git",
+            "Nix",
+            "Lake"
+        ]
     },
     {
         "title": "mobile-app",
@@ -2790,7 +5312,29 @@
         "issues": 9,
         "goodFirstIssues": 0,
         "ycBatch": 2022,
-        "url": "https://github.com/CypherD-IO/mobile-app"
+        "url": "https://github.com/CypherD-IO/mobile-app",
+        "frameworks": [
+            "React Native",
+            "Tailwind CSS"
+        ],
+        "tools": [
+            "Xcode",
+            "CocoaPods",
+            "Gradle",
+            "npm",
+            "Babel",
+            "ESLint",
+            "Prettier",
+            "Git",
+            "GitHub Actions",
+            "Bundler",
+            "NVM",
+            "Visual Studio Code",
+            "Watchman",
+            "ProGuard",
+            "PostCSS",
+            "NativeWind"
+        ]
     },
     {
         "title": "botcity-framework-core-python",
@@ -2804,7 +5348,17 @@
         "issues": 5,
         "goodFirstIssues": 2,
         "ycBatch": 2022,
-        "url": "https://github.com/botcity-dev/botcity-framework-core-python"
+        "url": "https://github.com/botcity-dev/botcity-framework-core-python",
+        "frameworks": [
+            "BotCity"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "MkDocs",
+            "flake8",
+            "setuptools",
+            "versioneer"
+        ]
     },
     {
         "title": "reakt-native-toolkit",
@@ -2827,7 +5381,25 @@
         "issues": 9,
         "goodFirstIssues": 0,
         "ycBatch": 2022,
-        "url": "https://github.com/voize-gmbh/reakt-native-toolkit"
+        "url": "https://github.com/voize-gmbh/reakt-native-toolkit",
+        "frameworks": [
+            "React Native",
+            "React",
+            "Kotlin Multiplatform",
+            "Reakt Native Toolkit"
+        ],
+        "tools": [
+            "Gradle",
+            "Yarn",
+            "Jest",
+            "ESLint",
+            "Prettier",
+            "GitHub Actions",
+            "CocoaPods",
+            "Xcode",
+            "KSP",
+            "Metro Bundler"
+        ]
     },
     {
         "title": "FHIR_inferno",
@@ -2841,7 +5413,16 @@
         "issues": 0,
         "goodFirstIssues": 0,
         "ycBatch": 2022,
-        "url": "https://github.com/tuva-health/FHIR_inferno"
+        "url": "https://github.com/tuva-health/FHIR_inferno",
+        "frameworks": [
+            "FHIR",
+            "BCDA"
+        ],
+        "tools": [
+            "CSV",
+            "NDJSON",
+            "Parquet"
+        ]
     },
     {
         "title": "starter",
@@ -2855,7 +5436,14 @@
         "issues": 21,
         "goodFirstIssues": 0,
         "ycBatch": 2022,
-        "url": "https://github.com/mintlify/starter"
+        "url": "https://github.com/mintlify/starter",
+        "frameworks": [
+            "Docusaurus"
+        ],
+        "tools": [
+            "OpenAPI",
+            "MDX"
+        ]
     },
     {
         "title": "dbt-iomete",
@@ -2870,7 +5458,20 @@
         "issues": 11,
         "goodFirstIssues": 0,
         "ycBatch": 2022,
-        "url": "https://github.com/iomete/dbt-iomete"
+        "url": "https://github.com/iomete/dbt-iomete",
+        "frameworks": [
+            "dbt",
+            "pytest"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "Docker Compose",
+            "tox",
+            "pip",
+            "bumpversion",
+            "Git",
+            "setuptools"
+        ]
     },
     {
         "title": "uploadthing",
@@ -2891,7 +5492,38 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2022,
-        "url": "https://github.com/pingdotgg/uploadthing"
+        "url": "https://github.com/pingdotgg/uploadthing",
+        "frameworks": [
+            "React",
+            "Vue.js",
+            "Svelte",
+            "Nuxt.js",
+            "Next.js",
+            "SvelteKit",
+            "Astro",
+            "Express",
+            "Fastify",
+            "H3",
+            "Remix",
+            "SolidJS",
+            "Tanstack Start",
+            "Expo",
+            "Tailwind CSS"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "Changeset",
+            "Prettier",
+            "Git",
+            "ESLint",
+            "Vitest",
+            "Playwright",
+            "pnpm",
+            "Turbo",
+            "Nix",
+            "UploadThing",
+            "PostCSS"
+        ]
     },
     {
         "title": "flagright-node",
@@ -2906,7 +5538,17 @@
         "issues": 0,
         "goodFirstIssues": 0,
         "ycBatch": 2022,
-        "url": "https://github.com/flagright/flagright-node"
+        "url": "https://github.com/flagright/flagright-node",
+        "frameworks": [
+            "Jest"
+        ],
+        "tools": [
+            "Yarn",
+            "TypeScript",
+            "Prettier",
+            "GitHub Actions",
+            "Webpack"
+        ]
     },
     {
         "title": "dart-mcp-server",
@@ -2921,7 +5563,15 @@
         "issues": 3,
         "goodFirstIssues": 0,
         "ycBatch": 2022,
-        "url": "https://github.com/its-dart/dart-mcp-server"
+        "url": "https://github.com/its-dart/dart-mcp-server",
+        "frameworks": [],
+        "tools": [
+            "Docker",
+            "Git",
+            "Yarn",
+            "Prettier",
+            "cspell"
+        ]
     },
     {
         "title": "beta9",
@@ -2942,7 +5592,21 @@
         "issues": 15,
         "goodFirstIssues": 1,
         "ycBatch": 2022,
-        "url": "https://github.com/beam-cloud/beta9"
+        "url": "https://github.com/beam-cloud/beta9",
+        "frameworks": [
+            "Kubernetes",
+            "gRPC",
+            "Protocol Buffers (Protobuf)"
+        ],
+        "tools": [
+            "Docker",
+            "Helm",
+            "Kustomize",
+            "Terraform",
+            "GitHub Actions",
+            "Make",
+            "Python SDK"
+        ]
     },
     {
         "title": "lancedb",
@@ -2964,7 +5628,27 @@
         "issues": 30,
         "goodFirstIssues": 1,
         "ycBatch": 2022,
-        "url": "https://github.com/lancedb/lancedb"
+        "url": "https://github.com/lancedb/lancedb",
+        "frameworks": [
+            "MkDocs",
+            "Jest",
+            "Pytest"
+        ],
+        "tools": [
+            "Cargo",
+            "Docker",
+            "Docker Compose",
+            "GitHub Actions",
+            "pre-commit",
+            "npm",
+            "ESLint",
+            "Pyright",
+            "Make",
+            "Maven",
+            "bumpversion",
+            "rustup",
+            "TypeDoc"
+        ]
     },
     {
         "title": "firezone",
@@ -2995,7 +5679,26 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2022,
-        "url": "https://github.com/firezone/firezone"
+        "url": "https://github.com/firezone/firezone",
+        "frameworks": [
+            "Phoenix",
+            "Ecto",
+            "Oban",
+            "Hilt",
+            "Jetpack Compose",
+            "Retrofit",
+            "Coroutines"
+        ],
+        "tools": [
+            "Docker",
+            "Terraform",
+            "Prettier",
+            "GitHub Actions",
+            "Caddy",
+            "Sentry",
+            "Gradle",
+            "PostgreSQL"
+        ]
     },
     {
         "title": "elementary",
@@ -3012,7 +5715,23 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2022,
-        "url": "https://github.com/elementary-data/elementary"
+        "url": "https://github.com/elementary-data/elementary",
+        "frameworks": [
+            "dbt",
+            "elementary"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "pre-commit",
+            "flake8",
+            "pytest",
+            "Slack",
+            "Docker Compose",
+            "Azure",
+            "Google Cloud Storage",
+            "AWS S3"
+        ]
     },
     {
         "title": "growthbook",
@@ -3034,7 +5753,23 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2022,
-        "url": "https://github.com/growthbook/growthbook"
+        "url": "https://github.com/growthbook/growthbook",
+        "frameworks": [
+            "Express.js",
+            "Next.js",
+            "Docusaurus"
+        ],
+        "tools": [
+            "Docker",
+            "ESLint",
+            "Prettier",
+            "Husky",
+            "GitHub Actions",
+            "VSCode",
+            "Jest",
+            "GrowthBook SDKs",
+            "Stats Package"
+        ]
     },
     {
         "title": "hyperdx",
@@ -3057,7 +5792,29 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2022,
-        "url": "https://github.com/hyperdxio/hyperdx"
+        "url": "https://github.com/hyperdxio/hyperdx",
+        "frameworks": [
+            "React",
+            "Next.js"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "Husky",
+            "Prettier",
+            "Yarn",
+            "Docker",
+            "Jest",
+            "ESLint",
+            "OpenTelemetry",
+            "Stylelint",
+            "PostCSS",
+            "Make",
+            "Gunicorn",
+            "Poetry",
+            "Nx",
+            "Changeset",
+            "Storybook"
+        ]
     },
     {
         "title": "requestly",
@@ -3078,7 +5835,27 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2022,
-        "url": "https://github.com/requestly/requestly"
+        "url": "https://github.com/requestly/requestly",
+        "frameworks": [
+            "React",
+            "Create React App (CRACO)",
+            "Browser Extension (Manifest V2/V3)"
+        ],
+        "tools": [
+            "ESLint",
+            "Prettier",
+            "Husky",
+            "GitHub Actions",
+            "Webpack",
+            "Rollup",
+            "Karma",
+            "Firebase",
+            "Git",
+            "TypeScript Compiler",
+            "Babel",
+            "Jest",
+            "Cypress"
+        ]
     },
     {
         "title": "grai-core",
@@ -3100,7 +5877,22 @@
         "issues": 17,
         "goodFirstIssues": 0,
         "ycBatch": 2022,
-        "url": "https://github.com/grai-io/grai-core"
+        "url": "https://github.com/grai-io/grai-core",
+        "frameworks": [
+            "Next.js",
+            "React",
+            "Django"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Vite",
+            "ESLint",
+            "Prettier",
+            "Make",
+            "pytest",
+            "Celery"
+        ]
     },
     {
         "title": "lightly",
@@ -3116,7 +5908,22 @@
         "issues": 30,
         "goodFirstIssues": 4,
         "ycBatch": 2021,
-        "url": "https://github.com/lightly-ai/lightly"
+        "url": "https://github.com/lightly-ai/lightly",
+        "frameworks": [
+            "PyTorch",
+            "PyTorch Lightning",
+            "torchvision"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "pre-commit",
+            "Read the Docs",
+            "Make",
+            "pytest",
+            "pip",
+            "setuptools",
+            "Swagger/OpenAPI"
+        ]
     },
     {
         "title": "evidence",
@@ -3134,7 +5941,21 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/evidence-dev/evidence"
+        "url": "https://github.com/evidence-dev/evidence",
+        "frameworks": [
+            "Svelte",
+            "SvelteKit",
+            "Tailwind CSS"
+        ],
+        "tools": [
+            "Vite",
+            "Playwright",
+            "ESLint",
+            "Prettier",
+            "GitHub Actions",
+            "Chromatic",
+            "Changeset"
+        ]
     },
     {
         "title": "bytebot",
@@ -3153,7 +5974,20 @@
         "issues": 1,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/bytebot-ai/bytebot"
+        "url": "https://github.com/bytebot-ai/bytebot",
+        "frameworks": [
+            "NestJS",
+            "Next.js"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Prisma",
+            "ESLint",
+            "Prettier",
+            "Supervisord",
+            "PostCSS"
+        ]
     },
     {
         "title": "evidently",
@@ -3174,7 +6008,27 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/evidentlyai/evidently"
+        "url": "https://github.com/evidentlyai/evidently",
+        "frameworks": [
+            "React",
+            "Material-UI",
+            "Apache Spark",
+            "Pydantic"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "pre-commit",
+            "Jupyter",
+            "Pytest",
+            "PyTorch",
+            "DVC",
+            "Ruff",
+            "pnpm",
+            "Vite",
+            "Playwright",
+            "Make"
+        ]
     },
     {
         "title": "mergent-js",
@@ -3189,7 +6043,17 @@
         "issues": 4,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/mergentlabs/mergent-js"
+        "url": "https://github.com/mergentlabs/mergent-js",
+        "frameworks": [
+            "Jest"
+        ],
+        "tools": [
+            "ESLint",
+            "Prettier",
+            "GitHub Actions",
+            "Dependabot",
+            "npm"
+        ]
     },
     {
         "title": "docs",
@@ -3201,39 +6065,16 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/Cloudanix/docs"
-    },
-    {
-        "title": "enso",
-        "desc": "Enso Analytics is a self-service data prep and analysis platform designed for data teams.",
-        "avatar": "https://avatars.githubusercontent.com/u/17415943?v=4",
-        "languages": {
-            "Scala": 6649662,
-            "Java": 6433752,
-            "TypeScript": 5162767,
-            "Rust": 1928229,
-            "Vue": 628934,
-            "JavaScript": 116061,
-            "Python": 71901,
-            "HTML": 71892,
-            "Starlark": 45275,
-            "CSS": 38228,
-            "Shell": 6552,
-            "Dockerfile": 5753,
-            "C++": 4825,
-            "Nix": 4347,
-            "ANTLR": 4117,
-            "Haskell": 2689,
-            "Makefile": 824,
-            "PowerShell": 648,
-            "Batchfile": 453
-        },
-        "forks": 327,
-        "stars": 7403,
-        "issues": 30,
-        "goodFirstIssues": 0,
-        "ycBatch": 2021,
-        "url": "https://github.com/enso-org/enso"
+        "url": "https://github.com/Cloudanix/docs",
+        "frameworks": [
+            "MkDocs"
+        ],
+        "tools": [
+            "Git",
+            "GitHub",
+            "Docker",
+            "GitHub Actions"
+        ]
     },
     {
         "title": "HyperAgent",
@@ -3249,7 +6090,20 @@
         "issues": 13,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/hyperbrowserai/HyperAgent"
+        "url": "https://github.com/hyperbrowserai/HyperAgent",
+        "frameworks": [],
+        "tools": [
+            "ESLint",
+            "TypeScript",
+            "Yarn",
+            "HyperBrowser",
+            "Exa",
+            "Anthropic API",
+            "OpenAI API",
+            "Google Sheets API",
+            "Notion API",
+            "Weather API"
+        ]
     },
     {
         "title": "lago",
@@ -3266,7 +6120,21 @@
         "issues": 17,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/getlago/lago"
+        "url": "https://github.com/getlago/lago",
+        "frameworks": [],
+        "tools": [
+            "Docker",
+            "Docker Compose",
+            "GitHub Actions",
+            "Apache Kafka",
+            "Redis",
+            "ClickHouse",
+            "PostgreSQL",
+            "Nginx",
+            "Traefik",
+            "Air",
+            "Bash"
+        ]
     },
     {
         "title": "prisma-auth",
@@ -3282,7 +6150,18 @@
         "issues": 3,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/joindeed/prisma-auth"
+        "url": "https://github.com/joindeed/prisma-auth",
+        "frameworks": [
+            "Jest"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "npm",
+            "Yarn",
+            "Prettier",
+            "TypeScript",
+            "PEG.js"
+        ]
     },
     {
         "title": "lea",
@@ -3298,7 +6177,21 @@
         "issues": 15,
         "goodFirstIssues": 4,
         "ycBatch": 2021,
-        "url": "https://github.com/carbonfact/lea"
+        "url": "https://github.com/carbonfact/lea",
+        "frameworks": [
+            "lea"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "Make",
+            "Poetry",
+            "pre-commit",
+            "Jinja2",
+            "Dependabot",
+            "Git",
+            "DuckDB",
+            "BigQuery"
+        ]
     },
     {
         "title": "argo-workflows-ci-example",
@@ -3315,7 +6208,24 @@
         "issues": 3,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/pipekit/argo-workflows-ci-example"
+        "url": "https://github.com/pipekit/argo-workflows-ci-example",
+        "frameworks": [
+            "Hera"
+        ],
+        "tools": [
+            "Docker",
+            "Kubernetes",
+            "Argo Rollouts",
+            "Argo Workflows",
+            "Argo CD",
+            "Minio",
+            "NFS Server Provisioner",
+            "Ingress NGINX",
+            "Helm",
+            "Renovate",
+            "Bash",
+            "K3d"
+        ]
     },
     {
         "title": "Superwall-iOS",
@@ -3332,7 +6242,23 @@
         "issues": 9,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/superwall/Superwall-iOS"
+        "url": "https://github.com/superwall/Superwall-iOS",
+        "frameworks": [
+            "UIKit",
+            "SwiftUI",
+            "Combine",
+            "StoreKit",
+            "CoreData",
+            "XCTest"
+        ],
+        "tools": [
+            "SwiftLint",
+            "Swift Package Manager (SPM)",
+            "Xcode",
+            "GitHub Actions",
+            "CocoaPods",
+            "make-xcframework.sh"
+        ]
     },
     {
         "title": "gluestick",
@@ -3346,7 +6272,19 @@
         "issues": 9,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/hotgluexyz/gluestick"
+        "url": "https://github.com/hotgluexyz/gluestick",
+        "frameworks": [
+            "Pandas",
+            "Singer"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "Travis CI",
+            "mypy",
+            "Poetry",
+            "setuptools",
+            "Tox"
+        ]
     },
     {
         "title": "artillery",
@@ -3366,7 +6304,34 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/artilleryio/artillery"
+        "url": "https://github.com/artilleryio/artillery",
+        "frameworks": [
+            "Artillery",
+            "Playwright",
+            "Prisma",
+            "Twirp"
+        ],
+        "tools": [
+            "ESLint",
+            "GitHub Actions",
+            "Azure DevOps",
+            "CircleCI",
+            "Jenkins",
+            "Git",
+            "Docker",
+            "Make",
+            "npm",
+            "Commitlint",
+            "CodeQL",
+            "Kubernetes",
+            "Redis",
+            "Prometheus",
+            "Grafana",
+            "AWS ECS",
+            "Datadog",
+            "CloudWatch",
+            "Slack"
+        ]
     },
     {
         "title": "openlayer-python",
@@ -3383,7 +6348,17 @@
         "issues": 1,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/openlayer-ai/openlayer-python"
+        "url": "https://github.com/openlayer-ai/openlayer-python",
+        "frameworks": [],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "MyPy",
+            "Nox",
+            "Pytest",
+            "Ruff",
+            "Homebrew"
+        ]
     },
     {
         "title": "ollama",
@@ -3408,7 +6383,29 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/ollama/ollama"
+        "url": "https://github.com/ollama/ollama",
+        "frameworks": [
+            "llama.cpp",
+            "ggml",
+            "React",
+            "Electron",
+            "Tailwind CSS",
+            "SentencePiece",
+            "CUDA",
+            "HIP"
+        ],
+        "tools": [
+            "Docker",
+            "CMake",
+            "GitHub Actions",
+            "ESLint",
+            "Webpack",
+            "GolangCI-Lint",
+            "Node.js",
+            "CUDA Toolkit",
+            "ROCm",
+            "Quantization tools"
+        ]
     },
     {
         "title": "open-saas",
@@ -3427,7 +6424,23 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/wasp-lang/open-saas"
+        "url": "https://github.com/wasp-lang/open-saas",
+        "frameworks": [
+            "React",
+            "Astro",
+            "Wasp",
+            "Prisma",
+            "Tailwind CSS"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "Prettier",
+            "Playwright",
+            "npm",
+            "Stripe",
+            "LemonSqueezy",
+            "Vite"
+        ]
     },
     {
         "title": "svix-webhooks",
@@ -3455,7 +6468,30 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/svix/svix-webhooks"
+        "url": "https://github.com/svix/svix-webhooks",
+        "frameworks": [
+            "OpenAPI"
+        ],
+        "tools": [
+            "Cargo",
+            "Docker",
+            "Docker Compose",
+            "GitHub Actions",
+            "Gradle",
+            "Jest",
+            "Mypy",
+            "npm",
+            "PHPUnit",
+            "Prettier",
+            "RuboCop",
+            "Yarn",
+            "ESLint",
+            "Flake8",
+            "Clippy",
+            "Nextest",
+            "Gitleaks",
+            "PHP_CodeSniffer"
+        ]
     },
     {
         "title": "infracost",
@@ -3473,7 +6509,18 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/infracost/infracost"
+        "url": "https://github.com/infracost/infracost",
+        "frameworks": [
+            "Terraform"
+        ],
+        "tools": [
+            "Docker",
+            "Make",
+            "Infracost",
+            "GitHub Actions",
+            "Git",
+            "Terragrunt"
+        ]
     },
     {
         "title": "chatwoot",
@@ -3497,7 +6544,19 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/chatwoot/chatwoot"
+        "url": "https://github.com/chatwoot/chatwoot",
+        "frameworks": [
+            "Ruby on Rails",
+            "React"
+        ],
+        "tools": [
+            "Docker",
+            "RSpec",
+            "Sidekiq",
+            "Redis",
+            "PostgreSQL",
+            "Webpacker"
+        ]
     },
     {
         "title": "lunatic",
@@ -3512,7 +6571,18 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/lunatic-solutions/lunatic"
+        "url": "https://github.com/lunatic-solutions/lunatic",
+        "frameworks": [
+            "Axum",
+            "Submillisecond"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "Dependabot",
+            "Cargo",
+            "cargo-deny",
+            "Wasmtime"
+        ]
     },
     {
         "title": "Summer2025-Internships",
@@ -3524,7 +6594,24 @@
         "issues": 10,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/SimplifyJobs/Summer2025-Internships"
+        "url": "https://github.com/SimplifyJobs/Summer2025-Internships",
+        "frameworks": [
+            "React",
+            "Express",
+            "Next.js"
+        ],
+        "tools": [
+            "Docker",
+            "Redis",
+            "PostgreSQL",
+            "Webpack",
+            "Jest",
+            "GitHub Actions",
+            "Prisma",
+            "Dotenv",
+            "Passport.js",
+            "Tailwind CSS"
+        ]
     },
     {
         "title": "text2sql",
@@ -3540,7 +6627,16 @@
         "issues": 2,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/datrics-ai/text2sql"
+        "url": "https://github.com/datrics-ai/text2sql",
+        "frameworks": [
+            "Flask"
+        ],
+        "tools": [
+            "Docker",
+            "Docker Compose",
+            "Poetry",
+            "ChromaDB"
+        ]
     },
     {
         "title": "doctr",
@@ -3556,7 +6652,23 @@
         "issues": 30,
         "goodFirstIssues": 2,
         "ycBatch": 2021,
-        "url": "https://github.com/mindee/doctr"
+        "url": "https://github.com/mindee/doctr",
+        "frameworks": [
+            "PyTorch",
+            "TensorFlow"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Conda",
+            "Make",
+            "Pre-commit",
+            "Sphinx",
+            "pytest",
+            "Jupyter",
+            "Dependabot",
+            "setuptools"
+        ]
     },
     {
         "title": "fintoc-python",
@@ -3572,7 +6684,18 @@
         "issues": 2,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/fintoc-com/fintoc-python"
+        "url": "https://github.com/fintoc-com/fintoc-python",
+        "frameworks": [],
+        "tools": [
+            "GitHub Actions",
+            "Poetry",
+            "pytest",
+            "coverage.py",
+            "flake8",
+            "Pylint",
+            "Make",
+            "Codecov"
+        ]
     },
     {
         "title": "laudspeaker",
@@ -3592,7 +6715,40 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/laudspeaker/laudspeaker"
+        "url": "https://github.com/laudspeaker/laudspeaker",
+        "frameworks": [
+            "React",
+            "NestJS",
+            "Tailwind CSS"
+        ],
+        "tools": [
+            "Docker",
+            "Docker Compose",
+            "CircleCI",
+            "GitHub Actions",
+            "Webpack",
+            "Babel",
+            "ESLint",
+            "Prettier",
+            "Jest",
+            "Cypress",
+            "k6",
+            "Redis",
+            "Kafka",
+            "PostgreSQL",
+            "MongoDB",
+            "ClickHouse",
+            "Resend",
+            "Mailgun",
+            "SendGrid",
+            "Firebase",
+            "Slack API",
+            "Twilio",
+            "PostHog",
+            "Amazon S3",
+            "Redlock",
+            "WebSockets"
+        ]
     },
     {
         "title": "triplit",
@@ -3614,7 +6770,34 @@
         "issues": 18,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/aspen-cloud/triplit"
+        "url": "https://github.com/aspen-cloud/triplit",
+        "frameworks": [
+            "Angular",
+            "React",
+            "Vue",
+            "Svelte",
+            "Solid",
+            "Next.js",
+            "Nextra",
+            "Bun",
+            "Cloudflare Workers",
+            "Expo"
+        ],
+        "tools": [
+            "Docker",
+            "Vite",
+            "Yarn",
+            "Prettier",
+            "Vitest",
+            "Tailwind CSS",
+            "ESLint",
+            "PNPM",
+            "Hono",
+            "Turbo",
+            "Typedoc",
+            "PostCSS",
+            "Wrangler"
+        ]
     },
     {
         "title": "charts",
@@ -3630,7 +6813,19 @@
         "issues": 30,
         "goodFirstIssues": 7,
         "ycBatch": 2021,
-        "url": "https://github.com/SigNoz/charts"
+        "url": "https://github.com/SigNoz/charts",
+        "frameworks": [
+            "Kubernetes",
+            "ClickHouse",
+            "OpenTelemetry Collector",
+            "Signoz",
+            "Altinity ClickHouse Operator"
+        ],
+        "tools": [
+            "Helm",
+            "GitHub Actions",
+            "Make"
+        ]
     },
     {
         "title": "next-img",
@@ -3644,7 +6839,18 @@
         "issues": 6,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/humaans/next-img"
+        "url": "https://github.com/humaans/next-img",
+        "frameworks": [
+            "Next.js"
+        ],
+        "tools": [
+            "ESLint",
+            "Prettier",
+            "SWC",
+            "GitHub CodeQL",
+            "npm",
+            "Jest"
+        ]
     },
     {
         "title": "bridge-manager",
@@ -3660,7 +6866,14 @@
         "issues": 15,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/beeper/bridge-manager"
+        "url": "https://github.com/beeper/bridge-manager",
+        "frameworks": [],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Git",
+            "pre-commit"
+        ]
     },
     {
         "title": "docs",
@@ -3680,7 +6893,28 @@
         "issues": 9,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/dyte-io/docs"
+        "url": "https://github.com/dyte-io/docs",
+        "frameworks": [
+            "React",
+            "React Native",
+            "Angular",
+            "Flutter",
+            "iOS",
+            "Android",
+            "Web Components"
+        ],
+        "tools": [
+            "ESLint",
+            "Prettier",
+            "Webpack",
+            "Tailwind CSS",
+            "GitHub Actions",
+            "Docsearch",
+            "Docusaurus",
+            "Amplify",
+            "CLI",
+            "Plugin SDK"
+        ]
     },
     {
         "title": "ios-metrics-sdk",
@@ -3697,7 +6931,17 @@
         "issues": 4,
         "goodFirstIssues": 0,
         "ycBatch": 2021,
-        "url": "https://github.com/promotedai/ios-metrics-sdk"
+        "url": "https://github.com/promotedai/ios-metrics-sdk",
+        "frameworks": [
+            "Firebase",
+            "GTMSession cher"
+        ],
+        "tools": [
+            "Cocoapods",
+            "Swift Package Manager",
+            "Protocol Buffers",
+            "GitHub Actions"
+        ]
     },
     {
         "title": "action-hasura-change-summary",
@@ -3712,7 +6956,17 @@
         "issues": 13,
         "goodFirstIssues": 0,
         "ycBatch": 2020,
-        "url": "https://github.com/Fieldguide/action-hasura-change-summary"
+        "url": "https://github.com/Fieldguide/action-hasura-change-summary",
+        "frameworks": [
+            "jest"
+        ],
+        "tools": [
+            "eslint",
+            "prettier",
+            "github-actions",
+            "npm",
+            "typescript"
+        ]
     },
     {
         "title": "mito",
@@ -3733,7 +6987,21 @@
         "issues": 30,
         "goodFirstIssues": 1,
         "ycBatch": 2020,
-        "url": "https://github.com/mito-ds/mito"
+        "url": "https://github.com/mito-ds/mito",
+        "frameworks": [
+            "React",
+            "Next.js",
+            "Jupyter",
+            "Streamlit",
+            "Jest"
+        ],
+        "tools": [
+            "Babel",
+            "Eslint",
+            "Prettier",
+            "Playwright",
+            "esbuild"
+        ]
     },
     {
         "title": "auth",
@@ -3751,7 +7019,17 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2020,
-        "url": "https://github.com/supabase/auth"
+        "url": "https://github.com/supabase/auth",
+        "frameworks": [
+            "Cobra"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Make",
+            "golang-migrate",
+            "Netlify"
+        ]
     },
     {
         "title": "docs",
@@ -3775,7 +7053,20 @@
         "issues": 12,
         "goodFirstIssues": 0,
         "ycBatch": 2020,
-        "url": "https://github.com/seamapi/docs"
+        "url": "https://github.com/seamapi/docs",
+        "frameworks": [
+            "React"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Dependabot",
+            "ESLint",
+            "Prettier",
+            "Node.js",
+            "npm",
+            "GitBook"
+        ]
     },
     {
         "title": "questdb",
@@ -3805,7 +7096,20 @@
         "issues": 30,
         "goodFirstIssues": 1,
         "ycBatch": 2020,
-        "url": "https://github.com/questdb/questdb"
+        "url": "https://github.com/questdb/questdb",
+        "frameworks": [
+            "Netty",
+            "ANTLR",
+            "Apache Arrow"
+        ],
+        "tools": [
+            "Maven",
+            "JUnit",
+            "JMH",
+            "Docker",
+            "GitHub Actions",
+            "npm"
+        ]
     },
     {
         "title": "lightdash",
@@ -3824,7 +7128,30 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2020,
-        "url": "https://github.com/lightdash/lightdash"
+        "url": "https://github.com/lightdash/lightdash",
+        "frameworks": [
+            "React",
+            "Next.js",
+            "dbt",
+            "Cypress",
+            "Storybook",
+            "Express.js"
+        ],
+        "tools": [
+            "Docker",
+            "Gitpod",
+            "Husky",
+            "Prettier",
+            "GitHub Actions",
+            "pnpm",
+            "NVM",
+            "All Contributors",
+            "AWS SDK",
+            "Slack API",
+            "GitHub API",
+            "Jest",
+            "TypeORM"
+        ]
     },
     {
         "title": "docs",
@@ -3850,7 +7177,19 @@
         "issues": 18,
         "goodFirstIssues": 1,
         "ycBatch": 2020,
-        "url": "https://github.com/supertokens/docs"
+        "url": "https://github.com/supertokens/docs",
+        "frameworks": [
+            "React",
+            "Docusaurus"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "Docker",
+            "Prettier",
+            "Vitest",
+            "Vale",
+            "Bun"
+        ]
     },
     {
         "title": "increase-python",
@@ -3867,7 +7206,20 @@
         "issues": 0,
         "goodFirstIssues": 0,
         "ycBatch": 2020,
-        "url": "https://github.com/Increase/increase-python"
+        "url": "https://github.com/Increase/increase-python",
+        "frameworks": [],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Release Please",
+            "Nox",
+            "MyPy",
+            "Ruff",
+            "Pytest",
+            "Homebrew",
+            "pyenv",
+            "pip"
+        ]
     },
     {
         "title": "jitsu",
@@ -3886,7 +7238,23 @@
         "issues": 10,
         "goodFirstIssues": 1,
         "ycBatch": 2020,
-        "url": "https://github.com/jitsucom/jitsu"
+        "url": "https://github.com/jitsucom/jitsu",
+        "frameworks": [
+            "React",
+            "Tailwind CSS"
+        ],
+        "tools": [
+            "Docker",
+            "CircleCI",
+            "GitHub Actions",
+            "ESLint",
+            "Prettier",
+            "Heroku",
+            "Git",
+            "pnpm",
+            "OpenAPI",
+            "Make"
+        ]
     },
     {
         "title": "ukama",
@@ -3910,7 +7278,24 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2020,
-        "url": "https://github.com/ukama/ukama"
+        "url": "https://github.com/ukama/ukama",
+        "frameworks": [
+            "React",
+            "Next.js",
+            "Apollo Client"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Clang",
+            "QEMU",
+            "ESLint",
+            "Prettier",
+            "Swagger",
+            "Git",
+            "Alpine Linux",
+            "SonarQube"
+        ]
     },
     {
         "title": "jet-bridge",
@@ -3928,7 +7313,16 @@
         "issues": 7,
         "goodFirstIssues": 0,
         "ycBatch": 2020,
-        "url": "https://github.com/jet-admin/jet-bridge"
+        "url": "https://github.com/jet-admin/jet-bridge",
+        "frameworks": [
+            "Django"
+        ],
+        "tools": [
+            "Docker",
+            "Heroku",
+            "DeepSource",
+            "Sentry"
+        ]
     },
     {
         "title": "airbyte",
@@ -3956,7 +7350,20 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2020,
-        "url": "https://github.com/airbytehq/airbyte"
+        "url": "https://github.com/airbytehq/airbyte",
+        "frameworks": [
+            "React",
+            "Spring Boot",
+            "Flask"
+        ],
+        "tools": [
+            "Docker",
+            "Docker Compose",
+            "Gradle",
+            "Maven",
+            "GitHub Actions",
+            "Make"
+        ]
     },
     {
         "title": "voice-agent-demo",
@@ -3974,7 +7381,17 @@
         "issues": 0,
         "goodFirstIssues": 0,
         "ycBatch": 2020,
-        "url": "https://github.com/recallai/voice-agent-demo"
+        "url": "https://github.com/recallai/voice-agent-demo",
+        "frameworks": [
+            "React"
+        ],
+        "tools": [
+            "Vite",
+            "ESLint",
+            "Git",
+            "npm",
+            "pip"
+        ]
     },
     {
         "title": "script-commands",
@@ -3995,7 +7412,21 @@
         "issues": 0,
         "goodFirstIssues": 0,
         "ycBatch": 2020,
-        "url": "https://github.com/raycast/script-commands"
+        "url": "https://github.com/raycast/script-commands",
+        "frameworks": [
+            "Swift Package Manager",
+            "XCTest"
+        ],
+        "tools": [
+            "SwiftLint",
+            "Docker",
+            "GitHub Actions",
+            "Homebrew",
+            "Make",
+            "Node.js",
+            "Bash",
+            "AppleScript"
+        ]
     },
     {
         "title": "datago",
@@ -4010,7 +7441,15 @@
         "issues": 4,
         "goodFirstIssues": 0,
         "ycBatch": 2020,
-        "url": "https://github.com/Photoroom/datago"
+        "url": "https://github.com/Photoroom/datago",
+        "frameworks": [],
+        "tools": [
+            "GitHub Actions",
+            "Git",
+            "pre-commit",
+            "Cargo",
+            "pip"
+        ]
     },
     {
         "title": "buildbuddy",
@@ -4034,7 +7473,31 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2020,
-        "url": "https://github.com/buildbuddy-io/buildbuddy"
+        "url": "https://github.com/buildbuddy-io/buildbuddy",
+        "frameworks": [
+            "React"
+        ],
+        "tools": [
+            "Bazel",
+            "Docker",
+            "Kubernetes",
+            "GitHub Actions",
+            "Terraform",
+            "Helm",
+            "Prettier",
+            "SWC",
+            "TypeScript",
+            "Yarn",
+            "npm",
+            "Go toolchain",
+            "Protocol Buffers",
+            "gRPC",
+            "Redis",
+            "ClickHouse",
+            "Prometheus",
+            "Grafana",
+            "Docusaurus"
+        ]
     },
     {
         "title": "querypie-mcp-server",
@@ -4050,7 +7513,16 @@
         "issues": 0,
         "goodFirstIssues": 0,
         "ycBatch": 2020,
-        "url": "https://github.com/querypie/querypie-mcp-server"
+        "url": "https://github.com/querypie/querypie-mcp-server",
+        "frameworks": [
+            "OpenAPI"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "GoReleaser",
+            "mise"
+        ]
     },
     {
         "title": "hotrod",
@@ -4072,7 +7544,30 @@
         "issues": 7,
         "goodFirstIssues": 0,
         "ycBatch": 2020,
-        "url": "https://github.com/signadot/hotrod"
+        "url": "https://github.com/signadot/hotrod",
+        "frameworks": [
+            "React",
+            "Kubernetes",
+            "Jaeger",
+            "gRPC",
+            "Protocol Buffers"
+        ],
+        "tools": [
+            "Docker",
+            "npm",
+            "Make",
+            "GitLab CI",
+            "Bitbucket Pipelines",
+            "Cypress",
+            "Playwright",
+            "Postman",
+            "Prometheus",
+            "Kustomize",
+            "ESLint",
+            "Vite",
+            "Air",
+            "Signadot"
+        ]
     },
     {
         "title": "corrosion",
@@ -4089,7 +7584,15 @@
         "issues": 30,
         "goodFirstIssues": 1,
         "ycBatch": 2020,
-        "url": "https://github.com/superfly/corrosion"
+        "url": "https://github.com/superfly/corrosion",
+        "frameworks": [],
+        "tools": [
+            "Buildkite",
+            "GitHub Actions",
+            "Cargo",
+            "Docker",
+            "Nix"
+        ]
     },
     {
         "title": "cog",
@@ -4105,7 +7608,27 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2020,
-        "url": "https://github.com/replicate/cog"
+        "url": "https://github.com/replicate/cog",
+        "frameworks": [
+            "MkDocs"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Dependabot",
+            "GolangCI-Lint",
+            "GoReleaser",
+            "Mockery",
+            "Tox",
+            "pytest",
+            "direnv",
+            "asdf",
+            "Visual Studio Code",
+            "All Contributors",
+            "CodeQL",
+            "AWS S3",
+            "Pydantic"
+        ]
     },
     {
         "title": "mindsdb",
@@ -4125,7 +7648,20 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2020,
-        "url": "https://github.com/mindsdb/mindsdb"
+        "url": "https://github.com/mindsdb/mindsdb",
+        "frameworks": [],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Make",
+            "Flake8",
+            "Gitpod",
+            "MariaDB",
+            "MySQL",
+            "PostgreSQL",
+            "Node.js",
+            "npm"
+        ]
     },
     {
         "title": "dbt-expectations",
@@ -4139,7 +7675,22 @@
         "issues": 3,
         "goodFirstIssues": 0,
         "ycBatch": 2020,
-        "url": "https://github.com/metaplane/dbt-expectations"
+        "url": "https://github.com/metaplane/dbt-expectations",
+        "frameworks": [
+            "dbt",
+            "Apache Spark",
+            "Apache Hive"
+        ],
+        "tools": [
+            "Docker",
+            "Docker Compose",
+            "CircleCI",
+            "GitHub Actions",
+            "Tox",
+            "SQLFluff",
+            "Git",
+            "EditorConfig"
+        ]
     },
     {
         "title": "autocomplete",
@@ -4156,7 +7707,44 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2020,
-        "url": "https://github.com/withfig/autocomplete"
+        "url": "https://github.com/withfig/autocomplete",
+        "frameworks": [
+            "Vue.js",
+            "NestJS",
+            "Express",
+            "Astro",
+            "Firebase",
+            "Next.js",
+            "Nuxt.js",
+            "WordPress",
+            "Capacitor",
+            "Prisma",
+            "TypeORM"
+        ],
+        "tools": [
+            "npm",
+            "yarn",
+            "pnpm",
+            "ESLint",
+            "Prettier",
+            "Husky",
+            "GitHub Actions",
+            "Danger",
+            "Dependabot",
+            "Docker",
+            "Kubernetes",
+            "AWS CLI",
+            "Azure CLI",
+            "GCP CLI",
+            "Git",
+            "GitHub CLI",
+            "Jest",
+            "TypeScript Compiler",
+            "ts-node",
+            "Vite",
+            "Webpack",
+            "Rollup"
+        ]
     },
     {
         "title": "JamPadCompose",
@@ -4173,7 +7761,17 @@
         "issues": 0,
         "goodFirstIssues": 0,
         "ycBatch": 2020,
-        "url": "https://github.com/piepacker/JamPadCompose"
+        "url": "https://github.com/piepacker/JamPadCompose",
+        "frameworks": [
+            "Android",
+            "Jetpack Compose",
+            "Kotlin Multiplatform"
+        ],
+        "tools": [
+            "Gradle",
+            "GitHub Actions",
+            "KtLint"
+        ]
     },
     {
         "title": "pulse-data",
@@ -4197,7 +7795,24 @@
         "issues": 11,
         "goodFirstIssues": 0,
         "ycBatch": 2019,
-        "url": "https://github.com/Recidiviz/pulse-data"
+        "url": "https://github.com/Recidiviz/pulse-data",
+        "frameworks": [
+            "React",
+            "Apache Airflow",
+            "Apache Beam"
+        ],
+        "tools": [
+            "Docker",
+            "Pipenv",
+            "Bandit",
+            "PyLint",
+            "ESLint",
+            "Storybook",
+            "GitHub Actions",
+            "Google Cloud Platform",
+            "Firebase",
+            "Dev Containers"
+        ]
     },
     {
         "title": "rainbow",
@@ -4222,7 +7837,27 @@
         "issues": 20,
         "goodFirstIssues": 0,
         "ycBatch": 2019,
-        "url": "https://github.com/rainbow-me/rainbow"
+        "url": "https://github.com/rainbow-me/rainbow",
+        "frameworks": [
+            "React Native",
+            "Google Services",
+            "Protobuf",
+            "nanopb"
+        ],
+        "tools": [
+            "Yarn",
+            "Gradle",
+            "Fastlane",
+            "Husky",
+            "ESLint",
+            "Prettier",
+            "Detox",
+            "Sentry",
+            "GitHub Actions",
+            "Buck",
+            "audit-ci",
+            "cspell"
+        ]
     },
     {
         "title": "openreplay",
@@ -4255,7 +7890,19 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2019,
-        "url": "https://github.com/openreplay/openreplay"
+        "url": "https://github.com/openreplay/openreplay",
+        "frameworks": [
+            "React",
+            "AWS Chalice"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Yarn",
+            "Prettier",
+            "Storybook",
+            "Trivy"
+        ]
     },
     {
         "title": "pluto",
@@ -4275,7 +7922,28 @@
         "issues": 4,
         "goodFirstIssues": 0,
         "ycBatch": 2019,
-        "url": "https://github.com/Localitos/pluto"
+        "url": "https://github.com/Localitos/pluto",
+        "frameworks": [
+            "React",
+            "xstyled"
+        ],
+        "tools": [
+            "Storybook",
+            "Jest",
+            "ESLint",
+            "Prettier",
+            "Husky",
+            "Commitlint",
+            "GitHub Actions",
+            "Docker",
+            "Changeset",
+            "Danger",
+            "Babel",
+            "CSpell",
+            "Plop",
+            "Turbo",
+            "Yarn"
+        ]
     },
     {
         "title": "embrace-android-sdk",
@@ -4297,7 +7965,22 @@
         "issues": 7,
         "goodFirstIssues": 0,
         "ycBatch": 2019,
-        "url": "https://github.com/embrace-io/embrace-android-sdk"
+        "url": "https://github.com/embrace-io/embrace-android-sdk",
+        "frameworks": [
+            "Android",
+            "Embrace",
+            "Jetpack Compose",
+            "OpenTelemetry"
+        ],
+        "tools": [
+            "Gradle",
+            "GitHub Actions",
+            "Checkstyle",
+            "Detekt",
+            "WhiteSource",
+            "OkHttp",
+            "Robolectric"
+        ]
     },
     {
         "title": "method-node",
@@ -4312,7 +7995,16 @@
         "issues": 4,
         "goodFirstIssues": 0,
         "ycBatch": 2019,
-        "url": "https://github.com/MethodFi/method-node"
+        "url": "https://github.com/MethodFi/method-node",
+        "frameworks": [],
+        "tools": [
+            "npm",
+            "ESLint",
+            "TypeScript",
+            "Jest",
+            "Rollup",
+            "GitHub Actions"
+        ]
     },
     {
         "title": "courier-node",
@@ -4327,7 +8019,16 @@
         "issues": 4,
         "goodFirstIssues": 0,
         "ycBatch": 2019,
-        "url": "https://github.com/trycourier/courier-node"
+        "url": "https://github.com/trycourier/courier-node",
+        "frameworks": [
+            "Jest"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "Prettier",
+            "Yarn",
+            "Undici"
+        ]
     },
     {
         "title": "bun",
@@ -4361,7 +8062,24 @@
         "issues": 30,
         "goodFirstIssues": 1,
         "ycBatch": 2019,
-        "url": "https://github.com/oven-sh/bun"
+        "url": "https://github.com/oven-sh/bun",
+        "frameworks": [
+            "React",
+            "Express.js",
+            "Svelte",
+            "Fastify",
+            "Bun"
+        ],
+        "tools": [
+            "Docker",
+            "CMake",
+            "GitHub Actions",
+            "Buildkite",
+            "Prettier",
+            "Clang",
+            "Zig",
+            "Visual Studio Code"
+        ]
     },
     {
         "title": "minidyn",
@@ -4376,7 +8094,16 @@
         "issues": 20,
         "goodFirstIssues": 0,
         "ycBatch": 2019,
-        "url": "https://github.com/truora/minidyn"
+        "url": "https://github.com/truora/minidyn",
+        "frameworks": [
+            "AWS SDK for Go (v1)",
+            "AWS SDK for Go (v2)"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "GolangCI-Lint",
+            "Go Modules"
+        ]
     },
     {
         "title": "arlo",
@@ -4398,27 +8125,28 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2019,
-        "url": "https://github.com/votingworks/arlo"
-    },
-    {
-        "title": "rune",
-        "desc": "Build multiplayer web games played by millions! 👾 You focus on your game, Rune handles everything else, incl. backend and networking 🚀 Make your game using JavaScript / TypeScript and any frontend web framework such as React, Svelte, Vue, Threejs, PixiJS, Phaser. You can even use plain HTML and CSS. Perfect for web devs interested in gamedev.",
-        "avatar": "https://avatars.githubusercontent.com/u/49489660?v=4",
-        "languages": {
-            "TypeScript": 521751,
-            "JavaScript": 56332,
-            "CSS": 21260,
-            "HTML": 7953,
-            "Svelte": 5606,
-            "Vue": 3044,
-            "Shell": 811
-        },
-        "forks": 33,
-        "stars": 367,
-        "issues": 1,
-        "goodFirstIssues": 0,
-        "ycBatch": 2019,
-        "url": "https://github.com/rune/rune"
+        "url": "https://github.com/votingworks/arlo",
+        "frameworks": [
+            "React",
+            "Flask"
+        ],
+        "tools": [
+            "Vite",
+            "Cypress",
+            "Jest",
+            "ESLint",
+            "Prettier",
+            "Husky",
+            "CircleCI",
+            "GitHub Actions",
+            "Yarn",
+            "Heroku",
+            "Alembic",
+            "Mypy",
+            "Sentry",
+            "Pytest",
+            "SQLAlchemy"
+        ]
     },
     {
         "title": "glide-data-grid",
@@ -4437,7 +8165,24 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2019,
-        "url": "https://github.com/glideapps/glide-data-grid"
+        "url": "https://github.com/glideapps/glide-data-grid",
+        "frameworks": [
+            "React",
+            "Next.js",
+            "Create React App",
+            "Storybook"
+        ],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "Prettier",
+            "ESLint",
+            "Babel",
+            "Vitest",
+            "npm",
+            "Git",
+            "Visual Studio Code"
+        ]
     },
     {
         "title": "dagger",
@@ -4466,7 +8211,16 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2019,
-        "url": "https://github.com/dagger/dagger"
+        "url": "https://github.com/dagger/dagger",
+        "frameworks": [
+            "Protobuf"
+        ],
+        "tools": [
+            "Dagger",
+            "GitHub Actions",
+            "Git",
+            "ESLint"
+        ]
     },
     {
         "title": "deeplake",
@@ -4480,7 +8234,22 @@
         "issues": 30,
         "goodFirstIssues": 0,
         "ycBatch": 2018,
-        "url": "https://github.com/activeloopai/deeplake"
+        "url": "https://github.com/activeloopai/deeplake",
+        "frameworks": [
+            "Deeplake",
+            "LangChain",
+            "TensorFlow",
+            "PyTorch",
+            "MMDetection",
+            "MMSegmentation"
+        ],
+        "tools": [
+            "GitHub Actions",
+            "pre-commit",
+            "pip",
+            "Labelbox",
+            "Release Drafter"
+        ]
     },
     {
         "title": "cat-paywall-compose",
@@ -4494,7 +8263,18 @@
         "issues": 0,
         "goodFirstIssues": 0,
         "ycBatch": 2018,
-        "url": "https://github.com/RevenueCat/cat-paywall-compose"
+        "url": "https://github.com/RevenueCat/cat-paywall-compose",
+        "frameworks": [
+            "Android",
+            "Jetpack Compose",
+            "Hilt"
+        ],
+        "tools": [
+            "Gradle",
+            "GitHub Actions",
+            "Spotless",
+            "Git"
+        ]
     },
     {
         "title": "modern-treasury-python",
@@ -4511,7 +8291,19 @@
         "issues": 0,
         "goodFirstIssues": 0,
         "ycBatch": 2018,
-        "url": "https://github.com/Modern-Treasury/modern-treasury-python"
+        "url": "https://github.com/Modern-Treasury/modern-treasury-python",
+        "frameworks": [],
+        "tools": [
+            "Docker",
+            "GitHub Actions",
+            "MyPy",
+            "Nox",
+            "pytest",
+            "pip",
+            "Homebrew",
+            "Ruff",
+            "Release Please"
+        ]
     },
     {
         "title": "psoxy",
@@ -4529,6 +8321,14 @@
         "issues": 9,
         "goodFirstIssues": 0,
         "ycBatch": 2018,
-        "url": "https://github.com/Worklytics/psoxy"
+        "url": "https://github.com/Worklytics/psoxy",
+        "frameworks": [],
+        "tools": [
+            "GitHub Actions",
+            "Terraform",
+            "Prettier",
+            "CodeQL",
+            "IntelliJ IDEA"
+        ]
     }
 ]
