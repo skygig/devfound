@@ -32,7 +32,9 @@ const Repositories = ({ isMatched, currSkills }: { isMatched: boolean, currSkill
     useEffect(() => {
         const newRepoList = repoList.filter(repo => {
             for (const skill of userSkills) {
-                if (Object.keys(repo.languages).includes(skill)) return true
+                if (Object.keys(repo.languages).includes(skill) ||
+                    (repo.frameworks as string[])?.includes(skill) ||
+                    (repo.tools as string[])?.includes(skill)) return true
             }
             return false;
         });

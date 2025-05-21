@@ -19,6 +19,8 @@ type RepoType = {
     goodFirstIssues: number;
     avatar: string;
     languages: any;
+    frameworks: any;
+    tools: any;
     ycBatch: number;
     url: string;
 }
@@ -55,10 +57,32 @@ const RepoCard = ({ data, gfIssues }: { data: RepoType, gfIssues: boolean }) => 
             <h3>Languages</h3>
             <div>
                 {
-                    Object.keys(data.languages).slice(0, 7).map((lang: string) => <p key={lang}>{lang}</p>)
+                    Object.keys(data.languages).slice(0, 3).map((lang: string) => <p key={lang}>{lang}</p>)
                 }
             </div>
         </div>
+
+        {
+            data.frameworks?.length !== 0 && <div className={styles.languages}>
+                <h3>Frameworks</h3>
+                <div>
+                    {
+                        data.frameworks.slice(0, 3).map((fw: string) => <p key={fw}>{fw}</p>)
+                    }
+                </div>
+            </div>
+        }
+
+        {
+            data.tools?.length !== 0 && <div className={styles.languages}>
+                <h3>Tools</h3>
+                <div>
+                    {
+                        data.tools.slice(0, 3).map((tool: string) => <p key={tool}>{tool}</p>)
+                    }
+                </div>
+            </div>
+        }
 
         <div className={styles.info}>
             <h3>More Info</h3>
