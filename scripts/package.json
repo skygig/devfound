@@ -9,6 +9,8 @@
   "author": "Akash",
   "license": "MIT",
   "dependencies": {
-    "jsdom": "^26.1.0"
+    "dotenv": "^16.5.0",
+    "jsdom": "^26.1.0",
+    "openai": "^4.100.0"
   }
 }

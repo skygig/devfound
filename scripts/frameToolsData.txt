@@ -1,0 +1,1515 @@
+================= YC 2025,
+
+https://github.com/airweave-ai/airweave :
+
+{
+  "frameworks": ["React", "Tailwind CSS", "FastAPI"],
+  "tools": ["Docker", "GitHub Actions", "Prettier", "CodeSpell", "ESLint", "Ruff", "Cursor", "Vite", "Poetry", "Fern", "pre-commit", "Git", "npm", "pytest", "Alembic"]
+},
+
+https://github.com/mlop-ai/mlop :
+
+{
+  "frameworks": ["PyTorch Lightning", "PyTorch", "Hugging Face Transformers", "Docusaurus"],
+  "tools": ["GitHub Actions", "Jupyter Notebook", "npm", "Git", "Visual Studio Code", "Bash", "pip", "Poetry"]
+},
+
+https://github.com/Mail-0/Zero :
+
+{"frameworks":["React","Next.js","Tailwind CSS","Hono"],
+ "tools":["Docker","GitHub Actions","Husky","ESLint","Prettier","TypeScript","Turborepo","Drizzle ORM","Sentry","Redis","tRPC","PostCSS","i18next","Zod","Bun","Cloudflare Workers","Vercel","PostHog","ProseMirror"]},
+
+https://github.com/Klavis-AI/klavis :
+
+{"frameworks":["Express.js"],
+ "tools":["Docker","GitHub Actions","uv","OpenAPI Generator","npm"]},
+
+https://github.com/morphik-org/morphik-core :
+
+{
+  "frameworks": ["React", "Next.js", "Tailwind CSS", "FastAPI"],
+  "tools": ["Docker", "pre-commit", "pyenv", "Git", "PostgreSQL", "PGVector", "AWS S3", "LiteLLM", "pytest", "Uv", "npm", "Colpali", "FlagReranker", "FFmpeg"]
+},
+
+https://github.com/tinfoilsh/tinfoil-cli :
+
+{"frameworks":[],
+ "tools":["Docker","GitHub Actions","GoReleaser","Go Modules","Git"]},
+
+https://github.com/Operative-Sh/web-eval-agent :
+
+{"frameworks":[],
+ "tools":["Cursor","Ruff","pre-commit","Docker","uv","Smithery"]},
+
+https://github.com/better-auth/better-auth :
+
+{
+  "frameworks": ["Next.js", "Expo", "SvelteKit", "Nuxt.js", "Remix", "Astro", "Tailwind CSS"],
+  "tools": ["GitHub Actions", "Docker", "Vite", "Biome", "Bump", "pnpm", "Prisma", "Drizzle", "Vitest", "Wrangler", "Cloudflare Workers", "Expo CLI", "PostCSS", "Prettier", "Turborepo", "CLI"]
+},
+
+https://github.com/attunehq/attune :
+
+{"frameworks":["sqlx"],
+ "tools":["docker","docker-compose","goreleaser","cargo","git","github","minio","visual-studio-code"]},
+
+https://github.com/pgdogdev/pgdog :
+
+{
+  "frameworks": ["Tokio", "sqlx", "tokio_postgres", "asyncpg", "SQLAlchemy", "JDBC", "Go-PGX", "ActiveRecord", "RSpec"],
+  "tools": ["Docker", "Docker Compose", "GitHub Actions", "Cargo", "Make", "Bundler", "Pyright", "PgBouncer", "Datadog", "Gel", "Mastodon", "Pgvector", "Toxiproxy", "PostgreSQL", "PSQL", "RubyGems"]
+},
+
+https://github.com/simstudioai/sim :
+
+{
+  "frameworks": ["Next.js", "React", "Tailwind CSS"],
+  "tools": [ "Docker", "Docker Compose", "GitHub Actions", "Drizzle ORM", "Redis", "AWS S3", "OpenAI", "Anthropic", "Google Cloud", "GitHub", "Slack", "Airtable", "Supabase", "Pinecone", "Notion", "Exa", "Serper", "Tavily", "ElevenLabs", "BrowserUse", "Autoblocks", "Mem0", "Jira", "Confluence", "Groq", "Ollama", "Mistral", "DeepSeek", "Cerebras", "XAI", "Vitest", "Prettier" ]
+},
+
+https://github.com/trycua/cua :
+
+{
+  "frameworks": ["Gradio", "SwiftNIO"],
+  "tools": ["Docker", "GitHub Actions", "Visual Studio Code", "Swift Package Manager", "Poetry", "Cursor"]
+},
+
+https://github.com/authed-dev/authed :
+
+{"frameworks": ["OPA"], 
+ "tools": ["GitHub Actions", "OSV-scanner"]},
+
+https://github.com/plexe-ai/plexe :
+
+{
+  "frameworks": ["MLflow"],
+  "tools": ["GitHub Actions", "pre-commit", "Poetry", "tox", "Docker", "Ray", "Jinja2"]
+},
+
+https://github.com/assistant-ui/assistant-ui :
+
+{
+  "frameworks": ["Next.js", "React", "ShadCN"],
+  "tools": ["ESLint", "Prettier", "Turbo", "pnpm", "Tailwind CSS", "PostCSS", "Vitest", "Stryker", "React Hook Form", "LangGraph", "OpenAI Assistants", "FFmpeg", "Assistant Stream", "React AI SDK", "React Syntax Highlighter", "MagicUI", "Docker"]
+},
+
+https://github.com/TrainLoop/sdk :
+
+{"frameworks":[],
+ "tools":["npm","go mod","pip","tsc"]},
+
+https://github.com/gregpr07/browser-use :
+
+{"frameworks": ["Playwright"], 
+ "tools": ["Docker", "GitHub Actions", "pre-commit", "pytest", "Gradio", "Streamlit", "Visual Studio Code"]},
+
+https://github.com/pig-dot-dev/pig-python :
+
+{"frameworks":[],
+ "tools":["Git","Poetry","pyenv","pip","pytest","Click"]},
+
+https://github.com/tensorpool/tensorpool :
+
+{"frameworks": ["CUDA", "Triton", "PyTorch"], 
+ "tools": ["uv", "Ollama"]},
+
+https://github.com/roarkhq/sdk-roark-analytics-node :
+
+{"frameworks":["Jest"],
+ "tools":["Docker","DevContainers","ESLint","Prettier","GitHub Actions","Yarn","TypeScript","Homebrew","release-please"]},
+
+https://github.com/mastra-ai/mastra :
+
+{
+  "frameworks": ["Next.js", "React", "Express", "Nextra"],
+  "tools": ["Vercel", "Netlify", "Cloudflare", "Prettier", "Husky", "Inngest", "Mem0", "Firecrawl", "GitHub", "Azure", "Deepgram", "ElevenLabs", "Google Cloud", "Murf", "OpenAI", "PlayAI", "Sarvam", "Speechify", "PostgreSQL", "MongoDB", "Redis", "Upstash", "Qdrant", "Pinecone", "Couchbase", "ClickHouse", "DynamoDB", "Astra", "Chroma", "LibSQL", "Vectorize", "Turbo", "CLI", "MCP", "Langfuse", "Langsmith", "Traceloop", "Signoz", "New Relic", "Braintrust", "Laminar", "Dash0", "Langwatch"]
+},
+
+https://github.com/confident-ai/deepeval :
+
+{"frameworks":["HuggingFace","Langchain","LlamaIndex","Qdrant","Ragas"],
+ "tools":["GitHub Actions","Poetry","OpenAI","Anthropic","Gemini","Ollama","Detoxify","Docusaurus","Azure"]},
+
+https://github.com/Bindwell/PLAPT :
+
+{"frameworks":["ONNX Runtime"],
+ "tools":["Git","Docker","Jupyter Notebook","Wolfram Mathematica","Conda","draw.io","pip"]},
+
+https://github.com/asteroidai/cookbook :
+
+{
+  "frameworks": [],
+  "tools": ["Git"]
+},
+
+https://github.com/a1baseai/a1framework :
+
+{
+  "frameworks": ["Next.js", "React", "Tailwind CSS"],
+  "tools": ["Docker", "ESLint", "Supabase", "PostCSS", "OpenAI", "Perplexity"]
+},
+
+https://github.com/truffle-ai/truffle-ai-sdk :
+
+{"frameworks":[],
+ "tools":["git","npm","typescript"]},
+
+https://github.com/superglue-ai/superglue :
+
+{"frameworks":["Next.js","Tailwind CSS","GraphQL"],
+ "tools":["Docker","Docker Compose","GitHub Actions","Vitest","PostCSS","Turbo","Redis","PostgreSQL","Supabase","Gemini","OpenAI","Biome"]},
+
+https://github.com/subtrace/subtrace :
+
+{
+  "frameworks": ["Protocol Buffers", "ClickHouse"],
+  "tools": ["Docker", "GitHub Actions", "Make", "Node.js", "Python", "protoc"]
+},
+
+https://github.com/partcleda/partcleda.github.io :
+
+{"frameworks":["React","Jekyll"],
+ "tools":["GitHub Actions","npm","Jest","Git"]},
+
+https://github.com/cartography-cncf/cartography :
+
+{"frameworks":[],
+ "tools":["Docker","Docker Compose","GitHub Actions","pre-commit","Sphinx","Make","OSSF Scorecard","Dependabot"]},
+
+https://github.com/onlook-dev/onlook :
+
+{
+  "frameworks": ["React", "Next.js", "Supabase"],
+  "tools": ["TypeScript", "Prettier", "ESLint", "Husky", "Docker", "Docker Compose", "Vite", "Vitest", "Deno", "Bun", "Dependabot", "GitHub Actions", "tRPC", "Tailwind CSS"]
+},
+
+=================================================
+
+
+
+================= YC 2024,
+
+https://github.com/humanlayer/12-factor-agents :
+
+{
+ "frameworks":["BAML"],
+ "tools":["Docker","Jest","Make","npm","HumanLayer"]
+},
+
+https://github.com/diffusionstudio/core :
+
+{
+ "frameworks":[],
+ "tools":["Vite","Vitest","Biome","FFmpeg","WebCodecs","WebAssembly","Opus"]
+},
+
+https://github.com/johnyeocx/autumn :
+
+{
+  "frameworks": ["Next.js", "React", "Vite"],
+  "tools": ["Tailwind CSS", "PostCSS", "Stripe", "Clerk", "Supabase", "Redis", "Resend", "Logtail", "Svix", "TsUp", "cron", "Husky", "lint-staged", "Jest", "Sonner", "SWR", "Unkey", "Vercel", "GitHub Actions", "ESLint", "Prettier"]
+},
+
+https://github.com/lingodotdev/lingo.dev :
+
+{
+ "frameworks":[],
+ "tools":["Docker","GitHub Actions","pnpm","Changesets","Husky","Commitlint","Prettier","Visual Studio Code","tsup","Vitest","Docker Compose","Dependabot"]
+},
+
+https://github.com/circlemind-ai/fast-graphrag :
+
+{
+ "frameworks":[],
+ "tools":["GitHub Actions","Visual Studio Code","Poetry","Jupyter Notebook","pytest","OpenAI API","Voyage AI","Google GenAI","HNSWLib","iGraph"]
+},
+
+https://github.com/vespperhq/vespper :
+
+{
+ "frameworks":["React","Vite","ORY Kratos"],
+ "tools":["ESLint","Prettier","Husky","lint-staged","Commitlint","Docker","Docker Compose","GitHub Actions","Yarn","Nx","Terraform","Poetry","Envoy Proxy","HashiCorp Vault","Jest"]
+},
+
+https://github.com/trypear/pearai-master :
+
+{
+  "frameworks": [],
+  "tools": ["GitHub Actions", "Git Submodules", "Visual Studio Code"]
+},
+
+https://github.com/freestyle-sh/cloudstate :
+
+{
+  "frameworks": ["Actix", "Rocket", "V8", "Cloudstate", "AWS SDK"],
+  "tools": ["Cargo", "npm", "Docker", "GitHub Actions", "Visual Studio Code"]
+},
+
+https://github.com/patched-codes/patchwork :
+
+{
+ "frameworks":[],
+ "tools":["GitHub Actions","Poetry","Git","GitHub CLI","Semgrep","SonarQube","OWASP Dependency-Check","CSVKit","Grep","Shell","Database Query Tools","OpenAI API","Anthropic API","Google Gemini API"]
+},
+
+https://github.com/General-Analysis/GA :
+
+{
+ "frameworks":["Hugging Face Transformers","PEFT","PyTorch","OLMo","LlamaGuard"],
+ "tools":["Jupyter Notebook","Poetry","Git","Docker","Markdown","JSON"]
+},
+
+https://github.com/voideditor/void :
+
+{
+  "frameworks": ["Visual Studio Code", "Monaco Editor"],
+  "tools": ["Docker", "Azure Pipelines", "ESLint", "Stylelint", "npm", "Gulp", "Grunt", "VS Code CLI", "Remote Development", "GitHub Authentication", "TypeScript Compiler"]
+},
+
+https://github.com/rowboatlabs/rowboat :
+
+{
+  "frameworks": ["Next.js", "Tailwind CSS"],
+  "tools": ["Docker", "GitHub Actions", "MkDocs", "Poetry"]
+},
+
+https://github.com/diodeinc/atopile-analyzer :
+
+{
+ "frameworks":["React","Language Server Protocol"],
+ "tools":["Cargo","GitHub Actions","Visual Studio Code","TypeScript","npm","ESLint"]
+},
+
+https://github.com/ZeroPathAI/zeropath-mcp-server :
+
+{
+ "frameworks":[],
+ "tools":["Cursor","Bash","uv"]
+},
+
+https://github.com/heroui-inc/heroui :
+
+{
+  "frameworks": ["React", "Next.js", "Remix", "Laravel", "Astro", "Vite"],
+  "tools": ["ESLint", "Prettier", "Husky", "GitHub Actions", "lint-staged", "Turborepo", "Vercel", "Plop", "Commitlint", "Storybook", "Changesets"]
+},
+
+https://github.com/lmnr-ai/lmnr :
+
+{
+  "frameworks": ["Next.js", "gRPC", "OpenTelemetry", "ClickHouse", "Drizzle ORM", "Tonic", "Supabase"],
+  "tools": ["Docker", "GitHub Actions", "Cargo", "pnpm", "Tailwind CSS", "NextAuth.js", "Redis", "RabbitMQ", "ClickHouse CLI", "Drizzle CLI", "OpenTelemetry Collector"]
+},
+
+https://github.com/eclipse-zenoh/zenoh :
+
+{
+ "frameworks":[],
+ "tools":["Cargo","GitHub Actions","Docker","Clippy","pre-commit","Markdownlint","Cross","Valgrind"]
+},
+
+https://github.com/zenbase-ai/core :
+
+{
+ "frameworks":["Arize","Braintrust","LangChain","Langfuse","Lunary","Parea"],
+ "tools":["GitHub Actions","JetBrains IDE","Visual Studio Code","Jupyter Notebook","Docker Compose","pre-commit"]
+},
+
+https://github.com/gauge-sh/tach :
+
+{
+  "frameworks": ["MkDocs", "pytest"],
+  "tools": ["Cargo", "GitHub Actions", "Dependabot", "make", "setuptools", "uv", "rustup"]
+},
+
+https://github.com/minusxai/minusx :
+
+{
+ "frameworks":["React","Chakra UI","Redux","Google Apps Script"],
+ "tools":["Jest","Playwright","Docker","Docker Compose","Webpack","Babel","ESLint","Prettier","GitHub Actions","Yarn"]
+},
+
+https://github.com/aditya-nadkarni/spongecake :
+
+{
+ "frameworks":["React","Next.js","Tailwind CSS","spongecake-sdk","noVNC"],
+ "tools":["Docker","ESLint"]
+},
+
+https://github.com/EdisonLabs-Inc/CodeViz-Public :
+
+{
+ "frameworks":[],
+ "tools":[]
+},
+
+https://github.com/stack-auth/stack-auth :
+
+{
+  "frameworks": ["React", "Next.js", "Tailwind CSS"],
+  "tools": ["Prisma", "Docker", "Docker Compose", "GitHub Actions", "Vitest", "ESLint", "pnpm", "Sentry"]
+},
+
+https://github.com/unslothai/unsloth :
+
+{
+ "frameworks":["Hugging Face Transformers","PEFT","TRL","PyTorch"],
+ "tools":["unsloth-cli"]
+},
+
+https://github.com/synnaxlabs/synnax :
+
+{
+  "frameworks": ["React", "Tauri", "Electron", "Astro", "gRPC"],
+  "tools": ["Bazel", "Clang", "Git", "GitHub Actions", "Prettier", "ESLint", "Stylelint", "Vite", "npm", "Docker", "systemd", "TypeScript", "Visual Studio Code"]
+},
+
+https://github.com/glasskube/glasskube :
+
+{
+  "frameworks": ["Kubernetes", "HTMX"],
+  "tools": ["Docker", "GitHub Actions", "Make", "GoReleaser", "GolangCI-Lint", "Renovate", "Node.js", "npm", "Kustomize", "Helm", "Cert-manager", "Flux"]
+},
+
+https://github.com/mem0ai/mem0 :
+
+{
+  "frameworks": [ "Next.js", "React", "FastAPI", "LangChain", "Embedchain", "Mem0", "Vercel AI SDK" ],
+  "tools": [ "Docker", "GitHub Actions", "pre-commit", "Make", "Poetry", "pnpm", "Jest", "tsup", "Tailwind CSS", "OpenAPI", "Alembic", "Pytest" ]
+},
+
+https://github.com/quivrhq/quivr :
+
+{
+ "frameworks":["Chainlit","Flask","LangGraph","PGVector","Unstructured","Apache Tika"],
+ "tools":["GitHub Actions","Flake8","pre-commit","pyenv","tox","Docker","pip-tools","Poetry","Vercel","VS Code","Git","pytest","MkDocs","Read the Docs"]
+},
+
+https://github.com/Titan-Systems/titan :
+
+{
+ "frameworks": ["Titan"], 
+ "tools": ["GitHub Actions", "pytest", "DBT", "Permifrost", "Terraform", "Snowflake CLI"]
+},
+
+https://github.com/hatchet-dev/hatchet :
+
+{
+  "frameworks": ["Next.js", "gRPC", "OpenAPI", "Protocol Buffers"],
+  "tools": ["Docker", "Nginx", "Caddy", "ESLint", "Prettier", "Atlas CLI", "protoc"]
+},
+
+https://github.com/getzep/zep :
+
+{
+ "frameworks":[],
+ "tools":["GitHub Actions","Docker","Docker Compose","Make","GolangCI-Lint","Bun"]
+},
+
+https://github.com/lumina-ai-inc/chunkr :
+
+{
+ "frameworks":["React","Tailwind CSS","Diesel","Kubernetes","Helm"],
+ "tools":["Docker","Docker Compose","ESLint","PostCSS","Vite","pnpm","Jest","pytest","Codespell","Release-Please","GitHub Actions","Cargo"]
+},
+
+https://github.com/elodin-sys/elodin :
+
+{
+  "frameworks": ["Kubernetes", "Basilisk", "GitHub Actions"],
+  "tools": ["Cargo", "Just", "ClangFormat", "Nix", "WiX Toolset", "OpenOCD", "SASS", "Jupyter Notebook"]
+},
+
+https://github.com/devflowinc/trieve :
+
+{
+  "frameworks": [ "React", "Docusaurus", "Vite", "Helm", "Keycloak", "Caddy", "OpenAPI Generator", "Prisma", "Diesel", "Terraform" ],
+  "tools": [ "Docker", "Kubernetes", "PostgreSQL", "ClickHouse", "Redis", "Stripe", "Shopify CLI", "ESLint", "Prettier", "Jest", "Axios", "Husky", "Vitest" ]
+},
+
+https://github.com/PySpur-com/PySpur :
+
+{
+  "frameworks": ["Alembic", "Pydantic", "React", "Next.js"],
+  "tools": ["Docker", "Docker Compose", "GitHub Actions", "Dependabot", "Redis", "PostgreSQL", "Pinecone", "Weaviate", "Supabase", "Chroma", "Qdrant", "Slack SDK", "SendGrid", "Resend", "Ollama", "pre-commit", "Poetry", "Pytest", "OpenAPI", "Visual Studio Code Dev Containers", "Tailwind CSS", "Prettier", "PostCSS"]
+},
+
+https://github.com/phospho-app/phospho-legacy :
+
+{
+ "frameworks":["FastAPI","React","Next.js","Tailwind CSS"],
+ "tools":["Docker","GitHub Actions","Temporal","MongoDB","Qdrant","PostHog","Sentry","Stripe","Poetry","Make","Langfuse","Langsmith","OpenTelemetry","Power BI","Argilla","Pydantic","PostgreSQL"]},
+
+https://github.com/explodinggradients/ragas :
+
+{
+  "frameworks": ["ragas", "LangChain", "LlamaIndex", "Haystack", "LangGraph"],
+  "tools": ["pytest", "MkDocs", "Docker", "GitHub Actions", "Make", "Poetry"]
+},
+
+https://github.com/gventuri/pandas-ai :
+
+{
+ "frameworks": ["GitHub Actions", "Docker", "pre-commit", "Poetry", "pytest", "Jupyter"], 
+ "tools": ["Makefile", "Sourcery"]
+},
+
+https://github.com/getomni-ai/zerox :
+
+{
+ "frameworks":["Jest"],
+ "tools":["GitHub Actions","pre-commit","npm","Poetry","setuptools","commitlint","Make","EditorConfig"]
+},
+
+https://github.com/atopile/atopile :
+
+{
+ "frameworks":["Faebryk","KiCAD"],
+ "tools":["GitHub Actions","pre-commit","Docker","Visual Studio Code","pytest","MkDocs","uv","ANTLR","ESLint","Prettier","Webpack"]
+},
+
+https://github.com/vercel/ai-chatbot :
+
+{
+ "frameworks":["Next.js","Tailwind CSS"],
+ "tools":["ESLint","Playwright","pnpm","Drizzle ORM","Biome","GitHub Actions"]
+},
+
+https://github.com/buster-so/buster-platform :
+
+{
+ "frameworks":["Next.js"],
+ "tools":["Docker", "GitHub Actions","Supabase","Release Please","Windsurf"]
+},
+
+https://github.com/nuanced-dev/nuanced :
+
+{
+ "frameworks":[],
+ "tools":["uv","GitHub Actions"]
+},
+
+https://github.com/TracecatHQ/tracecat :
+
+{
+  "frameworks": ["Next.js", "FastAPI", "Tailwind CSS"],
+  "tools": ["Docker", "Docker Compose", "GitHub Actions", "Caddy", "Alembic", "pre-commit", "ESLint", "Prettier", "Jest", "Husky", "lint-staged", "pnpm", "Just", "Pytest", "OpenAPI"]
+},
+
+https://github.com/ubicloud/ubicloud :
+
+{
+  "frameworks": ["Ruby on Rails", "Tailwind CSS", "RSpec", "Rodauth"],
+  "tools": ["Docker", "GitHub Actions", "Dependabot", "Bundler", "Rake", "RuboCop", "asdf", "Redocly", "OpenAPI", "Kubernetes", "MinIO", "Capistrano", "Sentry", "PostgreSQL", "SQLite", "Webpack", "Yarn", "Puma", "NGINX", "Let's Encrypt", "Certbot", "Hetzner API", "Cloudflare API", "GitHub CLI", "AWS CLI", "Terraform", "Ansible", "Jenkins", "Prometheus", "Grafana", "Elasticsearch", "Kibana", "Fluentd", "Datadog", "New Relic", "Snyk", "SonarQube", "Codecov", "Coveralls", "BrowserStack", "Sauce Labs", "Cypress", "Jest", "Mocha", "Chai", "Sinon", "Nightwatch", "Protractor", "WebdriverIO", "Playwright", "Puppeteer", "Cucumber", "Gherkin", "Jasmine", "Karma", "PhantomJS", "Slack API", "Discord API", "Twilio API", "SendGrid API", "Stripe API", "PayPal API", "OAuth2", "JWT", "Passport", "OpenID Connect", "LDAP", "SAML", "GraphQL", "Apollo", "Relay", "Prisma", "TypeORM", "Sequelize", "Knex", "Mongoose", "Fastify", "Express", "Koa", "Hapi", "Socket.IO", "Sails", "NestJS", "LoopBack", "Feathers", "Adonis", "Laravel", "Symfony", "CodeIgniter", "Django", "Flask", "Pyramid", "FastAPI", "Spring", "Hibernate", "Play", "Grails", "ASP.NET", "Entity Framework", "Angular", "React", "Vue", "Svelte", "Alpine.js", "jQuery", "Backbone", "Underscore", "Lodash", "Axios", "jQuery", "Moment", "Day.js", "Luxon", "Zod", "Joi", "Yup", "Formik", "React Hook Form", "Redux", "MobX", "Vuex", "Pinia", "Zustand", "Jotai", "Recoil", "Apollo Client", "URQL", "TanStack Query", "SWR", "MUI", "Chakra UI", "Tailwind UI", "Ant Design", "Element UI", "Bootstrap", "Foundation", "Bulma", "Semantic UI", "UIKit", "Quasar", "Vuetify", "PrimeVue", "Sass", "Less", "Stylus", "PostCSS", "CSS Modules", "Styled Components", "Emotion", "Jest", "Mocha", "Chai", "Sinon", "Vitest", "Testing Library", "Cypress", "Playwright", "Puppeteer", "WebdriverIO", "Nightwatch", "Protractor", "Selenium", "Cucumber", "Gherkin", "Allure", "ReportPortal", "Jenkins", "GitLab CI", "CircleCI", "Travis CI", "TeamCity", "Bamboo", "Azure Pipelines", "ArgoCD", "Flux", "Skaffold", "Helm", "Kustomize", "Docker Compose", "Podman", "Kaniko", "Buildpacks", "Packer", "Vagrant", "Terraform", "Pulumi", "Serverless Framework", "AWS CDK", "Google Cloud Deployment Manager", "Azure Resource Manager", "CloudFormation", "Ansible Tower", "SaltStack", "Chef", "Puppet", "Jira", "Confluence", "Trello", "Asana", "ClickUp", "Notion", "Slack", "Microsoft Teams", "Discord", "Telegram", "Zoom", "Google Meet", "Webex", "Skype", "Jabber", "Rocket.Chat", "Mattermost", "Zulip", "Discourse", "Git", "GitHub", "GitLab", "Bitbucket", "Subversion", "Mercurial", "Perforce", "Bazaar", "Darcs", "Fossil", "Monotone", "Arch", "SVK", "Veracity", "Plastic SCM", "Rhodecode", "Gitea", "Gogs", "SourceForge", "Launchpad", "Phabricator", "Gerrit", "GitKraken", "Sourcetree", "Tower", "Fork", "Delta", "Diffuse", "Meld", "KDiff3", "WinMerge", "Araxis Merge", "Beyond Compare", "ExamDiff", "DiffMerge", "Kaleidoscope", "Changes", "FileMerge", "Kompare", "Diffuse", "Emacs Ediff", "Vimdiff", "GitX", "QGit", "Tig", "Git-cola", "Gitk", "Git GUI", "SmartGit", "Git Extensions", "GitAhead", "GitKraken", "Sourcetree", "Tower", "Fork", "Delta", "Diffuse", "Meld", "KDiff3", "WinMerge", "Araxis Merge", "Beyond Compare", "ExamDiff", "DiffMerge", "Kaleidoscope", "Changes", "FileMerge", "Kompare", "Diffuse", "Emacs Ediff", "Vimdiff", "GitX", "QGit", "Tig", "Git-cola", "Gitk", "Git GUI", "SmartGit", "Git Extensions", "GitAhead"]
+},
+
+https://github.com/ssoready/ssoready :
+
+{
+ "frameworks":["React","Tailwind CSS"],
+ "tools":["Docker","Docker Compose","GitHub Actions","Make","Netlify","Prettier","ESLint","sqlc","Buf","Protobuf","Sentry","Fly.io"]
+},
+
+https://github.com/SciPhi-AI/R2R :
+
+{
+  "frameworks": ["R2R"],
+  "tools": ["Docker", "GitHub Actions", "npm", "Uv", "pre-commit", "PostgreSQL", "Unstructured", "Hatchet", "Alembic"]
+},
+
+https://github.com/onyx-dot-app/onyx :
+
+{
+  "frameworks": ["FastAPI", "SQLAlchemy", "React", "Next.js", "Vespa", "Tailwind CSS", "Pydantic"],
+  "tools": ["Docker", "Celery", "Redis", "PostgreSQL", "Alembic", "pytest", "Jest", "Playwright", "Sentry", "Supervisor", "OAuth2", "OpenAPI", "Prettier"]
+},
+
+
+https://github.com/celest-dev/celest :
+
+{
+ "frameworks":["Flutter","Firebase","Supabase"],
+ "tools":["GitHub Actions","Docker","Make","Pub","CocoaPods","Gradle"]
+},
+
+=================================================
+
+
+
+================= YC 2023,
+
+https://github.com/StructuredLabs/preswald :
+
+{
+ "frameworks":["React","Tailwind CSS","Vite","Preswald"],
+ "tools":["Docker","GitHub Actions","Git","Make","Prettier","ESLint","Pre-commit","Pyodide"]
+},
+
+https://github.com/srcbookdev/srcbook :
+
+{
+  "frameworks": ["React", "Tailwind CSS"],
+  "tools": ["Docker", "Docker Compose", "GitHub Actions", "Prettier", "ESLint", "Vite", "PostCSS", "Drizzle ORM", "Turborepo", "pnpm", "NVM"]
+},
+
+https://github.com/FlowiseAI/Flowise :
+
+{
+  "frameworks": ["Express", "React", "LangChain", "LlamaIndex", "Material-UI", "Vite", "SCSS"],
+  "tools": ["Docker", "Docker Compose", "GitHub Actions", "Husky", "ESLint", "Artillery", "Cypress", "Swagger", "Nodemon", "TypeORM", "Prometheus", "Grafana", "OpenTelemetry", "Opik", "Phoenix", "pnpm"]
+},
+
+https://github.com/paradedb/paradedb :
+
+{
+  "frameworks": ["PGRX"],
+  "tools": ["Cargo", "GitHub Actions", "Dependabot", "Docker", "Hadolint", "Prettier", "pre-commit", "clippy", "ShellCheck", "YAMLLint", "Markdownlint", "codespell", "Make", "pg_regress"]
+},
+
+https://github.com/ueberdosis/tiptap :
+
+{
+  "frameworks": ["React", "Vue", "Svelte", "Tiptap", "ProseMirror"],
+  "tools": ["ESLint", "Husky", "Lint-staged", "Babel", "PostCSS", "Vite", "Tailwind CSS", "Cypress", "GitHub Actions", "Dependabot", "npm", "TypeScript", "Commitlint", "EditorConfig", "Changeset"]
+},
+
+https://github.com/Silimate/silisizer :
+
+{ "frameworks":["OpenSTA","backward-cpp"],
+  "tools":["CMake","Make","ClangFormat","ClangTidy","VisualStudioCode","Git"]
+},
+
+https://github.com/khoj-ai/khoj :
+
+{"frameworks":["Django","Next.js","Docusaurus","Android","Electron"],
+ "tools":["Docker","GitHub Actions","Yarn","pre-commit","Gunicorn","Gradle","Pytest","Poetry","Visual Studio Code Dev Containers","Tailwind CSS","ESLint","Husky","Chatwoot","Excalidraw","Mermaid","Pico CSS","Markdown-it","Purify.js","Three.js"]
+},
+
+https://github.com/continuedev/continue :
+
+{
+  "frameworks": ["React", "Tailwind CSS"],
+  "tools": ["IntelliJ IDEA", "Visual Studio Code", "ESLint", "Prettier", "Jest", "GitHub Actions", "Dependabot", "Docker", "npm", "Node.js", "Gradle", "Vite", "Cargo"]
+},
+
+https://github.com/redotvideo/revideo :
+
+{"frameworks":["React"],
+ "tools":["ESLint","Prettier","Husky","Lerna","GitHub Actions","Vite","Rollup","Nx","FFmpeg","PostCSS","Sass","Vitest","TSDoc"]
+},
+
+https://github.com/refinedev/refine :
+
+{"frameworks":["React","Next.js","SvelteKit","Remix","Ant Design","Chakra UI","Mantine","Material UI","Docusaurus"],
+ "tools":["Cypress","Biome","Changesets","CodeSandbox","Docker","EditorConfig","GitHub Actions","Husky","Nx","Prettier","Syncpack","VS Code","Helm"]
+},
+
+https://github.com/epsilla-cloud/vectordb :
+
+{"frameworks":["oat++","RapidJSON","nlohmann/json"],
+ "tools":["Docker","GitHub Actions","CMake","Visual Studio Code","Git"]
+},
+
+https://github.com/Skyvern-AI/skyvern/tree/main/integrations/mcp :
+
+{
+  "frameworks": ["React", "FastAPI", "LangChain", "LlamaIndex", "SQLAlchemy", "Tailwind CSS"],
+  "tools": ["Docker", "GitHub Actions", "Pre-commit", "Alembic", "Poetry", "Vite", "Fern", "mypy", "Flake8", "ESLint"]
+},
+
+https://github.com/briefercloud/briefer :
+
+{
+  "frameworks": ["React", "Next.js", "Express.js", "Prisma", "Tailwind CSS"],
+  "tools": ["Docker", "Docker Compose", "GitHub Actions", "ESLint", "Prettier", "Jest", "Yarn", "Nodemon", "Prisma CLI", "Jupyter Notebook", "Helm", "PostCSS"]
+},
+
+https://github.com/tegonhq/tegon :
+
+{
+  "frameworks": ["NestJS", "Next.js", "React", "Tailwind CSS", "Prisma ORM", "Supertokens"],
+  "tools": ["Docker", "GitHub Actions", "pnpm", "ESLint", "Prettier", "Rollup.js", "Jest", "Tsup", "PostCSS", "OpenAPI"]
+},
+
+https://github.com/atla-ai/atla-mcp-server :
+
+{"frameworks":[],
+ "tools":["GitHub Actions","pre-commit","pyenv"]
+},
+
+https://github.com/opentoolsteam/cli :
+
+{"frameworks":["Mocha"],
+ "tools":["ESLint","Prettier","GitHub Actions","TypeScript","npm"]
+},
+
+https://github.com/cedana/cedana :
+
+{"frameworks":["containerd","CRI-O","Kubernetes","runc","Kata Containers","Cloud-Hypervisor"],
+ "tools":["Docker","Make","GitBook","GitHub Actions","BATS","gRPC","SQLite","SQLC","YQ","CAdvisor","OpenTelemetry","RabbitMQ"]
+},
+
+https://github.com/DioxusLabs/dioxus :
+
+{
+  "frameworks": ["Dioxus", "Tailwind CSS"],
+  "tools": ["Docker", "GitHub Actions", "Dependabot", "Visual Studio Code", "Cargo", "Rustfmt", "Clippy", "Miri", "wasm-bindgen", "wasm-split", "Playwright", "Nix", "Lychee", "Codecov", "Dioxus CLI", "Prettier"]
+},
+
+https://github.com/xeol-io/xeol :
+
+{
+  "frameworks": ["GORM", "Cobra"],
+  "tools": ["Docker", "GitHub Actions", "GoReleaser", "Syft", "Grype", "GolangCI-Lint", "Dependabot", "CodeQL", "Make", "Notary"]
+},
+
+https://github.com/twentyhq/twenty :
+
+{"frameworks":["React","ApolloClient","Storybook"],
+ "tools":["ESLint","Prettier","Yarn","Nx","Docker","Kubernetes","Terraform","SWC","nyc","GitHub Actions","Git"]
+},
+
+https://github.com/reworkd/AgentGPT :
+
+{"frameworks": ["Next.js"], 
+ "tools": ["Docker", "GitHub Actions", "npm", "Poetry", "Docker Compose", "Prisma", "TypeScript", "ESLint", "Prettier", "Husky", "Jest", "pytest", "Flake8", "pre-commit", "Dependabot"]
+},
+
+https://github.com/artie-labs/transfer :
+
+{"frameworks":[],
+ "tools":["BigQuery","Snowflake","Redshift","PostgreSQL","MySQL","MongoDB","Kafka","Debezium","Apache Livy","AWS S3","Docker","Docker Compose","GitHub Actions","Goreleaser","Make","Apache Parquet","Databricks","Iceberg","MSSQL"]
+},
+
+https://github.com/moonrepo/moon :
+
+{
+  "frameworks": ["Tailwind CSS", "Docusaurus", "Vite", "GitHub Actions"],
+  "tools": ["Docker", "Babel", "ESLint", "Prettier", "Just", "Yarn", "Cargo", "Moon", "Proto"]
+},
+
+https://github.com/BerriAI/litellm :
+
+{
+  "frameworks": ["Kubernetes", "Helm"],
+  "tools": ["Docker", "GitHub Actions", "Dev Containers", "Make", "Flake8", "Prism", "Grafana"]
+},
+
+
+https://github.com/Escape-Technologies/graphql-armor :
+
+{"frameworks":["Apollo","NestJS","Yoga","Docusaurus"],
+ "tools":["ESLint","Prettier","GitHub Actions","Yarn","Babel","Commitlint","Renovate","Changeset"]
+},
+
+https://github.com/fern-api/fern :
+
+{"frameworks": ["Express.js"], 
+ "tools": ["Docker", "npm", "GitHub Actions", "OpenAPI Generator"]
+},
+
+https://github.com/evefancom/evefan :
+
+{"frameworks":["nextjs","trpc","shadcn","storybook","aws-cdk"],
+ "tools":["github-actions","docker","pnpm","sentry","jest","turbo","vercel","eslint","prettier","drizzle-orm","firebase","micro-memoize","esbuild-jest"]
+},
+
+https://github.com/rivet-gg/actor-core :
+
+{
+  "frameworks": ["React", "Next.js"],
+  "tools": ["GitHub Actions", "Yarn", "Cargo", "Biome", "TsUp", "Vitest", "Lefthook", "Verdaccio", "Cloudflare Workers", "Bun", "Node.js", "pip", "Turborepo", "Poetry", "pytest"]
+},
+
+https://github.com/invopop/gobl :
+
+{"frameworks":[],
+ "tools":["GitHub Actions","GolangCI","Goreleaser","Mage","Cypress","npm"]
+},
+
+https://github.com/keephq/keep :
+
+{
+  "frameworks": ["React", "Next.js", "FastAPI", "Tailwind CSS"],
+  "tools": ["Docker", "PostgreSQL", "Grafana", "Prometheus", "Keycloak", "Logstash", "OpenTelemetry", "OpenAPI", "GitHub Actions", "Jest", "ESLint", "Prettier", "ARQ", "SQLAlchemy", "React Flow", "Monaco Editor", "Turbopack"]
+},
+
+https://github.com/playht/pyht :
+
+{
+  "frameworks": ["gRPC", "Protocol Buffers", "Sphinx"],
+  "tools": ["GitHub Actions", "pre-commit", "Make", "Poetry", "Codecov", "Read the Docs"]
+},
+
+https://github.com/odigos-io/odigos :
+
+{
+  "frameworks": ["Kubernetes", "OpenTelemetry Collector", "Next.js", "React", "Apollo GraphQL", "Kubernetes Operator SDK", "Protocol Buffers", "Kubernetes Controller Runtime"],
+  "tools": ["Docker", "GitHub Actions", "GolangCI-Lint", "GoReleaser", "Make", "Helm", "Yarn", "Chainsaw", "Kubebuilder", "Kubernetes kubectl", "Operator SDK", "Protobuf Compiler"]
+},
+
+https://github.com/Helicone/helicone :
+
+{"frameworks":["React","Next.js"],
+ "tools":["Docker","ESLint","Vercel","ClickHouse","Supabase","PostHog","Swagger","GitHub Actions","PostCSS"]
+},
+
+https://github.com/openmeterio/openmeter :
+
+{"frameworks":["Ent","Watermill","React","Benthos","Orval","Helm"],
+ "tools":["Docker","Docker Compose","GitHub Actions","GolangCI-Lint","GoReleaser","Spectral","TypeScript","ESLint","Vitest","Poetry","Svix","Atlas","Kubernetes","Pnpm","ClickHouse","Kafka","Redis","PostgreSQL"]
+},
+
+https://github.com/langfuse/langfuse :
+
+{"frameworks":["Next.js"],
+ "tools":["Docker","ESLint","Husky","NPM","Prisma","TypeScript","GitHub Actions","Cursor","Turbo","ClickHouse","Fern","Posthog","Stripe","AWS S3","Langfuse","Redis"]
+},
+
+
+https://github.com/FrigadeHQ/trench :
+
+{"frameworks":["NestJS"],
+ "tools":["Docker","GitHub Actions","Prettier","ESLint","Docker Compose","Swagger","Grafana","Kafka","ClickHouse","Jest","pnpm","Turborepo","Changeset"]
+},
+
+http://github.com/adap/flower :
+
+{
+  "frameworks": ["FLWR", "PyTorch", "TensorFlow", "XGBoost", "Next.js"],
+  "tools": ["Docker", "GitHub Actions", "Swift Package Manager", "Xcode", "Android Studio", "SwiftFormat", "Sphinx", "Make", "Gradle"]
+},
+
+https://github.com/NangoHQ/nango :
+
+{"frameworks":[],
+ "tools":["Docker","GitHub Actions","Husky","Prettier","Yamllint"]
+},
+
+https://github.com/depot/bake-action :
+
+{"frameworks":[],
+ "tools":["GitHub Actions","Dependabot","Git","Prettier","Visual Studio Code","pnpm"]
+ },
+
+https://github.com/DrDroidLab/PlayBooks :
+
+{
+  "frameworks": ["Django", "React", "Django REST framework"],
+  "tools": ["Docker", "Helm", "pytest", "Celery", "Redis", "PostgreSQL", "Fluentd", "Kubernetes", "Protocol Buffers", "Vite", "TypeScript", "Tailwind CSS", "Redux", "Nginx"]
+},
+
+https://github.com/triggerdotdev/trigger.dev :
+
+{
+  "frameworks": ["React", "Next.js"],
+  "tools": ["Docker", "GitHub Actions", "Prettier", "ESLint", "Prisma", "Changeset", "Zed", "Kubernetes", "Cursor", "Infisical", "NVM"]
+},
+
+https://github.com/traceloop/openllmetry :
+
+{"frameworks":["OpenTelemetry","OpenTelemetry Semantic Conventions for AI"],
+ "tools":["GitHub Actions","Dependabot","Poetry","Pytest","Flake8","Nx"]
+},
+
+https://github.com/reflex-dev/reflex :
+
+{"frameworks":["Reflex","Next.js","Tailwind CSS","Radix UI"],
+ "tools":["Docker","Docker Compose","GitHub Actions","CodeQL","pre-commit","Caddy","Playwright","Bun","Hatch","Shiki","Recharts","Plotly","Lucide","SQLAlchemy","React Player","Sonner","SunEditor"]
+},
+
+https://github.com/middleware-labs/agent-apm-python :
+
+{
+  "frameworks": [],
+  "tools": ["GitHub Actions", "pip"]
+},
+
+https://github.com/tremorlabs/tremor :
+
+{"frameworks":["React","Tremor"],
+ "tools":["Vite","Storybook","Playwright","Vitest","ESLint","Prettier","GitHub Actions","pnpm"]
+},
+
+https://github.com/highlight/highlight :
+
+{
+  "frameworks": ["React", "ANTLR", "ClickHouse", "OpenTelemetry"],
+  "tools": ["Docker", "Yarn", "Cypress", "Husky", "Prettier", "GitHub Actions", "Changesets", "ESLint", "Stylelint", "AWS Lambda", "Redis", "Make", "All Contributors"]
+},
+
+https://github.com/DAGWorks-Inc/hamilton :
+
+{
+  "frameworks": ["Hamilton", "Docusaurus", "React", "Django"],
+  "tools": ["GitHub Actions", "CircleCI", "pre-commit", "Flake8", "YAPF", "Docker", "Docker Compose", "Babel", "npm", "pytest", "VS Code", "Read the Docs", "ESLint", "Prettier"]
+},
+
+=================================================
+
+
+
+================= YC 2022,
+
+https://github.com/mendableai/firecrawl :
+
+{"frameworks":["React","Express.js"],
+ "tools":["Docker","GitHub Actions","pnpm","Jest","Pytest","Cargo","Vite","Tailwind CSS","Redis","Playwright"]
+},
+
+https://github.com/laminlabs/lamindb :
+
+{
+  "frameworks": ["Django", "pre-commit", "pytest"],
+  "tools": ["GitHub Actions", "Jupyter", "Nox", "Git", "Vitessce", "Bionty", "Cellxgene", "Clinicore", "lamin-cli", "Poetry"]
+},
+
+https://github.com/metriport/metriport :
+
+{
+  "frameworks": ["React"],
+  "tools": ["Docker", "GitHub Actions", "Husky", "Lerna", "npm", "Artillery", "Postman", "OpenAPI", "Fern", "CDA Validator", "Carequality-cert-runner", "Carequality-sdk", "Commonwell-cert-runner", "Commonwell-sdk", "Handlebars", "GitLeaks", "AWS SDK", "OpenSearch", "Slack API"]
+},
+
+https://github.com/Mintplex-Labs/anything-llm :
+
+{
+  "frameworks": ["React", "Tailwind CSS", "Express.js"],
+  "tools": ["Docker", "GitHub Actions", "Vite", "Prisma ORM", "Nodemon", "ESLint", "Prettier", "Swagger", "dotenv"]
+},
+
+https://github.com/nucleuscloud/neosync : 
+
+{"frameworks":["React","Next.js","gRPC","Tailwind CSS"],
+ "tools":["Docker","PostgreSQL","MySQL","Helm","GitHub Actions","sqlc","protoc","Tilt","Prettier","ESLint","Knip","CSpell","Mockery"]
+},
+
+https://github.com/activepieces/activepieces :
+
+{
+  "frameworks": ["ESLint", "Prettier", "Husky", "Nx"],
+  "tools": ["Docker", "GitHub Actions", "Pulumi", "Verdaccio", "Visual Studio Code"]
+},
+
+https://github.com/codecrafters-io/build-your-own-x :
+
+{"frameworks":[],
+ "tools":["Git","GitHub","Codecrafters"]
+},
+
+https://github.com/dittofeed/dittofeed :
+
+{
+  "frameworks": ["React", "Next.js", "Material-UI", "Tailwind CSS", "Drizzle ORM", "Temporal", "Supabase", "Express"],
+  "tools": ["Docker", "Docker Compose", "Kubernetes", "Helm", "GitHub Actions", "ESLint", "Prettier", "Yarn", "Jest", "Prometheus", "Grafana", "Apache Kafka", "OpenTelemetry", "ClickHouse"]
+},
+
+https://github.com/medplum/medplum :
+
+{
+  "frameworks": ["React", "React Native", "Next.js"],
+  "tools": ["Docker", "GitHub Actions", "Vercel", "PostCSS", "esbuild", "Jest", "Prettier", "Babel", "Microsoft API Extractor", "Expo"]
+},
+
+https://github.com/gravitl/netmaker :
+
+{"frameworks":["Swaggo"],
+ "tools":["Docker","Docker Compose","GitHub Actions","Goreleaser","Kubernetes","Caddy","Nginx","EMQX","Mosquitto","RQLite","PostgreSQL","SQLite"]
+},
+
+https://github.com/ploomber/jupysql :
+
+{
+  "frameworks": ["pytest", "Sphinx", "SQLAlchemy", "plotnine", "Pandas", "Polars"],
+  "tools": ["Docker", "GitHub Actions", "Read the Docs", "Conda", "Nox", "Jupyter"]
+},
+
+https://github.com/argumentcomputer/LSpec :
+
+{"frameworks":["LSpec","SlimCheck"],
+ "tools":["GitHub Actions","Git","Nix","Lake"]
+},
+
+https://github.com/CypherD-IO/mobile-app :
+
+{"frameworks":["React Native","Tailwind CSS"],
+ "tools":["Xcode","CocoaPods","Gradle","npm","Babel","ESLint","Prettier","Git","GitHub Actions","Bundler","NVM","Visual Studio Code","Watchman","ProGuard","PostCSS","NativeWind"]
+},
+
+https://github.com/botcity-dev/botcity-framework-core-python :
+
+{"frameworks": ["BotCity"],
+ "tools": ["GitHub Actions", "MkDocs", "flake8", "setuptools", "versioneer"]
+},
+
+https://github.com/voize-gmbh/reakt-native-toolkit :
+
+{"frameworks":["React Native","React","Kotlin Multiplatform","Reakt Native Toolkit"],
+ "tools":["Gradle","Yarn","Jest","ESLint","Prettier","GitHub Actions","CocoaPods","Xcode","KSP","Metro Bundler"]
+},
+
+https://github.com/tuva-health/FHIR_inferno :
+
+{"frameworks": ["FHIR", "BCDA"],
+ "tools": ["CSV", "NDJSON", "Parquet"]
+},
+
+https://github.com/mintlify/starter :
+
+{"frameworks":["Docusaurus"],
+ "tools":["OpenAPI","MDX"]
+},
+
+https://github.com/iomete/dbt-iomete :
+
+{"frameworks": ["dbt", "pytest"],
+ "tools": ["GitHub Actions", "Docker Compose", "tox", "pip", "bumpversion", "Git", "setuptools"]
+},
+
+https://github.com/pingdotgg/uploadthing :
+
+{"frameworks":["React","Vue.js","Svelte","Nuxt.js","Next.js","SvelteKit","Astro","Express","Fastify","H3","Remix","SolidJS","Tanstack Start","Expo","Tailwind CSS"],
+ "tools":["GitHub Actions","Changeset","Prettier","Git","ESLint","Vitest","Playwright","pnpm","Turbo","Nix","UploadThing","PostCSS"]
+},
+
+https://github.com/flagright/flagright-node :
+
+{"frameworks":["Jest"],
+ "tools":["Yarn","TypeScript","Prettier","GitHub Actions","Webpack"]
+},
+
+https://github.com/its-dart/dart-mcp-server :
+
+{"frameworks":[],
+ "tools":["Docker","Git","Yarn","Prettier","cspell"]
+},
+
+https://github.com/beam-cloud/beta9 :
+
+{"frameworks": ["Kubernetes", "gRPC", "Protocol Buffers (Protobuf)"],
+ "tools": ["Docker", "Helm", "Kustomize", "Terraform", "GitHub Actions", "Make", "Python SDK"]
+},
+
+https://github.com/lancedb/lancedb :
+
+{"frameworks": ["MkDocs", "Jest", "Pytest"],
+ "tools": ["Cargo", "Docker", "Docker Compose", "GitHub Actions", "pre-commit", "npm", "ESLint", "Pyright", "Make", "Maven", "bumpversion", "rustup", "TypeDoc"]
+},
+
+https://github.com/firezone/firezone :
+
+{"frameworks":["Phoenix","Ecto","Oban","Hilt","Jetpack Compose","Retrofit","Coroutines"],
+ "tools":["Docker","Terraform","Prettier","GitHub Actions","Caddy","Sentry","Gradle","PostgreSQL"]
+},
+
+https://github.com/elementary-data/elementary :
+
+{
+  "frameworks": ["dbt", "elementary"],
+  "tools": ["Docker", "GitHub Actions", "pre-commit", "flake8", "pytest", "Slack", "Docker Compose", "Azure", "Google Cloud Storage", "AWS S3"]
+},
+
+https://github.com/growthbook/growthbook :
+
+{"frameworks":["Express.js","Next.js","Docusaurus"],
+ "tools":["Docker","ESLint","Prettier","Husky","GitHub Actions","VSCode","Jest","GrowthBook SDKs","Stats Package"]
+},
+
+https://github.com/hyperdxio/hyperdx :
+
+{"frameworks":["React","Next.js"],
+ "tools":["GitHub Actions","Husky","Prettier","Yarn","Docker","Jest","ESLint","OpenTelemetry","Stylelint","PostCSS","Make","Gunicorn","Poetry","Nx","Changeset","Storybook"]
+},
+
+https://github.com/requestly/requestly :
+
+{
+  "frameworks": ["React", "Create React App (CRACO)", "Browser Extension (Manifest V2/V3)"],
+  "tools": ["ESLint", "Prettier", "Husky", "GitHub Actions", "Webpack", "Rollup", "Karma", "Firebase", "Git", "TypeScript Compiler", "Babel", "Jest", "Cypress"]
+},
+
+https://github.com/grai-io/grai-core :
+
+{
+  "frameworks": ["Next.js", "React", "Django"],
+  "tools": ["Docker", "GitHub Actions", "Vite", "ESLint", "Prettier", "Make", "pytest", "Celery"]
+},
+
+=================================================
+
+
+
+================= YC 2021,
+
+https://github.com/lightly-ai/lightly :
+
+{"frameworks":["PyTorch","PyTorch Lightning","torchvision"],
+ "tools":["GitHub Actions","pre-commit","Read the Docs","Make","pytest","pip","setuptools","Swagger/OpenAPI"]
+},
+
+https://github.com/evidence-dev/evidence :
+
+{"frameworks":["Svelte","SvelteKit","Tailwind CSS"],
+ "tools":["Vite","Playwright","ESLint","Prettier","GitHub Actions","Chromatic","Changeset"]
+},
+
+https://github.com/bytebot-ai/bytebot :
+
+{
+  "frameworks": ["NestJS", "Next.js"],
+  "tools": ["Docker", "GitHub Actions", "Prisma", "ESLint", "Prettier", "Supervisord", "PostCSS"]
+},
+
+https://github.com/evidentlyai/evidently :
+
+{
+  "frameworks": ["React", "Material-UI", "Apache Spark", "Pydantic"],
+  "tools": ["Docker", "GitHub Actions", "pre-commit", "Jupyter", "Pytest", "PyTorch", "DVC", "Ruff", "pnpm", "Vite", "Playwright", "Make"]
+},
+
+https://github.com/mergentlabs/mergent-js :
+
+{"frameworks":["Jest"],
+ "tools":["ESLint","Prettier","GitHub Actions","Dependabot","npm"]
+},
+
+https://github.com/Cloudanix/docs :
+
+{"frameworks": ["MkDocs"],
+ "tools": ["Git", "GitHub", "Docker", "GitHub Actions"]
+},
+
+https://github.com/hyperbrowserai/HyperAgent :
+
+{"frameworks":[],
+ "tools":["ESLint","TypeScript","Yarn","HyperBrowser","Exa","Anthropic API","OpenAI API","Google Sheets API","Notion API","Weather API"]
+},
+
+https://github.com/getlago/lago :
+
+{"frameworks":[],
+ "tools":["Docker","Docker Compose","GitHub Actions","Apache Kafka","Redis","ClickHouse","PostgreSQL","Nginx","Traefik","Air","Bash"]
+},
+
+https://github.com/joindeed/prisma-auth :
+
+{"frameworks":["Jest"],
+ "tools":["GitHub Actions","npm","Yarn","Prettier","TypeScript","PEG.js"]
+},
+
+https://github.com/carbonfact/lea :
+
+{"frameworks": ["lea"],
+ "tools": ["GitHub Actions", "Make", "Poetry", "pre-commit", "Jinja2", "Dependabot", "Git", "DuckDB", "BigQuery"]
+},
+
+https://github.com/pipekit/argo-workflows-ci-example :
+
+{"frameworks": ["Hera"],
+ "tools": ["Docker", "Kubernetes", "Argo Rollouts", "Argo Workflows", "Argo CD", "Minio", "NFS Server Provisioner", "Ingress NGINX", "Helm", "Renovate", "Bash", "K3d"]
+},
+
+https://github.com/superwall/Superwall-iOS :
+
+{
+  "frameworks": ["UIKit", "SwiftUI", "Combine", "StoreKit", "CoreData", "XCTest"],
+  "tools": ["SwiftLint", "Swift Package Manager (SPM)", "Xcode", "GitHub Actions", "CocoaPods", "make-xcframework.sh"]
+},
+
+https://github.com/hotgluexyz/gluestick :
+
+{"frameworks":["Pandas","Singer"],
+ "tools":["GitHub Actions","Travis CI","mypy","Poetry","setuptools","Tox"]
+},
+
+https://github.com/artilleryio/artillery :
+
+{
+  "frameworks": ["Artillery", "Playwright", "Prisma", "Twirp"],
+  "tools": ["ESLint", "GitHub Actions", "Azure DevOps", "CircleCI", "Jenkins", "Git", "Docker", "Make", "npm", "Commitlint", "CodeQL", "Kubernetes", "Redis", "Prometheus", "Grafana", "AWS ECS", "Datadog", "CloudWatch", "Slack"]
+},
+
+https://github.com/openlayer-ai/openlayer-python :
+
+{"frameworks":[],
+ "tools":["Docker","GitHub Actions","MyPy","Nox","Pytest","Ruff","Homebrew"]
+},
+
+https://github.com/ollama/ollama :
+
+{
+  "frameworks": [ "llama.cpp", "ggml", "React", "Electron", "Tailwind CSS", "SentencePiece", "CUDA", "HIP" ],
+  "tools": [ "Docker", "CMake", "GitHub Actions", "ESLint", "Webpack", "GolangCI-Lint", "Node.js", "CUDA Toolkit", "ROCm", "Quantization tools" ]
+},
+
+https://github.com/wasp-lang/open-saas :
+
+{"frameworks":["React","Astro","Wasp","Prisma","Tailwind CSS"],
+ "tools":["GitHub Actions","Prettier","Playwright","npm","Stripe","LemonSqueezy","Vite"]
+},
+
+https://github.com/svix/svix-webhooks :
+
+{
+  "frameworks": ["OpenAPI"],
+  "tools": [ "Cargo", "Docker", "Docker Compose", "GitHub Actions", "Gradle", "Jest", "Mypy", "npm", "PHPUnit", "Prettier", "RuboCop", "Yarn", "ESLint", "Flake8", "Clippy", "Nextest", "Gitleaks", "PHP_CodeSniffer" ]
+},
+
+https://github.com/infracost/infracost :
+
+{"frameworks":["Terraform"],
+ "tools":["Docker","Make","Infracost","GitHub Actions","Git","Terragrunt"]
+},
+
+https://github.com/chatwoot/chatwoot :
+
+{"frameworks": ["Ruby on Rails", "React"],
+ "tools": ["Docker", "RSpec", "Sidekiq", "Redis", "PostgreSQL", "Webpacker"]
+},
+
+https://github.com/lunatic-solutions/lunatic :
+
+{"frameworks": ["Axum", "Submillisecond"],
+ "tools": ["GitHub Actions", "Dependabot", "Cargo", "cargo-deny", "Wasmtime"]
+},
+
+https://github.com/SimplifyJobs/Summer2025-Internships :
+
+{"frameworks":["React","Express","Next.js"],
+ "tools":["Docker","Redis","PostgreSQL","Webpack","Jest","GitHub Actions","Prisma","Dotenv","Passport.js","Tailwind CSS"]
+},
+
+https://github.com/datrics-ai/text2sql :
+
+{"frameworks":["Flask"],
+ "tools":["Docker","Docker Compose","Poetry","ChromaDB"]
+},
+
+https://github.com/mindee/doctr :
+
+{"frameworks": ["PyTorch", "TensorFlow"],
+ "tools": ["Docker", "GitHub Actions", "Conda", "Make", "Pre-commit", "Sphinx", "pytest", "Jupyter", "Dependabot", "setuptools"]
+},
+
+https://github.com/fintoc-com/fintoc-python :
+
+{"frameworks":[],
+ "tools":["GitHub Actions","Poetry","pytest","coverage.py","flake8","Pylint","Make","Codecov"]
+},
+
+https://github.com/laudspeaker/laudspeaker :
+
+{
+  "frameworks": ["React", "NestJS", "Tailwind CSS"],
+  "tools": ["Docker", "Docker Compose", "CircleCI", "GitHub Actions", "Webpack", "Babel", "ESLint", "Prettier", "Jest", "Cypress", "k6", "Redis", "Kafka", "PostgreSQL", "MongoDB", "ClickHouse", "Resend", "Mailgun", "SendGrid", "Firebase", "Slack API", "Twilio", "PostHog", "Amazon S3", "Redlock", "WebSockets"]
+},
+
+https://github.com/aspen-cloud/triplit :
+
+{"frameworks":["Angular","React","Vue","Svelte","Solid","Next.js","Nextra","Bun","Cloudflare Workers","Expo"],
+ "tools":["Docker","Vite","Yarn","Prettier","Vitest","Tailwind CSS","ESLint","PNPM","Hono","Turbo","Typedoc","PostCSS","Wrangler"]
+},
+
+https://github.com/SigNoz/charts :
+
+{"frameworks":["Kubernetes","ClickHouse","OpenTelemetry Collector","Signoz","Altinity ClickHouse Operator"],
+ "tools":["Helm","GitHub Actions","Make"]
+},
+
+https://github.com/humaans/next-img :
+
+{"frameworks": ["Next.js"],
+ "tools": ["ESLint", "Prettier", "SWC", "GitHub CodeQL", "npm", "Jest"]
+},
+
+https://github.com/beeper/bridge-manager :
+
+{"frameworks":[],
+ "tools":["Docker","GitHub Actions","Git","pre-commit"]
+},
+
+https://github.com/dyte-io/docs :
+
+{
+  "frameworks": ["React", "React Native", "Angular", "Flutter", "iOS", "Android", "Web Components"],
+  "tools": ["ESLint", "Prettier", "Webpack", "Tailwind CSS", "GitHub Actions", "Docsearch", "Docusaurus", "Amplify", "CLI", "Plugin SDK"]
+},
+
+https://github.com/promotedai/ios-metrics-sdk :
+
+{"frameworks":["Firebase","GTMSession cher"],
+ "tools":["Cocoapods","Swift Package Manager","Protocol Buffers","GitHub Actions"]
+},
+
+=================================================
+
+
+
+================= YC 2020,
+
+https://github.com/Fieldguide/action-hasura-change-summary :
+
+{"frameworks":["jest"],
+ "tools":["eslint","prettier","github-actions","npm","typescript"]
+},
+
+https://github.com/mito-ds/mito :
+
+{"frameworks":["React","Next.js","Jupyter","Streamlit","Jest"],
+ "tools":["Babel","Eslint","Prettier","Playwright","esbuild"]
+},
+
+https://github.com/supabase/auth :
+
+{"frameworks":["Cobra"],
+ "tools":["Docker","GitHub Actions","Make","golang-migrate","Netlify"]
+},
+
+https://github.com/seamapi/docs :
+
+{"frameworks":["React"],
+ "tools":["Docker","GitHub Actions","Dependabot","ESLint","Prettier","Node.js","npm","GitBook"]
+},
+
+https://github.com/questdb/questdb :
+
+{"frameworks":["Netty","ANTLR","Apache Arrow"],
+ "tools":["Maven","JUnit","JMH","Docker","GitHub Actions","npm"]
+},
+
+https://github.com/lightdash/lightdash :
+
+{
+  "frameworks": ["React", "Next.js", "dbt", "Cypress", "Storybook", "Express.js"],
+  "tools": ["Docker", "Gitpod", "Husky", "Prettier", "GitHub Actions", "pnpm", "NVM", "All Contributors", "AWS SDK", "Slack API", "GitHub API", "Jest", "TypeORM"]
+},
+
+https://github.com/supertokens/docs :
+
+{"frameworks":["React","Docusaurus"],
+ "tools":["GitHub Actions","Docker","Prettier","Vitest","Vale","Bun"]
+},
+
+https://github.com/Increase/increase-python :
+
+{"frameworks":[],
+ "tools":["Docker","GitHub Actions","Release Please","Nox","MyPy","Ruff","Pytest","Homebrew","pyenv","pip"]
+},
+
+https://github.com/jitsucom/jitsu :
+
+{
+  "frameworks": ["React", "Tailwind CSS"],
+  "tools": ["Docker", "CircleCI", "GitHub Actions", "ESLint", "Prettier", "Heroku", "Git", "pnpm", "OpenAPI", "Make"]
+},
+
+https://github.com/ukama/ukama :
+
+{
+  "frameworks": ["React", "Next.js", "Apollo Client"],
+  "tools": ["Docker", "GitHub Actions", "Clang", "QEMU", "ESLint", "Prettier", "Swagger", "Git", "Alpine Linux", "SonarQube"]
+},
+
+https://github.com/jet-admin/jet-bridge :
+
+{
+  "frameworks": ["Django"],
+  "tools": ["Docker", "Heroku", "DeepSource", "Sentry"]
+},
+
+https://github.com/airbytehq/airbyte :
+
+{"frameworks":["React","Spring Boot","Flask"],
+ "tools":["Docker","Docker Compose","Gradle","Maven","GitHub Actions","Make"]
+},
+
+https://github.com/recallai/voice-agent-demo :
+
+{"frameworks":["React"],
+ "tools":["Vite","ESLint","Git","npm","pip"]
+},
+
+https://github.com/raycast/script-commands :
+
+{
+  "frameworks": ["Swift Package Manager", "XCTest"],
+  "tools": ["SwiftLint", "Docker", "GitHub Actions", "Homebrew", "Make", "Node.js", "Bash", "AppleScript"]
+},
+
+https://github.com/Photoroom/datago :
+
+{"frameworks":[],
+ "tools":["GitHub Actions","Git","pre-commit","Cargo","pip"]
+},
+
+https://github.com/buildbuddy-io/buildbuddy :
+
+{
+  "frameworks": ["React"],
+  "tools": ["Bazel", "Docker", "Kubernetes", "GitHub Actions", "Terraform", "Helm", "Prettier", "SWC", "TypeScript", "Yarn", "npm", "Go toolchain", "Protocol Buffers", "gRPC", "Redis", "ClickHouse", "Prometheus", "Grafana", "Docusaurus"]
+},
+
+https://github.com/querypie/querypie-mcp-server :
+
+{"frameworks":["OpenAPI"],
+ "tools":["Docker","GitHub Actions","GoReleaser","mise"]
+},
+
+https://github.com/signadot/hotrod :
+
+{"frameworks":["React","Kubernetes","Jaeger","gRPC","Protocol Buffers"],
+ "tools":["Docker","npm","Make","GitLab CI","Bitbucket Pipelines","Cypress","Playwright","Postman","Prometheus","Kustomize","ESLint","Vite","Air","Signadot"]
+},
+
+https://github.com/superfly/corrosion :
+
+{"frameworks":[],
+ "tools":["Buildkite","GitHub Actions","Cargo","Docker","Nix"]
+},
+
+https://github.com/replicate/cog :
+
+{"frameworks": ["MkDocs"],
+ "tools": ["Docker", "GitHub Actions", "Dependabot", "GolangCI-Lint", "GoReleaser", "Mockery", "Tox", "pytest", "direnv", "asdf", "Visual Studio Code", "All Contributors", "CodeQL", "AWS S3", "Pydantic"]
+},
+
+https://github.com/mindsdb/mindsdb :
+
+{
+  "frameworks": [],
+  "tools": ["Docker", "GitHub Actions", "Make", "Flake8", "Gitpod", "MariaDB", "MySQL", "PostgreSQL", "Node.js", "npm"]
+},
+
+https://github.com/metaplane/dbt-expectations :
+
+{"frameworks": ["dbt", "Apache Spark", "Apache Hive"],
+ "tools": ["Docker", "Docker Compose", "CircleCI", "GitHub Actions", "Tox", "SQLFluff", "Git", "EditorConfig"]
+},
+
+https://github.com/withfig/autocomplete :
+
+{
+  "frameworks": [ "Vue.js", "NestJS", "Express", "Astro", "Firebase", "Next.js", "Nuxt.js", "WordPress", "Capacitor", "Prisma", "TypeORM" ],
+  "tools": [ "npm", "yarn", "pnpm", "ESLint", "Prettier", "Husky", "GitHub Actions", "Danger", "Dependabot", "Docker", "Kubernetes", "AWS CLI", "Azure CLI", "GCP CLI", "Git", "GitHub CLI", "Jest", "TypeScript Compiler", "ts-node", "Vite", "Webpack", "Rollup" ]
+},
+
+https://github.com/piepacker/JamPadCompose :
+
+{"frameworks":["Android","Jetpack Compose","Kotlin Multiplatform"],
+ "tools":["Gradle","GitHub Actions","KtLint"]
+},
+
+=================================================
+
+
+
+================= YC 2019,
+
+
+https://github.com/Recidiviz/pulse-data :
+
+{
+  "frameworks": ["React", "Apache Airflow", "Apache Beam"],
+  "tools": ["Docker", "Pipenv", "Bandit", "PyLint", "ESLint", "Storybook", "GitHub Actions", "Google Cloud Platform", "Firebase", "Dev Containers"]
+},
+
+https://github.com/rainbow-me/rainbow :
+
+{"frameworks":["React Native","Google Services","Protobuf","nanopb"],
+ "tools":["Yarn","Gradle","Fastlane","Husky","ESLint","Prettier","Detox","Sentry","GitHub Actions","Buck","audit-ci","cspell"]
+},
+
+https://github.com/openreplay/openreplay :
+
+{"frameworks":["React","AWS Chalice"],
+ "tools":["Docker","GitHub Actions","Yarn","Prettier","Storybook","Trivy"]
+},
+
+https://github.com/Localitos/pluto :
+
+{"frameworks":["React","xstyled"],
+ "tools":["Storybook","Jest","ESLint","Prettier","Husky","Commitlint","GitHub Actions","Docker","Changeset","Danger","Babel","CSpell","Plop","Turbo","Yarn"]
+},
+
+https://github.com/embrace-io/embrace-android-sdk :
+
+{
+  "frameworks": ["Android", "Embrace", "Jetpack Compose", "OpenTelemetry"],
+  "tools": ["Gradle", "GitHub Actions", "Checkstyle", "Detekt", "WhiteSource", "OkHttp", "Robolectric"]
+},
+
+https://github.com/MethodFi/method-node :
+
+{"frameworks":[],
+ "tools":["npm","ESLint","TypeScript","Jest","Rollup","GitHub Actions"]
+},
+
+https://github.com/trycourier/courier-node :
+
+{"frameworks":["Jest"],
+ "tools":["GitHub Actions","Prettier","Yarn","Undici"]
+},
+
+https://github.com/oven-sh/bun :
+
+{
+  "frameworks": ["React", "Express.js", "Svelte", "Fastify", "Bun"],
+  "tools": ["Docker", "CMake", "GitHub Actions", "Buildkite", "Prettier", "Clang", "Zig", "Visual Studio Code"]
+},
+
+https://github.com/truora/minidyn :
+
+{"frameworks":["AWS SDK for Go (v1)","AWS SDK for Go (v2)"],
+ "tools":["GitHub Actions","GolangCI-Lint","Go Modules"]
+},
+
+https://github.com/votingworks/arlo :
+
+{"frameworks":["React","Flask"],
+ "tools":["Vite","Cypress","Jest","ESLint","Prettier","Husky","CircleCI","GitHub Actions","Yarn","Heroku","Alembic","Mypy","Sentry","Pytest","SQLAlchemy"]
+},
+
+https://github.com/glideapps/glide-data-grid :
+
+{"frameworks":["React","Next.js","Create React App","Storybook"],
+ "tools":["Docker","GitHub Actions","Prettier","ESLint","Babel","Vitest","npm","Git","Visual Studio Code"]
+},
+
+https://github.com/dagger/dagger :
+
+{"frameworks":["Protobuf"],
+ "tools":["Dagger","GitHub Actions","Git","ESLint"]
+},
+
+=================================================
+
+
+
+================= YC 2018,
+
+https://github.com/activeloopai/deeplake :
+
+{"frameworks":["Deeplake","LangChain","TensorFlow","PyTorch","MMDetection","MMSegmentation"],
+ "tools":["GitHub Actions","pre-commit","pip","Labelbox","Release Drafter"]
+},
+
+https://github.com/RevenueCat/cat-paywall-compose :
+
+{"frameworks":["Android","Jetpack Compose","Hilt"],
+ "tools":["Gradle","GitHub Actions","Spotless","Git"]
+},
+
+https://github.com/Modern-Treasury/modern-treasury-python :
+
+{"frameworks":[],
+ "tools":["Docker","GitHub Actions","MyPy","Nox","pytest","pip","Homebrew","Ruff","Release Please"]
+},
+
+https://github.com/Worklytics/psoxy :
+
+{"frameworks":[],
+ "tools":["GitHub Actions","Terraform","Prettier","CodeQL","IntelliJ IDEA"]
+},
+
+=================================================
+

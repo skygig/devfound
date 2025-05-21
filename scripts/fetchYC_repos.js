@@ -88,7 +88,7 @@ const fetchRepoDetails = async () => {
     }
 }
 
-fetchRepoDetails()
+// fetchRepoDetails()
 
 const fetchRealRepos = async () => {
     for (ycBatch of Object.values(allYC_Companies)) {
@@ -1250,3 +1250,5 @@ const all_Repos = {
         'https://github.com/Worklytics/psoxy',
     ]
 }
+
+module.exports = { all_Repos }
