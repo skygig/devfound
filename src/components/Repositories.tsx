@@ -30,7 +30,9 @@ const Repositories = ({ isMatched, currSkills }: { isMatched: boolean, currSkill
     }, [isMatched, currSkills])
 
     useEffect(() => {
-        const newRepoList = repoList.filter(repo => {
+        if (optionEnabled[0] == true) return;
+
+        const newRepoList = repoListData.filter(repo => {
             for (const skill of userSkills) {
                 if (Object.keys(repo.languages).includes(skill) ||
                     (repo.frameworks as string[])?.includes(skill) ||
@@ -40,7 +42,7 @@ const Repositories = ({ isMatched, currSkills }: { isMatched: boolean, currSkill
         });
         setRepoList(newRepoList);
         setPage(0);
-    }, [userSkills])
+    }, [userSkills, optionEnabled])
 
     useEffect(() => {
         setCurrRepos(repoList.slice(12 * page, 12 * page + 12))
@@ -51,8 +53,6 @@ const Repositories = ({ isMatched, currSkills }: { isMatched: boolean, currSkill
         if (optionEnabled[0] == true) {
             const newRepoList = repoList.filter(repo => repo.goodFirstIssues > 0);
             setRepoList(newRepoList);
-        } else {
-            setRepoList(repoListData)
         }
     }, [optionEnabled])
 
