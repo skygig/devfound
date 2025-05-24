@@ -15,6 +15,7 @@ datasource db {
 
 model User {
   userId       String        @id
+  name         String
   languages    Json
   starredRepos StarredRepo[]
 }
