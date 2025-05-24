@@ -1,12 +1,11 @@
 :root {
-  --background: #F9F9FB;
-  --foreground: #0D162F;
-  --border: #E6E7EA;
-  --primary: #A689FA;
-  --primary2: #A774FF;
-  --gray: #868A97;
+  --background: #f9f9fb;
+  --foreground: #0d162f;
+  --border: #e6e7ea;
+  --primary: #a689fa;
+  --primary2: #a774ff;
+  --gray: #868a97;
 }
-
 
 body {
   color: var(--foreground);
@@ -49,6 +48,13 @@ button {
   &:active {
     box-shadow: none;
     transform: translateX(3px) translateY(3px);
+  }
+
+  &:disabled {
+    opacity: 0.75;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
   }
 }
 

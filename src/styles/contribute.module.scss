@@ -1,0 +1,58 @@
+.repoInput {
+  margin: 1.5rem 0;
+
+  p {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: var(--gray);
+    transition: color 0.2s ease;
+  }
+
+  input {
+    font-size: 14px;
+    border: 2px solid var(--border);
+    border-radius: 0.75rem;
+    width: 100%;
+    padding: 0.875rem 1rem;
+    transition: all 0.2s ease-in-out;
+    background-color: var(--background);
+    
+    &:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(var(--primary-rgb), 0.1);
+    }
+
+    &::placeholder {
+      color: var(--gray);
+      opacity: 0.6;
+    }
+  }
+}
+
+.actions {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.25rem;
+  justify-content: flex-end;
+
+  button {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0.5rem 1.25rem;
+    border-radius: 0.75rem;
+    transition: all 0.2s ease;
+  }
+
+  button:first-child {
+    background: var(--background) !important;
+    color: var(--gray);
+    border: 2px solid var(--border);
+    
+    &:hover {
+      background: var(--border) !important;
+      border-color: var(--border-dark);
+    }
+  }
+}
