@@ -1,90 +1,94 @@
 .nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: 2px solid var(--border);
-    border-radius: 1.25rem;
-    background-color: #fff;
-    margin-top: 1.25rem;
-    padding: 1rem 1.25rem;
-    box-shadow: 0 2px 16px rgba(22, 19, 74, 0.075);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid var(--border);
+  border-radius: 1.25rem;
+  background-color: #fff;
+  margin-top: 1.25rem;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 2px 16px rgba(22, 19, 74, 0.075);
+  position: sticky;
+  top: 1.25rem;
+  z-index: 20;
 }
 
 .title {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    cursor: pointer;
-    user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  user-select: none;
 
-    img {
-        height: 24px;
-        width: auto;
-    }
+  img {
+    height: 24px;
+    width: auto;
+  }
 
-    h1 {
-        font-weight: 600;
-        font-size: 20px;
-        margin-bottom: -2px;
-    }
+  h1 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: -2px;
+  }
 }
 
 .options {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
 
-    >a {
-        user-select: none;
-        font-weight: 500;
-        cursor: pointer;
+  a,
+  p {
+    user-select: none;
+    font-weight: 500;
+    cursor: pointer;
 
-        &:hover {
-            text-decoration: underline;
-        }
+    &:hover {
+      text-decoration: underline;
     }
+  }
 }
 
 .user {
-    height: 38px;
-    position: relative;
+  height: 38px;
+  position: relative;
 
-    >img {
-        height: 100%;
-        width: auto;
-        border: 1px solid var(--border);
-        border-radius: 0.5rem;
-        cursor: pointer;
-        box-shadow: 3px 3px #a589fab2;
-        transition: all 0.2s ease-out;
+  > img {
+    height: 100%;
+    width: auto;
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    box-shadow: 3px 3px #a589fab2;
+    transition: all 0.2s ease-out;
 
-        &:active {
-            box-shadow: none;
-            transform: translateX(3px) translateY(3px);
-        }
+    &:active {
+      box-shadow: none;
+      transform: translateX(3px) translateY(3px);
     }
+  }
 
-    div {
-        background-color: #fff;
-        border: 1px solid var(--border);
-        border-radius: 0.75rem;
-        box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
-        padding: 1rem;
-        position: absolute;
-        right: 0;
-        min-width: 140px;
-        z-index: 22;
-    }
+  div {
+    background-color: #fff;
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    min-width: 140px;
+    z-index: 22;
+  }
 
-    p {
-        font-weight: 500;
-        margin-bottom: 0.5rem;
-        cursor: default;
-    }
+  p {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    cursor: default;
+  }
 
-    button {
-        font-size: 14px;
-        padding: 0.5rem;
-        width: 100%;
-    }
+  button {
+    font-size: 14px;
+    padding: 0.5rem;
+    width: 100%;
+  }
 }

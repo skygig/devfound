@@ -4,20 +4,20 @@ import Image from "next/image";
 import { signIn, useSession } from "next-auth/react";
 
 import Dashboard from "@/components/Dashboard";
+import Features from "@/components/Features";
 
 import styles from "./page.module.scss";
-import YClogo from "@/assets/svgs/yc_logo.svg"
-import aiStar from "@/assets/svgs/aiStars.svg"
-import repoView from "@/assets/svgs/overview.svg"
+import YClogo from "@/assets/svgs/yc_logo.svg";
+import aiStar from "@/assets/svgs/aiStars.svg";
+import repoView from "@/assets/svgs/overview.svg";
 
 export default function Home() {
   const { data: session } = useSession();
 
-  if (session) return <Dashboard />
+  if (session) return <Dashboard />;
 
   return (
     <div className={styles.page}>
-
       <div className={styles.heroContainer}>
         <div className={styles.hero}>
           <div className={styles.pop1}>
@@ -31,14 +31,26 @@ export default function Home() {
           </div>
 
           <div className={styles.header}>
-            <h1>Find <span>repositories</span> that match your <span>skills</span></h1>
-            <p>Connect your GitHub and discover open-source projects that match your skills and interests.</p>
+            <h1>
+              Find <span>repositories</span> that match your <span>skills</span>
+            </h1>
+            <p>
+              Connect your GitHub and discover open-source projects that match
+              your skills and interests.
+            </p>
           </div>
 
-          <button className={styles.heroButton} onClick={() => signIn("github")}>Connect w/ GitHub</button>
+          <button
+            className={styles.heroButton}
+            onClick={() => signIn("github")}
+          >
+            Connect w/ GitHub
+          </button>
 
           <div className={styles.pop2}>
-            <p>More than <span>230</span> repos </p>
+            <p>
+              More than <span>230</span> repos{" "}
+            </p>
             <div>
               <p>backed by</p>
               <Image src={YClogo} alt="Y Combinator" />
@@ -48,9 +60,14 @@ export default function Home() {
       </div>
 
       <div className={styles.overview}>
-        <p>&ldquo;Explore repos aligned with your skills and passions with AI-powered filters.&rdquo;</p>
+        <p>
+          &ldquo;Explore repos aligned with your skills and passions with
+          AI-powered filters.&rdquo;
+        </p>
         <Image src={repoView} alt="App view" />
       </div>
+
+      <Features />
     </div>
   );
 }
