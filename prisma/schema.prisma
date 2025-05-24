@@ -1,0 +1,44 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  userId       String        @id
+  languages    Json
+  starredRepos StarredRepo[]
+}
+
+model StarredRepo {
+  repoUrl String
+  userId  String
+  User    User   @relation(fields: [userId], references: [userId])
+
+  @@id([repoUrl, userId])
+}
+
+model Repo {
+  url             String   @id
+  title           String
+  about           String
+  avatar          String
+  stars           Int
+  forks           Int
+  issues          Int
+  goodFirstIssues Int
+  postedBy        String?
+  ycBatch         Int?
+  frameworks      String[]
+  tools           String[]
+  languages       Json
+}
