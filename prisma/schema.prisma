@@ -14,18 +14,13 @@ datasource db {
 }
 
 model User {
-  userId       String        @id
+  userId       String   @id
   name         String
   languages    Json
-  starredRepos StarredRepo[]
-}
-
-model StarredRepo {
-  repoUrl String
-  userId  String
-  User    User   @relation(fields: [userId], references: [userId])
-
-  @@id([repoUrl, userId])
+  starredRepos String[]
+  frameworks   String[]
+  tools        String[]
+  createdAt    DateTime @default(now())
 }
 
 model Repo {
