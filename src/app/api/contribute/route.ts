@@ -1,6 +1,7 @@
 import { getServerSession } from "next-auth";
 import { NextRequest, NextResponse } from "next/server";
 import { authOptions } from "../auth/[...nextauth]/route";
+import { prisma } from "@/libs/prisma";
 import getTools from "./getTools";
 
 export async function POST(req: NextRequest) {
@@ -78,7 +79,7 @@ export async function POST(req: NextRequest) {
 
     const repoDetails = {
       title: data.name,
-      desk: data.description,
+      about: data.description,
       avatar: data.owner.avatar_url,
       stars: data.stargazers_count,
       forks: data.forks_count,
@@ -91,16 +92,13 @@ export async function POST(req: NextRequest) {
       tools: tools,
     };
 
-    // push to the data.json file in libs folder
-    const fs = require("fs");
-    const path = require("path");
-    const dataFilePath = path.join(process.cwd(), "src", "libs", "data.json");
-    const existingData = JSON.parse(fs.readFileSync(dataFilePath, "utf8"));
-    existingData.push(repoDetails);
-    fs.writeFileSync(dataFilePath, JSON.stringify(existingData, null, 2));
+    await prisma.repo.create({
+      data: repoDetails,
+    });
 
     return NextResponse.json(repoDetails, { status: 200 });
   } catch (error) {
+    console.error("Error in contributing to the repo", error);
     return NextResponse.json(
       { message: "Failed to process contribution" },
       { status: 500 }

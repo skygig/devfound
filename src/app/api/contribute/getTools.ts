@@ -35,7 +35,7 @@ const getAiHelp = async (paths: string[]) => {
 
 const getTools = async (org: string, repo: string, defaultBranch: string) => {
   try {
-    let contentRes = await fetch(
+    const contentRes = await fetch(
       `https://api.github.com/repos/${org}/${repo}/git/trees/${
         defaultBranch ?? "main"
       }?recursive=1`,
