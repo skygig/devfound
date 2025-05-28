@@ -27,7 +27,7 @@ const Navbar = () => {
       </div>
 
       <div className={styles.options}>
-        <Link href="/#features">Features</Link>
+        {!session && <Link href="/#features">Features</Link>}
         <Link href="/repos">Repos</Link>
         <p onClick={() => setContOpen(true)}>Contribute</p>
       </div>
@@ -47,7 +47,9 @@ const Navbar = () => {
           )}
         </div>
       ) : (
-        <button onClick={() => signIn("github")}>Get Started</button>
+        <div className={styles.right}>
+          <button onClick={() => signIn("github")}>Get Started</button>
+        </div>
       )}
     </nav>
   );
