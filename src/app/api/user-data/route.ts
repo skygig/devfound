@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { getServerSession } from "next-auth";
 
 import { prisma } from "@/libs/prisma";
-import { authOptions } from "../auth/[...nextauth]/route";
+import { authOptions } from "@/libs/authOptions";
 import fetchUserData from "@/app/api/user-data/fetchUserData";
 
 export const GET = async (req: NextRequest) => {
@@ -33,8 +33,8 @@ export const GET = async (req: NextRequest) => {
 
     await prisma.user.create({
       data: {
-        userId: session.userId,
-        name: session.user?.name,
+        userId: session.userId!,
+        name: session.user?.name ?? "Anonymous",
         languages,
         starredRepos,
         frameworks,
