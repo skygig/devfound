@@ -8,7 +8,7 @@ const client = new OpenAI({
 const getAiHelp = async (paths: string[]) => {
   try {
     const chatCompletion = await client.chat.completions.create({
-      model: "Qwen/Qwen3-235B-A22B-FP8",
+      model: "klusterai/Meta-Llama-3.3-70B-Instruct-Turbo",
       messages: [
         {
           role: "system",
@@ -23,10 +23,7 @@ const getAiHelp = async (paths: string[]) => {
     });
 
     const result = chatCompletion.choices[0].message.content;
-    const obj = result?.split("</think>");
-    if (!obj) throw new Error("Failed to parse the response");
-
-    const framworksTools = JSON.parse(obj[obj.length - 1]);
+    const framworksTools = JSON.parse(result!);
     return framworksTools;
   } catch (error) {
     console.error("Error calling Kluster API or parsing the response:", error);
