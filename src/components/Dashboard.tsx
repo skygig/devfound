@@ -168,14 +168,22 @@ const Dashboard = () => {
         />
 
         <div className={styles.otherInfo}>
-          <div>
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+          >
             <h2>Matching Repositories</h2>
             <p>{reposCount} / 233</p>
-          </div>
-          <div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+          >
             <h2>Saved Repositories</h2>
             <p>{starredRepoCount}</p>
-          </div>
+          </motion.div>
         </div>
       </div>
 
