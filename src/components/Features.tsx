@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 import styles from "@/styles/features.module.scss";
 
@@ -11,7 +12,12 @@ import saveIcon from "@/assets/svgs/save.svg";
 const Features = () => {
   return (
     <section id="features" className={styles.main}>
-      <div className={styles.title}>
+      <motion.div
+        initial={{ opacity: 0, y: 10 }}
+        transition={{ duration: 0.5 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        className={styles.title}
+      >
         <div>
           <h2>Powerful features</h2>
           <h2>for modern developers</h2>
@@ -21,7 +27,7 @@ const Features = () => {
           <p>Discover projects that match your skills and passions — all</p>
           <p>in one place, with a developer-first approach.</p>
         </div>
-      </div>
+      </motion.div>
 
       <div className={styles.features}>
         <div className={styles.divider}>
@@ -31,25 +37,43 @@ const Features = () => {
           <div className={styles.line}></div>
         </div>
 
-        <div className={styles.feature}>
+        <motion.div
+          initial={{ opacity: 0, x: -50, scale: 0.9 }}
+          transition={{ duration: 0.75 }}
+          whileInView={{ opacity: 1, x: 0, scale: 1 }}
+          viewport={{ once: true }}
+          className={styles.feature}
+        >
           <Image src={aiStars} alt="Domain" width={40} />
           <h2>AI-Powered Matching</h2>
           <p>
             Devfound analyzes your GitHub profile to understand your strengths
             and suggests repos where you can make meaningful contributions.
           </p>
-        </div>
+        </motion.div>
 
-        <div className={styles.feature}>
+        <motion.div
+          initial={{ opacity: 0, x: 50, scale: 0.9 }}
+          transition={{ duration: 0.75 }}
+          whileInView={{ opacity: 1, x: 0, scale: 1 }}
+          viewport={{ once: true }}
+          className={styles.feature}
+        >
           <Image src={filterIcon} alt="Shield" width={40} />
           <h2>Advanced Filters & Sorting</h2>
           <p>
             Narrow your search with filters like language, tech stack, and good
             first issue to find the perfect fit faster.
           </p>
-        </div>
+        </motion.div>
 
-        <div className={styles.feature}>
+        <motion.div
+          initial={{ opacity: 0, x: -50, scale: 0.9 }}
+          transition={{ duration: 0.75 }}
+          whileInView={{ opacity: 1, x: 0, scale: 1 }}
+          viewport={{ once: true }}
+          className={styles.feature}
+        >
           <Image src={activeIcon} alt="Code" width={48} />
           <h2>Active & Maintained Repos Only</h2>
           <p>
@@ -57,13 +81,19 @@ const Features = () => {
             projects with recent commits.
           </p>
           <div></div>
-        </div>
+        </motion.div>
 
-        <div className={styles.feature}>
+        <motion.div
+          initial={{ opacity: 0, x: 50, scale: 0.9 }}
+          transition={{ duration: 0.75 }}
+          whileInView={{ opacity: 1, x: 0, scale: 1 }}
+          viewport={{ once: true }}
+          className={styles.feature}
+        >
           <Image src={saveIcon} alt="Analytics" width={34} />
           <h2>Save & Organize Repos</h2>
           <p>Bookmark projects you like and organize them into collections.</p>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

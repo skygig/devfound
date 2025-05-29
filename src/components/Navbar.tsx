@@ -27,7 +27,17 @@ const Navbar = () => {
       </div>
 
       <div className={styles.options}>
-        {!session && <Link href="/#features">Features</Link>}
+        {!session && (
+          <p
+            onClick={() => {
+              document
+                .getElementById("features")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
+          >
+            Features
+          </p>
+        )}
         <Link href="/repos">Repos</Link>
         <p onClick={() => setContOpen(true)}>Contribute</p>
       </div>
