@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 import { signIn, useSession } from "next-auth/react";
+import { motion, useTransform } from "framer-motion";
+import { useScroll } from "framer-motion";
 
 import Dashboard from "@/components/Dashboard";
 import Features from "@/components/Features";
@@ -13,6 +15,12 @@ import repoView from "@/assets/svgs/overview.svg";
 
 export default function Home() {
   const { data: session } = useSession();
+  const { scrollYProgress } = useScroll();
+  const scaleProgress = useTransform(
+    scrollYProgress,
+    [0, 0.5, 0.8],
+    [1, 1, 0.5]
+  );
 
   if (session) return <Dashboard />;
 
@@ -20,17 +28,33 @@ export default function Home() {
     <div className={styles.page}>
       <div className={styles.heroContainer}>
         <div className={styles.hero}>
-          <div className={styles.pop1}>
+          <motion.div
+            initial={{ opacity: 0 }}
+            transition={{ duration: 0.5 }}
+            whileInView={{ opacity: 1 }}
+            className={styles.pop1}
+          >
             <Image src={aiStar} alt="Ai" />
             <p>AI-Powered Matching</p>
-          </div>
+          </motion.div>
 
-          <div className={styles.heroTop}>
+          <motion.div
+            initial={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.5 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            className={styles.heroTop}
+          >
             <div></div>
             <p>Built for Open Source</p>
-          </div>
+          </motion.div>
 
-          <div className={styles.header}>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            transition={{ duration: 0.5 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ amount: 0.5 }}
+            className={styles.header}
+          >
             <h1>
               Find <span>repositories</span> that match your <span>skills</span>
             </h1>
@@ -38,16 +62,24 @@ export default function Home() {
               Connect your GitHub and discover open-source projects that match
               your skills and interests.
             </p>
-          </div>
+          </motion.div>
 
-          <button
+          <motion.button
+            initial={{ opacity: 0, y: 10 }}
+            transition={{ duration: 0.5 }}
+            whileInView={{ opacity: 1, y: 0 }}
             className={styles.heroButton}
             onClick={() => signIn("github")}
           >
             Connect w/ GitHub
-          </button>
+          </motion.button>
 
-          <div className={styles.pop2}>
+          <motion.div
+            initial={{ opacity: 0 }}
+            transition={{ duration: 0.5 }}
+            whileInView={{ opacity: 1 }}
+            className={styles.pop2}
+          >
             <p>
               More than <span>230</span> repos{" "}
             </p>
@@ -55,17 +87,23 @@ export default function Home() {
               <p>backed by</p>
               <Image src={YClogo} alt="Y Combinator" />
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
 
-      <div className={styles.overview}>
+      <motion.div
+        initial={{ opacity: 0, scale: 0.9, y: 200 }}
+        transition={{ duration: 0.5 }}
+        animate={{ opacity: 1, scale: 1, y: 0 }}
+        style={{ scale: scaleProgress }}
+        className={styles.overview}
+      >
         <p>
           &ldquo;Explore repos aligned with your skills and passions with
           AI-powered filters.&rdquo;
         </p>
         <Image src={repoView} alt="App view" />
-      </div>
+      </motion.div>
 
       <Features />
     </div>
