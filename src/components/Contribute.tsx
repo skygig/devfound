@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useSession } from "next-auth/react";
 import { toast } from "react-toastify";
+import { motion } from "framer-motion";
 
 import styles from "@/styles/contribute.module.scss";
 import modalStyles from "@/styles/skillsModal.module.scss";
@@ -58,7 +59,12 @@ const Contribute = ({ onClose }: any) => {
 
   return (
     <div className={modalStyles.modalOverlay}>
-      <div className={modalStyles.modalContainer}>
+      <motion.div
+        initial={{ opacity: 0.4, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.25 }}
+        className={modalStyles.modalContainer}
+      >
         <div className={modalStyles.modalHeader}>
           <h2>Add Repository</h2>
           <p>
@@ -89,7 +95,7 @@ const Contribute = ({ onClose }: any) => {
             </button>
           </div>
         </form>
-      </div>
+      </motion.div>
     </div>
   );
 };
