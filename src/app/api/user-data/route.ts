@@ -1,11 +1,11 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 import { getServerSession } from "next-auth";
 
 import { prisma } from "@/libs/prisma";
 import { authOptions } from "@/libs/authOptions";
 import fetchUserData from "@/app/api/user-data/fetchUserData";
 
-export const GET = async (req: NextRequest) => {
+export const GET = async () => {
   const session = await getServerSession(authOptions);
 
   if (!session?.userId) {
