@@ -7,13 +7,11 @@ import fetchUserData from "@/app/api/user-data/fetchUserData";
 
 export const GET = async (req: NextRequest) => {
   const session = await getServerSession(authOptions);
-  const { searchParams } = new URL(req.url);
-  const userId = searchParams.get("userId");
 
-  if (!userId || !session) {
+  if (!session?.userId) {
     return NextResponse.json(
       {
-        message: "Invalid request, required userId and user must be logged in!",
+        message: "Invalid request, user must be logged in!",
       },
       { status: 403 }
     );
@@ -21,14 +19,14 @@ export const GET = async (req: NextRequest) => {
 
   try {
     const user = await prisma.user.findUnique({
-      where: { userId },
+      where: { userId: session.userId! },
     });
     if (user) {
       return NextResponse.json({ ...user }, { status: 200 });
     }
 
     const { languages, starredRepos, frameworks, tools } = await fetchUserData(
-      userId
+      session.userId!
     );
 
     await prisma.user.create({

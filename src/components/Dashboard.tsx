@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { useSession } from "next-auth/react";
 import { useDispatch, useSelector } from "react-redux";
 import { motion } from "framer-motion";
 
@@ -13,7 +12,6 @@ import Repositories from "./Repositories";
 import SkillsModal from "./SkillsModal";
 
 const Dashboard = () => {
-  const { data: session } = useSession();
   const dispatch = useDispatch();
   const starredRepoCount = useSelector(
     (state: RootState) => state.starredRepos.count
@@ -31,12 +29,10 @@ const Dashboard = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
-    if (!session?.userId) return;
-
     const fetchData = async () => {
       setIsLoading(true);
       try {
-        const response = await fetch(`/api/user-data?userId=${session.userId}`);
+        const response = await fetch("/api/user-data");
         if (!response.ok) console.log("Couldn't fetch user details!");
 
         const data = await response.json();
@@ -110,7 +106,7 @@ const Dashboard = () => {
     };
 
     fetchData();
-  }, [session?.userId, dispatch]);
+  }, [dispatch]);
 
   const handleSaveSkills = (newSkills: string[]) => {
     const currSkills = { ...skills };
