@@ -16,6 +16,12 @@ const Navbar = () => {
   const { data: session } = useSession();
   const [userPop, setUserPop] = useState(false);
   const [contOpen, setContOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleNavigation = (action: () => void) => {
+    action();
+    setIsMenuOpen(false);
+  };
 
   return (
     <nav className={styles.nav}>
@@ -26,20 +32,26 @@ const Navbar = () => {
         <h1>Devfound</h1>
       </div>
 
-      <div className={styles.options}>
+      <div className={`${styles.options} ${isMenuOpen ? styles.active : ""}`}>
         {!session && (
           <p
-            onClick={() => {
-              document
-                .getElementById("features")
-                ?.scrollIntoView({ behavior: "smooth" });
-            }}
+            onClick={() =>
+              handleNavigation(() => {
+                document
+                  .getElementById("features")
+                  ?.scrollIntoView({ behavior: "smooth" });
+              })
+            }
           >
             Features
           </p>
         )}
-        <Link href="/repos">Repos</Link>
-        <p onClick={() => setContOpen(true)}>Contribute</p>
+        <Link href="/repos" onClick={() => handleNavigation(() => {})}>
+          Repos
+        </Link>
+        <p onClick={() => handleNavigation(() => setContOpen(true))}>
+          Contribute
+        </p>
       </div>
 
       {session ? (
@@ -61,6 +73,16 @@ const Navbar = () => {
           <button onClick={() => signIn("github")}>Get Started</button>
         </div>
       )}
+
+      <button
+        className={`${styles.menuButton} ${isMenuOpen ? styles.active : ""}`}
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
+        aria-label="Toggle menu"
+      >
+        <div></div>
+        <div></div>
+        <div></div>
+      </button>
     </nav>
   );
 };
