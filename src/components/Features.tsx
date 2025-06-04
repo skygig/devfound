@@ -23,10 +23,10 @@ const Features = () => {
           <h2>for modern developers</h2>
         </div>
 
-        <div>
-          <p>Discover projects that match your skills and passions — all</p>
-          <p>in one place, with a developer-first approach.</p>
-        </div>
+        <p>
+          Discover projects that match your skills and passions — all in one
+          place, with a developer-first approach.
+        </p>
       </motion.div>
 
       <div className={styles.features}>
